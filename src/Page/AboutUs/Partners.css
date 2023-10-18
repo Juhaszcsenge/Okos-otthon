@@ -1,0 +1,17 @@
+.img{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.partner{
+text-align: center;
+color: var(--light-text, #FFF);
+font-family: Roboto;
+font-size: 52px;
+font-style: normal;
+font-weight: 400;
+line-height: 62px; /* 119.231% */
+letter-spacing: 0.2px;
+}

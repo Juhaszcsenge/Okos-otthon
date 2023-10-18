@@ -1,8 +1,19 @@
 import React from 'react';
 import './HomePage.css'
+import Navbar from '../../Component/Navbar';
+import Header from '../../Component/Header';
+import Footer from '../../Component/Footer';
+import ImgSection from '../ImgSection/ImgSection';
+import SmarterLiving from '../SmarterLiving';
+import Card from '../Card/Card';
+
+
 
 const HomePage = () => {
   return (
+    <>
+    <Navbar/>
+    <Header/>
     <section className='home' style={{background:"rgba(255, 255, 255, 0.67)", boxShadow:"0px 4px 31px 0px rgba(0, 0, 0, 0.15)"}}>
     <div className='text-container'>
       <div className='home-text' style={{background:"#FFE39B", textAlign: "center", paddingTop:"-25px", position:"relative", left:"330px"}}>
@@ -15,6 +26,11 @@ const HomePage = () => {
        </div>
        </div>
     </section>
+    <Card/>
+    <SmarterLiving/>
+    <ImgSection/>
+    <Footer />
+    </>
   );
 }
 
