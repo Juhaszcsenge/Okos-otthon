@@ -4,8 +4,8 @@ import './Card.css'
 const Card = () => {
   return (
     <>
-    <section style={{background: "black", margin:"50px"}} className='card'>
-    <div className='home-table' style={{background: "black", boxShadow: "0px 4px 31px 0px rgba(0, 0, 0, 0.15)", position:"relative", bottom:"-470px", left:"230px"}}>
+    <section style={{background: "black"}} className='card'>
+    <div className='home-table' style={{background: "black", boxShadow: "0px 4px 31px 0px rgba(0, 0, 0, 0.15)", position:"relative"}}>
        </div>
         <div className='section' style={{background: "black"}}>
         <div className='card' style={{background: "black"}}>

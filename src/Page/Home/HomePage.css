@@ -61,3 +61,19 @@ padding: 30px 30px;
 transition: .4s;
 
 }
+
+
+@media (max-width: 768px) {
+    .text-container {
+      flex-direction: column;
+    }
+  
+    .home-text,
+    .home-table {
+      left: auto;
+    }
+  
+    .home-table {
+      bottom: auto;
+    }
+  }

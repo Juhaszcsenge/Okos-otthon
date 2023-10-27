@@ -52,3 +52,17 @@ padding: 100px;
     font-weight: 400;
     line-height: 150%;
 }
+
+@media (max-width: 768px) {
+    .cover,
+    .smart-climate,
+    .validation {
+      padding: 15px;
+    }
+  
+    .cover img,
+    .smart-climate img,
+    .validation img {
+      margin-top: -20px;
+    }
+  }

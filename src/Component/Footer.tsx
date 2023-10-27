@@ -42,9 +42,9 @@ const Footer = () => {
         <p>(239) 555-0108</p>
         </div>
         <div>
-        <img src='ant-design_twitter-outlined.png'/>
-        <img src='ant-design_facebook-filled.png'/>
-        <img src='ant-design_linkedin-filled.png'/>
+        <img src='ant-design_twitter-outlined.png' id='footer-img'/>
+        <img src='ant-design_facebook-filled.png' id='footer-img'/>
+        <img src='ant-design_linkedin-filled.png' id='footer-img'/>
         </div>
       </div>
     </div>

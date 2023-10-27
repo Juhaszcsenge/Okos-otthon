@@ -8,3 +8,23 @@ justify-content: flex-start;
 gap: 35px;
 flex-shrink: 0;
 }
+
+
+@media (max-width: 768px) {
+    .smarte-living {
+      padding: 30px;
+    }
+  
+    .smarte-living h2 {
+      font-size: 36px;
+    }
+  
+    .smarte-living p {
+      font-size: 16px;
+    }
+  
+    .smarte-living button {
+      padding: 15px;
+      font-size: 14px;
+    }
+  }
