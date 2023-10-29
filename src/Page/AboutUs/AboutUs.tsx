@@ -3,6 +3,7 @@ import Navbar from '../../Component/Navbar';
 import Header from '../../Component/Header';
 import Footer from '../../Component/Footer';
 import Partners from './Partners';
+import './aboutUs.css'
 
 const AboutUs = () => {
   return (
@@ -35,14 +36,14 @@ const AboutUs = () => {
         We invite you to join us on this exciting journey as we redefine smart living, one home at a time."</p>
         </div>
     </div>
-    <div  style={{ position: 'relative', width: '100%', height: '100%'}}>
+    <div className='about' style={{ position: 'relative', width: '100%', height: '100%'}}>
     <img src='Chat Bot (3).png' style={{width: "100%", height: "700px"}} />
-    <div style={{ position: 'absolute', top: '49%', left:'83.4%', transform: 'translate(-50%, -50%)', textAlign: 'center', background: 'rgba(217, 217, 217, 0.67)', width: '30.05%', height:"81.2%", padding: '30px' }}>
-          <p className='img-text' style={{padding:"20px", textAlign:"center"}}>
+    <div className='about-container'>
+          <p className='about-text' style={{padding:"20px", textAlign:"center"}}>
         At BeeHive Smart Homes, we're dedicated to reshaping the way you live. Our journey began with a vision of bringing intelligent solutions into everyday life, 
         simplifying and enhancing your home experience. With a passionate team of experts, we've transformed that vision into reality. 
         From smart home systems that prioritize convenience, security, and efficiency to integrated solutions that elevate modern living, we're at the forefront of innovation.</p>
-        <p className='img-text' style={{padding:"20px", textAlign:"center"}}>Our commitment extends beyond technology; it's about understanding your unique needs and aspirations. We're your partner in creating a smarter, more comfortable, and safer living space. Each project we undertake is a testament to our relentless pursuit of excellence. 
+        <p className='about-text' style={{padding:"20px", textAlign:"center"}}>Our commitment extends beyond technology; it's about understanding your unique needs and aspirations. We're your partner in creating a smarter, more comfortable, and safer living space. Each project we undertake is a testament to our relentless pursuit of excellence. 
         We invite you to join us on this exciting journey as we redefine smart living, one home at a time."</p>
     </div>
     </div>
