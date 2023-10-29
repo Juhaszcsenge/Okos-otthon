@@ -44,15 +44,26 @@ padding: 100px;
     line-height: 150%;
 }
 
-.imgText{
+/* .imgText{
     color:black;
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-}
+} */
 
+.imgText {
+  color: black;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre-wrap; /* Változás itt */
+}
 @media (max-width: 768px) {
     .cover,
     .smart-climate,
@@ -65,4 +76,16 @@ padding: 100px;
     .validation img {
       margin-top: -20px;
     }
-  }
+    
+      .imgText {
+          white-space: normal;
+      }
+
+
+      @media (max-width: 480px) { /* Új médialekérdezés a még kisebb képernyők számára */
+        .imgText {
+            white-space: normal;
+            font-size: 16px; /* Változás itt: csökkentjük a betűméretet */
+        }
+    }
+}

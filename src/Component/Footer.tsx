@@ -3,7 +3,7 @@ import './Footer.css'; // Adj hozzá egy Footer.css fájlt a stílusokhoz
 
 const Footer = () => {
   return (
-    <div className="footer-container" style={{background: "var(--dark-background, #181818)", color:"white"}}>
+    <div className="footer-container" style={{background: "var(--dark-background, #181818)", color:"white", marginTop:"50px"}}>
       <div className="footer-column">
         <h3>Fingertipe</h3>
         <ul className="no-list-style">
