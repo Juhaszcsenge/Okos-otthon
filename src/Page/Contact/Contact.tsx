@@ -9,7 +9,7 @@ import './contact.css';
 const Contact = () => {
   return (
     <section>
-      <Navbar />
+      <Navbar/>
       <div>
       <section className='header'>
         <div className='gradient' style={{ position: 'relative', width: '100%', height: '100%' }}>
@@ -19,21 +19,21 @@ const Contact = () => {
             Animation or image
             </p>
             </div>
-            <div  style={{position: "relative", width: "96.8%", height: "315px", flexShrink: "0", padding:"30px", top: "-250px", background: "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0E0E0E 66.15%)"}}>
+            <div style={{position: "relative", width: "100%", height: "315px", flexShrink: "0", padding:"30px", top: "-250px", background: "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0E0E0E 66.15%)"}}>
             <h2 style={{color: "white", textAlign: "center", gap:"10px", alignItems:"center",fontSize:"52px", fontWeight:"400", letterSpacing:"0.2px", lineHeight:"62px", fontStyle:"normal", fontFamily:"Roboto"}}>Contact</h2>
             </div>
         </div>
       </section>
     </div>
       <div className='parent' style={{marginTop:"-200px"}}>
-        <Row >
+        <Row>
           <div className='child' style={{ display: "inline-block",  margin:"60px"}}>
             <Col lg='6' md='6' style={{ alignItems: "center"}}>
               <div style={{ color: "white"}}>
                 <h2 className='first'>Get in touch with us</h2>
-                <h2 style={{ paddingRight: "190px", paddingBottom: "15px", paddingTop: "50px" }}>Phone Number</h2>
+                <h2 className='ContactTitle'>Phone Number</h2>
                 <div style={{ width: "18px", height: "14px", background: "#D9D9D9" }}>
-                  <p style={{ whiteSpace: "nowrap", paddingLeft: "50px", textAlign: "center" }}>Office Number +36 1234567899</p>
+                  <p style={{ whiteSpace: "nowrap", paddingLeft: "50px", textAlign: "center", marginTop: "20px" }}>Office Number +36 1234567899</p>
                 </div>
                 <div style={{ width: "18px", height: "14px", background: "#D9D9D9" }}>
                   <p style={{ whiteSpace: "nowrap", paddingLeft: "50px", textAlign: "center", marginTop: "20px" }}>Technical Information +36 1234567899</p>
