@@ -14,7 +14,7 @@ const Contact = () => {
       <section className='header'>
         <div className='gradient' style={{ position: 'relative', width: '100%', height: '100%' }}>
             <img src='il_1588xN 1.png' style={{width: "100%", height: "100%"}}/>
-            <div className='' style={{ position: 'absolute', top: '30%', left: '0', transform: 'translate(30%, -50%)', textAlign: 'center', background: '#FFE39B', width: '20%', padding: '30px' }}>
+            <div style={{ position: 'absolute', top: '30%', left: '0', transform: 'translate(30%, -50%)', textAlign: 'center', background: '#FFE39B', width: '20%', padding: '30px' }}>
             <p className='img-text'>
             Animation or image
             </p>
@@ -31,9 +31,9 @@ const Contact = () => {
             <Col lg='6' md='6' style={{ alignItems: "center"}}>
               <div style={{ color: "white"}}>
                 <h2 className='first'>Get in touch with us</h2>
-                <h2 className='ContactText'>Phone Number</h2>
-                <div className='ContactBox'>
-                  <p style={{ whiteSpace: "nowrap", paddingLeft: "50px", textAlign: "center" }}>Office Number +36 1234567899</p>
+                <h2 className='ContactTitle'>Phone Number</h2>
+                <div style={{ width: "18px", height: "14px", background: "#D9D9D9" }}>
+                  <p style={{ whiteSpace: "nowrap", paddingLeft: "50px", textAlign: "center", marginTop: "20px" }}>Office Number +36 1234567899</p>
                 </div>
                 <div style={{ width: "18px", height: "14px", background: "#D9D9D9" }}>
                   <p style={{ whiteSpace: "nowrap", paddingLeft: "50px", textAlign: "center", marginTop: "20px" }}>Technical Information +36 1234567899</p>
