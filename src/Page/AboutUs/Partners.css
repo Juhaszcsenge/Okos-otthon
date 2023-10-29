@@ -10,7 +10,7 @@
 .partner{
 text-align: center;
 color: var(--light-text, #FFF);
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-size: 52px;
 font-style: normal;
 font-weight: 400;

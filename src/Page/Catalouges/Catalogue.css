@@ -11,6 +11,10 @@
     display: block;
   }
   
-
+  .gradient {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
   
   

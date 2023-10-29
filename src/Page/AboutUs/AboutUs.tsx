@@ -18,7 +18,7 @@ const AboutUs = () => {
             Animation or image
             </p>
             </div>
-            <div  style={{position: "relative", width: "96.8%", height: "315px", flexShrink: "0", padding:"30px", top: "-250px", background: "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0E0E0E 66.15%)"}}>
+            <div  style={{position: "relative", height: "315px", flexShrink: "0", padding:"30px", background: "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0E0E0E 66.15%)"}}>
             <h2 style={{color: "white", textAlign: "center", gap:"10px", alignItems:"center",fontSize:"52px", fontWeight:"400", letterSpacing:"0.2px", lineHeight:"62px", fontStyle:"normal", fontFamily:"Roboto"}}>About Us</h2>
             <p  style={{color: "white", gap:"10px", alignItems:"center", textAlign: "center", fontFamily:"Roboto", fontSize:"20px", fontStyle:"normal", fontWeight:"400", letterSpacing:"0.2px", lineHeight:"150%"}}>Guiding You Through the World of Smart Living: Meet Our Team of Experts in Home Automation and Innovation</p>
             </div>
@@ -37,7 +37,7 @@ const AboutUs = () => {
         </div>
     </div>
     <div className='about' style={{ position: 'relative', width: '100%', height: '100%'}}>
-    <img src='Chat Bot (3).png' style={{width: "100%", height: "700px"}} />
+    <img src='Chat Bot (3).png' style={{width: "100%", height: "100%"}} />
     <div className='about-container'>
           <p className='about-text' style={{padding:"20px", textAlign:"center"}}>
         At BeeHive Smart Homes, we're dedicated to reshaping the way you live. Our journey began with a vision of bringing intelligent solutions into everyday life, 
