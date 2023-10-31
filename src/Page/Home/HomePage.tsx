@@ -2,10 +2,10 @@ import React from 'react';
 import './HomePage.css'
 import Navbar from '../../Component/Navbar';
 import Header from '../../Component/Header';
-import Footer from '../../Component/Footer';
-import ImgSection from '../ImgSection/ImgSection';
-import SmarterLiving from '../SmarterLiving';
 import Card from '../Card/Card';
+import SmarterLiving from '../SmarterLiving';
+import ImgSection from '../ImgSection/ImgSection';
+import Footer from '../../Component/Footer';
 
 
 

@@ -1,8 +1,7 @@
 import React from 'react';
-import Navbar from '../../Component/Navbar';
-import Header from '../../Component/Header';
-import Footer from '../../Component/Footer';
 import './Catalogue.css'
+import Navbar from '../../Component/Navbar';
+import Footer from '../../Component/Footer';
 
 const Catalogue = () => {
   return (

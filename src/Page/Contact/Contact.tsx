@@ -1,10 +1,9 @@
 import React from 'react';
-import Navbar from '../../Component/Navbar';
-import Header from '../../Component/Header';
-import Footer from '../../Component/Footer';
 import GoogleMaps from './Googlemaps';
 import { Col, Row } from 'react-bootstrap';
 import './contact.css';
+import Navbar from '../../Component/Navbar';
+import Footer from '../../Component/Footer';
 
 const Contact = () => {
   return (

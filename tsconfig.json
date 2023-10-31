@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "BeeHiveSG Website New/Component", "BeeHiveSG Website New/Page/AboutUs", "BeeHiveSG Website New/Page/Card", "BeeHiveSG Website New/Page/Catalouges", "BeeHiveSG Website New/Page/Contact", "BeeHiveSG Website New/Page/Home", "BeeHiveSG Website New/Page/ImgSection", "BeeHiveSG Website New/Page/Projects", "BeeHiveSG Website New/Page/Language", "BeeHiveSG Website New/Page/SmarterLiving.tsx", "BeeHiveSG Website New/Page/Utils", "BeeHiveSG Website New/src/App.tsx", "BeeHiveSG Website New/src/App.test.tsx", "BeeHiveSG Website New/src/index.tsx", "BeeHiveSG Website New/src/reportWebVitals.ts", "BeeHiveSG Website New/src/react-app-env.d.ts", "BeeHiveSG Website New/src/setupTests.ts"  ]
 }

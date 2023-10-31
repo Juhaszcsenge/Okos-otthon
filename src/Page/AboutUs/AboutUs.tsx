@@ -1,9 +1,8 @@
 import React from 'react';
-import Navbar from '../../Component/Navbar';
-import Header from '../../Component/Header';
-import Footer from '../../Component/Footer';
 import Partners from './Partners';
 import './aboutUs.css'
+import Navbar from '../../Component/Navbar';
+import Footer from '../../Component/Footer';
 
 const AboutUs = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css'; // Adj hozzá egy Footer.css fájlt a stílusokhoz
+import './Footer.css'; 
 
 const Footer = () => {
   return (
