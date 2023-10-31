@@ -25,10 +25,10 @@ const AboutUs = () => {
         </div>
       </section>
     </div>
-    <div  style={{ position: 'relative', width: '100%', height: '100%', top:"-50%"}}>
+    <div className='aboutLeft'  style={{ position: 'relative', width: '100%', height: '100%', top:"-50%"}}>
     <img src='Chat Bot (1).png' style={{width: "100%", height: "100%"}} />
-    <div style={{ position: 'absolute', top: '49%', right: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center', background: 'rgba(217, 217, 217, 0.67)', width: '30.05%', height:"79%", padding: '30px' }}>
-          <p className='img-text' style={{padding:"20px", textAlign:"center"}}>
+    <div className='about-containerLeft' style={{ position: 'absolute', top: '49%', right: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center', background: 'rgba(217, 217, 217, 0.67)', width: '30.05%', height:"79%", padding: '30px' }}>
+          <p className='about-text' style={{padding:"20px", textAlign:"center"}}>
         At BeeHive Smart Homes, we're dedicated to reshaping the way you live. Our journey began with a vision of bringing intelligent solutions into everyday life, 
         simplifying and enhancing your home experience. With a passionate team of experts, we've transformed that vision into reality. 
         From smart home systems that prioritize convenience, security, and efficiency to integrated solutions that elevate modern living, we're at the forefront of innovation.</p>

@@ -12,6 +12,26 @@ position: absolute;
   box-sizing: border-box;
 }
 
+
+.about-containerLeft{
+  width: 30.05%;
+height: 81.2%;
+position: absolute;
+  top: 49%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: rgba(217, 217, 217, 0.67);
+  /* max-width: 600px;  */
+  padding: 30px;
+  box-sizing: border-box;
+   right: 50%;  
+}
+
+
+.aboutleft{
+  position: relative;
+}
+
 .img-text {
     padding: 20px;
     text-align: center;
