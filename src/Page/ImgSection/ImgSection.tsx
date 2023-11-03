@@ -5,24 +5,24 @@ const ImgSection = () => {
   return (
     <section className='imgSection'>
         <div className='cover' style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img src='Chat Bot (1).png' style={{width: "100%", height: "100%"}} />
-            <div style={{ position: 'absolute', top: '50%', left: '0', transform: 'translate(30%, -50%)', textAlign: 'center', background: '#FFE39B', width: '30%', padding: '30px' }}>
+            <img className='section-img' src='Chat Bot (13).png' style={{width: "100%", height: "100%"}} />
+            <div className='term' >
         <p className='img-text'>
         Temp sensor animation, giff or image
         </p>
         </div>
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img src='Chat Bot (2).png' style={{width: "100%", height: "100%",marginTop:"-60px"}} />
-            <div style={{ position: 'absolute', top: '50%', left: '0', transform: 'translate(30%, -50%)', textAlign: 'center', background: '#FFE39B', width: '30%', padding: '30px' }}>
+            <img className='section-img' src='Chat Bot (14).png' style={{width: "100%", height: "100%",marginTop:"-60px"}} />
+            <div className='term'>
         <p className='img-text'>
         Air Quality sensoranimation, giff or image
         </p>
         </div>
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img src='Chat Bot.png' style={{width: "100%", height: "100%", marginTop:"-60px"}} />
-            <div style={{ position: 'absolute', top: '50%', left: '0', transform: 'translate(30%, -50%)',  background: '#FFE39B', width: '30%', padding: '30px' }}>
+            <img className='section-img' src='Chat Bot (15).png' style={{width: "100%", height: "100%", marginTop:"-60px"}} />
+            <div  className='term' >
         <p className='img-text'>
         Humidity sensor animation, giff or image
         </p>
@@ -35,13 +35,13 @@ const ImgSection = () => {
           </div>
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-        <img src='Chat Bot (1).png' style={{ width: '100%', height: '100%', marginTop:"-40px" }} />
-        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center', background: '#FFE39B', width: '30%', padding: '30px' }}>
+        <img className='section-img' src='Chat Bot (16).png' style={{ width: '100%', height: '100%', marginTop:"-40px" }} />
+        <div  className='term' >
         <p className='img-text'>
             Temp control module and actuators animation, giff or image
         </p>
         </div>
-        <div style={{ position: 'absolute', top: '70%', right: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center', background: 'rgba(217, 217, 217, 0.67)', width: '30.05%', height:"200px", padding: '30px' }}>
+        <div className='comfort-container' >
           <p className='img-text' style={{padding:"20px", textAlign:"center"}}>Optimize your home's climate with our Temperature Control Module and Heating Actuators. 
             Ensure comfort and energy efficiency with precision temperature management and heating control for each room. 
             Experience a smarter, more eco-friendly way of living.</p>
@@ -55,16 +55,16 @@ const ImgSection = () => {
           </div>
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-        <img src='Chat Bot (1).png' style={{width: "100%", height: "100%"}} />
-        <div style={{position: 'absolute', top: '50%', right: '0', transform: 'translate(-250px, -30%)',  background: '#FFE39B', width: '30%', padding: '30px' }}>
+        <img className='section-img' src='Chat Bot (17).png' style={{width: "100%", height: "100%"}} />
+        <div className='term' >
         <p className='imgText'>
         Door and window contact sensor animation, giff or image
         </p>
         </div>
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-        <img src='Chat Bot (2).png' style={{width: "100%", height: "100%", marginTop:"-60px"}} />
-        <div style={{position: 'absolute', top: '50%', right: '0', transform: 'translate(-250px, -30%)',  background: '#FFE39B', width: '18%', padding: '30px' }}>
+        <img className='section-img' src='Chat Bot (18).png' style={{width: "100%", height: "100%", marginTop:"-60px"}} />
+        <div  className='term' >
         <p className='imgText'>
         Motion detector animation, giff or image
         </p>
@@ -89,12 +89,12 @@ const ImgSection = () => {
           </div>
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-        <img src='Chat Bot (1).png' style={{width: "100%", height: "100%"}} />
-        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center', background: '#FFE39B', width: '30%', padding: '30px' }}>
+        <img className='section-img' src='Chat Bot (19).png' style={{width: "100%", height: "100%"}} />
+        <div  className='term'>
         <p className='img-text'>
         Water leak detector animation, giff or image
         </p>
-        <div style={{ position: 'absolute', left: '150.5%',  transform: 'translate(-50%, -50%)', background: 'rgba(217, 217, 217, 0.67)', width: '92%', height: '200px', padding: '30px', marginTop:"100px" }}>
+        <div  className='term' style={{ position: 'absolute', left: '150.5%',  transform: 'translate(-50%, -50%)', background: 'rgba(217, 217, 217, 0.67)', width: '92%', height: '200px', padding: '30px', marginTop:"100px" }}>
         <p className='img-text' style={{ padding: '20px' }}>
           Optimize your home's climate with our Temperature Control Module and Heating Actuators. Ensure comfort and energy efficiency with precision temperature management and heating control for each room. Experience a smarter, more eco-friendly way of living.
         </p>

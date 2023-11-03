@@ -95,10 +95,10 @@ display: inline-flex;
   }
 
   .site-title {
-    margin-top: 20px; /* Változtasd meg a szükségleteidnek megfelelően */
+    margin-top: 20px; 
   }
 
   .header {
-    height: 200px; /* Változtasd meg a szükségleteidnek megfelelően */
+    height: 200px; 
   }
 }

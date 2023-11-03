@@ -12,7 +12,7 @@ const Contact = () => {
       <div>
       <section className='header'>
         <div className='gradient' style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img src='il_1588xN 1.png' style={{width: "100%", height: "100%"}}/>
+            <img src='il_1588xN 2.png' style={{width: "100%", height: "100%"}}/>
             <div style={{ position: 'absolute', top: '30%', left: '0', transform: 'translate(30%, -50%)', textAlign: 'center', background: '#FFE39B', width: '20%', padding: '30px' }}>
             <p className='img-text'>
             Animation or image

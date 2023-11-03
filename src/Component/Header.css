@@ -95,19 +95,19 @@
 
   @media only screen and (max-width: 768px) {
     .gradient > div {
-      width: 100%; /* Teljes szélességű */
-      padding: 15px; /* Kisebb padding a mobil nézethez */
-      transform: translate(0, -50%); /* Kisebb transzformáció */
+      width: 100%; 
+      padding: 15px; 
+      transform: translate(0, -50%); 
     }
   
     .gradient > div + div {
-      width: 100%; /* Teljes szélességű */
-      padding: 15px; /* Kisebb padding a mobil nézethez */
-      top: -150px; /* Kisebb eltolás a mobil nézethez */
+      width: 100%; 
+      padding: 15px; 
+      top: -150px; 
     }
   }
   
-  /* Tablet reszponzivitás a gradient-hez */
+  
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .gradient > div {
       width: 100%; 

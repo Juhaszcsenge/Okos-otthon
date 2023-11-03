@@ -44,14 +44,16 @@ padding: 50px;
     line-height: 150%;
 }
 
-/* .imgText{
-    color:black;
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-} */
+.term{
+  position: absolute;
+   top: 50%;
+   left: 0;
+   transform: translate(30%, -50%); 
+   text-align: center;
+   background: #FFE39B;
+   width: 30%; 
+   padding: 30px;
+}
 
 .imgText {
   color: black;
@@ -89,3 +91,101 @@ padding: 50px;
         }
     }
 }
+
+
+@media (max-width: 768px){
+  .term{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFE39B;
+    width: 60%; 
+    padding: 20px;
+  }
+}
+
+
+.smart-climate {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.validation {
+  width: 100%;
+  max-width: 900px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.validation h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.validation p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .validation {
+    padding: 15px;
+  }
+
+  .validation h2 {
+    font-size: 1.5rem;
+  }
+
+  .validation p {
+    font-size: 0.875rem;
+  }
+}
+
+.section-img {
+  width: 100%;
+  height: auto;
+  margin-top: -40px;
+  display: block; /* További reszponzivitás érdekében */
+  margin-left: auto; /* További reszponzivitás érdekében */
+  margin-right: auto; /* További reszponzivitás érdekében */
+}
+
+
+.comfort-container {
+  /* width: 30.05%;
+height: 81.2%; */
+position: absolute;
+  top: 49%;
+  /* transform: translate(-50%, -50%); */
+  text-align: center;
+  background: rgba(217, 217, 217, 0.67);
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.comfort-container{
+  position: relative;
+}
+
+
+
+.comfort-container p {
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 1200px){
+  .comfort-container {
+    position: absolute;
+  top: 49%;
+  /* transform: translate(-50%, -50%); */
+  text-align: center;
+  background: rgba(217, 217, 217, 0.67);
+  padding: 30px;
+  box-sizing: border-box;
+  }
+  }
