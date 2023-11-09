@@ -12,23 +12,26 @@ const Card = () => {
         <div style={{width: "29px", height: "29px", background:"#D9D9D9"}}></div>
         <h2 style={{color: "white"}}>Effortless Living with Our Smart 
         Home Solution</h2>
-        <p style={{color: "white"}}>Experience a new level of home living as you 
+        <p style={{color: "white"}} data-languagePartIdentifier="seamless_home_management_desc">
+        Easily adjust settings, customize your environment, 
+        and enhance security with our user-friendly smart home control interface, simplifying your daily routines.
+        </p>
+        </div>
+        <div className='card' style={{background: "black"}}>
+        <div style={{width: "29px", height: "29px", background:"#D9D9D9"}}></div>
+        <h2 style={{color: "white"}}>Effortless Living with Our Smart Home Solution</h2>
+        <p style={{color: "white"}} data-languagePartIdentifier="elevate_your_home_desc">Experience a new level of home living as you 
         interact effortlessly with our smart home system, 
         making comfort and convenience the cornerstones of your daily life.</p>
         </div>
         <div className='card' style={{background: "black"}}>
         <div style={{width: "29px", height: "29px", background:"#D9D9D9"}}></div>
         <h2 style={{color: "white"}}>Effortless Living with Our Smart Home Solution</h2>
-        <p style={{color: "white"}}>Experience a new level of home living as you 
-        interact effortlessly with our smart home system, 
-        making comfort and convenience the cornerstones of your daily life.</p>
-        </div>
-        <div className='card' style={{background: "black"}}>
-        <div style={{width: "29px", height: "29px", background:"#D9D9D9"}}></div>
-        <h2 style={{color: "white"}}>Effortless Living with Our Smart Home Solution</h2>
-        <p style={{color: "white"}}>Experience a new level of home living as you 
-        interact effortlessly with our smart home system,
-         making comfort and convenience the cornerstones of your daily life.</p>
+        <p style={{color: "white"}} data-languagePartIdentifier="effortless_living_desc">
+        Transform your living space into a haven of convenience and efficiency, 
+        where you can effortlessly manage and optimize every aspect of your 
+        home environment, ensuring a stress-free and enjoyable lifestyle.
+        </p>
         </div>
         </div>
     </section>

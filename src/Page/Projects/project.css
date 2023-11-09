@@ -1,11 +1,11 @@
 .contentContainer{
      position: absolute; 
-     top: -56%;
+     top: -43%;
      right: 0;
      transform: translate(0, -50%); 
      background: rgba(217, 217, 217, 0.71);
      width: 40%; 
-     height: 712px;
+     /* height: 712px; */
      padding: 50px;
 }
 
@@ -116,7 +116,8 @@
         padding: 0;
         transform: translate(0);
         margin-top: 20px;
-        background-color: black;
+        background-color: rgba(217, 217, 217, 0.67);;
+       
     }
     .otherContainer {
         position: static;
