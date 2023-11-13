@@ -16,5 +16,132 @@
     width: 100%;
     height: 100%;
   }
+
+  .catalogueButton{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+    padding: 10px 30px;
+    flex-shrink: 0;
+    color: black;
+    background:  rgba(217, 217, 217, 0.71);
+    border-color: #000;
+    margin-top: auto;
+    order: 1px solid #000;
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 50px;
+}
+
+.catalogue-p{
+  padding-left: 400px; 
+  text-align: left; 
+  margin-bottom: 30px; 
+  color: black;
+}
+
+
+.image-container{
+  position: absolute; 
+  top: 50%; 
+  left: 0;
+  transform: translate(0, -50%); 
+  padding-left: 350px;
+}
+
+
+
+.text-catalogue{
+    padding: 30px;
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 43.5%; 
+    right: 0; 
+    transform: translate(0, -50%);
+    background: rgba(217, 217, 217, 0.71); 
+    width: 100%; 
+    height: 550px; 
+    padding: 50px;
+}
+
+.main-container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.second-container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  /* padding-top: 100px; */
+}
+
+
+.third-container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+}
+
+@media (max-width: 1193px)
+{
+  .text-catalogue {
+    position: static;
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    transform: translate(0);
+    margin-top: 20px;
+    background-color: rgba(217, 217, 217, 0.67);
+}
+
+}
+
+@media (max-width: 1193px)
+{
+  .image-container {
+    position: static;
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    top: 25%;
+} 
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px)
+{
+    .gradient > div + div {
+        width: 100%;
+        padding: 20px;
+        top: -150px;
+    }
+}
+
+@media (max-width: 1193px){
+  .catalogue-p {
+    color: white;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+}
+}
+
+
+
   
   

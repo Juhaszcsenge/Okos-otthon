@@ -68,6 +68,15 @@ transition: .4s;
   height: 100%;
 }
 
+@media only screen and (min-width: 769px) and (max-width: 1024px)
+{
+    .gradient > div + div {
+        width: 100%;
+        padding: 20px;
+        top: -150px;
+    }
+}
+
 @media (max-width: 768px) {
     .text-container {
       flex-direction: column;

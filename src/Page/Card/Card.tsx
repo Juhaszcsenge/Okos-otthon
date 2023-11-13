@@ -10,8 +10,7 @@ const Card = () => {
         <div className='section' style={{background: "black"}}>
         <div className='card' style={{background: "black"}}>
         <div style={{width: "29px", height: "29px", background:"#D9D9D9"}}></div>
-        <h2 style={{color: "white"}}>Effortless Living with Our Smart 
-        Home Solution</h2>
+        <h2 data-languagePartIdentifier="seamless_home_management"  style={{color: "white"}}>Seamless Home Management at Your Fingertips</h2>
         <p style={{color: "white"}} data-languagePartIdentifier="seamless_home_management_desc">
         Easily adjust settings, customize your environment, 
         and enhance security with our user-friendly smart home control interface, simplifying your daily routines.
@@ -19,14 +18,14 @@ const Card = () => {
         </div>
         <div className='card' style={{background: "black"}}>
         <div style={{width: "29px", height: "29px", background:"#D9D9D9"}}></div>
-        <h2 style={{color: "white"}}>Effortless Living with Our Smart Home Solution</h2>
+        <h2 data-languagePartIdentifier="elevate_your_home" style={{color: "white"}}>Elevate Your Home Experience with Intuitive Control</h2>
         <p style={{color: "white"}} data-languagePartIdentifier="elevate_your_home_desc">Experience a new level of home living as you 
         interact effortlessly with our smart home system, 
         making comfort and convenience the cornerstones of your daily life.</p>
         </div>
         <div className='card' style={{background: "black"}}>
         <div style={{width: "29px", height: "29px", background:"#D9D9D9"}}></div>
-        <h2 style={{color: "white"}}>Effortless Living with Our Smart Home Solution</h2>
+        <h2 data-languagePartIdentifier="effortless_living" style={{color: "white"}}>Effortless Living with Our Smart Home Solution</h2>
         <p style={{color: "white"}} data-languagePartIdentifier="effortless_living_desc">
         Transform your living space into a haven of convenience and efficiency, 
         where you can effortlessly manage and optimize every aspect of your 

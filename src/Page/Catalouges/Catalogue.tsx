@@ -4,6 +4,19 @@ import Navbar from '../../Component/Navbar';
 import Footer from '../../Component/Footer';
 
 const Catalogue = () => {
+
+  const pdf = () => {
+    window.open('/SmartHome_Brochure_HR.pdf'); 
+  };
+
+  const pdf2 = () => {
+    window.open('/SmartHome_Brochure.pdf'); 
+  };
+
+  const pdf3 = () => {
+    window.open('/Yachts.pdf'); 
+  };
+
   return (
     <>
     <Navbar/>
@@ -16,7 +29,7 @@ const Catalogue = () => {
             Animation or image
             </p>
             </div>
-            <div  style={{position: "relative",  height: "315px", flexShrink: "0", padding:"30px", top: "-250px", background: "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0E0E0E 66.15%)"}}>
+            <div  style={{position: "relative",  height: "315px", flexShrink: "0", padding:"30px", background: "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0E0E0E 66.15%)"}}>
             <h2 style={{color: "white", textAlign: "center", gap:"10px", alignItems:"center",fontSize:"52px", fontWeight:"400", letterSpacing:"0.2px", lineHeight:"62px", fontStyle:"normal", fontFamily:"Roboto"}}>Catalogues</h2>
             <p  style={{color: "white", gap:"10px", alignItems:"center", textAlign: "center", fontFamily:"Roboto", fontSize:"20px", fontStyle:"normal", fontWeight:"400", letterSpacing:"0.2px", lineHeight:"150%"}}>Discover innovation in our smart living catalog. Explore solutions that elevate your lifestyle to new heights</p>
             </div>
@@ -25,46 +38,50 @@ const Catalogue = () => {
     </div>
     <section>
     <div>
-    <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+    <div className='main-container'>
             <img src='11.jpg' style={{width: "100%", height: "550px", marginTop:"-60px"}} />
-        <div style={{ position: 'absolute', top: '34%', right: '0', transform: 'translate(0, -50%)', background: 'rgba(217, 217, 217, 0.71)', width: '100%', height:'550px', padding: '50px' }}>
-          <h2 style={{textAlign:"left", fontSize:"31px", fontStyle:"normal", fontFamily:"Roboto", fontWeight:"400", letterSpacing:"0.2px", color:"black",margin:"20px", paddingLeft:"1200px", top:"40%"}}>Discover the Future of Smart Living</h2>
-          <p  style={{paddingLeft:"1200px", textAlign: "left", marginBottom:"30px", color:"black", width:"100%"}}>
+        <div className='text-catalogue'>
+          <h2  data-languagePartIdentifier="discover_the_future" className='catalogue-p'>Discover the Future of Smart Living</h2>
+          <p  data-languagePartIdentifier="discover_the_future_desc" className='catalogue-p'>
          Welcome to our world of intelligent solutions and innovative technology. Our Smart Home Catalog provides a curated selection of cutting-edge products and systems designed to enhance your lifestyle. Explore the details, benefits, 
           and opportunities that await you, and embark on a journey to make your home smarter, more comfortable, and more secure. 
           Your connected, convenient, and efficient living experience starts here. Let's redefine the way you live.
+          <button className='catalogueButton' onClick={pdf} >Read More</button>
           </p>
         </div>
-        <button style={{border: "1px solid var(--light-text, #FFF)", padding: "20px", margin:"40px", boxShadow: "0px 4px 31px 0px rgba(0, 0, 0, 0.15)", background:"black", color:"white"}}>Read More</button>
-        <div style={{ position: 'absolute', top: '45%', left: '0', transform: 'translate(0, -50%)', paddingLeft: "150px"}}>
+       
+        <div className='image-container'>
         <img src='house2.png' style={{width:"600px", height:"400px"}} />
         </div>
     </div>
-    {/* <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img src='12.png' style={{width: "100%", height: "400px", marginTop:"-60px"}} />
-        <div style={{ position: 'absolute', top: '50%', right: '0', transform: 'translate(0, -50%)', background: 'rgba(217, 217, 217, 0.71)', width: '100%', height:'470px', padding: '50px' }}>
-          <h2 style={{textAlign:"left", fontSize:"31px", fontStyle:"normal", fontFamily:"Roboto", fontWeight:"400", letterSpacing:"0.2px", color:"black",margin:"20px", paddingLeft:"1200px", top:"40%"}}>Discover the Future of Smart Living</h2>
-          <p  style={{paddingLeft:"1200px", textAlign: "left", marginBottom:"30px", color:"black"}}>
-         Welcome to our world of intelligent solutions and innovative technology. Our Smart Home Catalog provides a curated selection of cutting-edge products and systems designed to enhance your lifestyle. Explore the details, benefits, 
-          and opportunities that await you, and embark on a journey to make your home smarter, more comfortable, and more secure. 
-          Your connected, convenient, and efficient living experience starts here. Let's redefine the way you live.
+    <div className='second-container'>
+            <img src='12.png' style={{width: "100%", height: "550px", marginTop:"-60px"}} />
+        <div className='text-catalogue'>
+          <h2  data-languagePartIdentifier= "innovative_living" className='catalogue-p'>Innovative Living, Intelligent Solutions</h2>
+          <p  data-languagePartIdentifier= "innovative_living_desc" className='catalogue-p'>
+          Our Smart Home Presentation unveils an array of intelligent solutions that redefine modern living. 
+          From energy-efficient climate control to advanced security, seamless automation, and immersive entertainment, our smart home features elevate your lifestyle. 
+          Explore the endless possibilities, discover the convenience, and embrace a new era where your home adapts to you. 
+          Welcome to the future of smart living, where every day is extraordinary.
+          <button className='catalogueButton'  data-languagePartIdentifier= "read_more" onClick={pdf2}>Read More</button>
           </p>
         </div>
-        <div style={{ position: 'absolute', top: '50%', left: '0', transform: 'translate(0, -50%)', paddingLeft: "350px"}}>
-        <img src='house1.png' style={{width:"580px", height:"393px"}} />
+        <div className='image-container'>
+        <img src='house1.png' style={{width:"600px", height:"400px"}} />
         </div>
-    </div> */}
-    <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+    </div>
+    <div className='third-container'>
             <img src='13.jpg' style={{width: "100%", height: "550px", marginTop:"-60px"}} />
-        <div style={{ position: 'absolute', top: '43.5%', right: '0', transform: 'translate(0, -50%)', background: 'rgba(217, 217, 217, 0.71)', width: '100%', height:'550px', padding: '50px' }}>
-          <h2 style={{textAlign:"left", fontSize:"31px", fontStyle:"normal", fontFamily:"Roboto", fontWeight:"400", letterSpacing:"0.2px", color:"black",margin:"20px", paddingLeft:"1200px", top:"40%"}}>Discover the Future of Smart Living</h2>
-          <p  style={{paddingLeft:"1200px", textAlign: "left", marginBottom:"30px", color:"black"}}>
-         Welcome to our world of intelligent solutions and innovative technology. Our Smart Home Catalog provides a curated selection of cutting-edge products and systems designed to enhance your lifestyle. Explore the details, benefits, 
-          and opportunities that await you, and embark on a journey to make your home smarter, more comfortable, and more secure. 
-          Your connected, convenient, and efficient living experience starts here. Let's redefine the way you live.
+        <div className='text-catalogue'>
+          <h2  data-languagePartIdentifier= "future_of_luxury" className='catalogue-p'>Future of Luxury Living on Yachts</h2>
+          <p   data-languagePartIdentifier= "future_of_luxury_desc" className='catalogue-p'>
+          Experience the epitome of modern comfort and convenience as we introduce Smart Home Solutions for Yachts. 
+          Our cutting-edge technology seamlessly integrates with your onboard environment, offering intuitive control over lighting, climate, entertainment, security, and more. 
+          Elevate your yachting experience, whether it's for relaxation, entertainment, or work, with a level of customization and luxury that's unparalleled.
+          <button className='catalogueButton'  data-languagePartIdentifier= "read_more" onClick={pdf3}>Read More</button>
           </p>
         </div>
-        <div style={{ position: 'absolute', top: '50%', left: '0', transform: 'translate(0, -50%)', paddingLeft: "350px"}}>
+        <div className='image-container'>
         <img src='boat.png' style={{width:"580px", height:"393px"}} />
         </div>
     </div>

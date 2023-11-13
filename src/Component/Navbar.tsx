@@ -15,12 +15,8 @@ const Navbar = () => {
   return (
     <div id='home' className={nav ? 'navbar navbar-bg' : 'navbar'} style={{backgroundColor: "black"}}>
     <div className={nav ? 'logo dark' : 'logo'}>
-      
+      <li>LOGO</li>
       </div>
-      {/*@ts-ignore*/}
-      <button switchlanguage='en'>EN</button>
-      {/*@ts-ignore*/}
-      <button switchlanguage='hr'>HR</button>
       <ul className="nav-menu">
       <Link to='/'></Link>
       <Link to='/home'><li data-languagePartIdentifier="m_home">Home</li></Link>
@@ -29,6 +25,10 @@ const Navbar = () => {
       <Link to='/aboutUs' ><li data-languagePartIdentifier="m_aboutus" >About Us</li></Link>
       <Link to='/contact'><li data-languagePartIdentifier="m_contact">Contact</li></Link> 
       </ul>
+      {/*@ts-ignore*/}
+      <button switchlanguage='en' style={{background: "black", color: "white"}}>EN</button>
+      {/*@ts-ignore*/}
+      <button switchlanguage='hr' style={{background: "black", color: "white"}}>HR</button>
       <div className="hamburger" onClick={handleNav}>
       {!nav ? (<HiOutlineMenuAlt4 className='iconNav' />) : (<AiOutlineClose style={{ color: 'white' }} className='iconNav' />)}
       </div>
@@ -36,10 +36,10 @@ const Navbar = () => {
       <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
         <ul className="mobile-nav">
       <Link to='/'></Link>
-      <Link to='home'><li>Home</li></Link>
-      <Link to='projects'><li>Projects</li></Link>
-      <Link to='catalogues'><li>Catalogues</li></Link>
-      <Link to='aboutUs'><li>About Us</li></Link> 
+      <Link to='/home'><li>Home</li></Link>
+      <Link to='/projects'><li>Projects</li></Link>
+      <Link to='/catalogues'><li>Catalogues</li></Link>
+      <Link to='/aboutUs'><li>About Us</li></Link> 
       <Link to='/contact'><li>Contact</li></Link>
         </ul>
       </div>
