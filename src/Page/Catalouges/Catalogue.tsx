@@ -13,10 +13,7 @@ const Catalogue = () => {
     window.open('/SmartHome_Brochure.pdf'); 
   };
 
-  const pdf3 = () => {
-    window.open('/Yachts.pdf'); 
-  };
-
+ 
   return (
     <>
     <Navbar/>
