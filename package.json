@@ -36,12 +36,11 @@
       "react-app/jest"
     ]
   },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^1.0.0"
-  },
   "rules": {
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn",
+    "@typescript-eslint/no-unused-vars": "off",
+    "jsx-a11y/alt-text": "off"
   },
   "browserslist": {
     "production": [
