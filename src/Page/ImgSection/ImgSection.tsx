@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './ImgSection.css'
 
 const ImgSection = () => {
+  useEffect(() => {
+    languagePreferencesSystem.reloadAllLanguageResources()
+  }, []);
   return (
     <section className='imgSection'>
         <div className='cover' style={{ position: 'relative', width: '100%', height: '100%' }}>

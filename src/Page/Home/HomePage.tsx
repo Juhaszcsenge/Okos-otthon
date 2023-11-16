@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './HomePage.css'
 import Navbar from '../../Component/Navbar';
 import Header from '../../Component/Header';
@@ -10,9 +10,12 @@ import Footer from '../../Component/Footer';
 
 
 const HomePage = () => {
+  useEffect(() => {
+    languagePreferencesSystem.reloadAllLanguageResources()
+  }, []);
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/> */}
     <Header/>
     <section className='home' style={{background:"rgba(255, 255, 255, 0.67)", boxShadow:"0px 4px 31px 0px rgba(0, 0, 0, 0.15)"}}>
     <div className='text-container'>

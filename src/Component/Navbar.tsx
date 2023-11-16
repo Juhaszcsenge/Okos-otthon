@@ -26,9 +26,9 @@ const Navbar = () => {
       <Link to='/contact'><li data-languagePartIdentifier="m_contact">Contact</li></Link> 
       </ul>
       {/*@ts-ignore*/}
-      <button switchlanguage='en' style={{background: "black", color: "white"}}>EN</button>
+      <button switchlanguage='en' style={{background: "black", color: "white", border: "black", whiteSpace: "1", letterSpacing:"1.5px", cursor: "pointer"}}>EN/</button> <br></br>
       {/*@ts-ignore*/}
-      <button switchlanguage='hr' style={{background: "black", color: "white"}}>HR</button>
+      <button switchlanguage='hr' style={{background: "black", color: "white", border: "black", letterSpacing:"1.5px", cursor: "pointer"}}>HR</button>
       <div className="hamburger" onClick={handleNav}>
       {!nav ? (<HiOutlineMenuAlt4 className='iconNav' />) : (<AiOutlineClose style={{ color: 'white' }} className='iconNav' />)}
       </div>

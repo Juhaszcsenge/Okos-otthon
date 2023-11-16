@@ -7,7 +7,7 @@ import Footer from '../../Component/Footer';
 const AboutUs = () => {
   return (
     <section>
-    <Navbar/>
+    {/* <Navbar/> */}
     <div>
       <section className='header'>
         <div className='gradient' style={{ position: 'relative', width: '100%', height: '100%' }}>
