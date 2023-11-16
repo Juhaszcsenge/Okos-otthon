@@ -33,18 +33,18 @@ const Footer = () => {
       </div>
       <div className='contact-info'>
         <div className='info-item'>
-        <img src='bx_bx-map (1).png'/>
+        <img src='bx_bx-map (1).png' alt=''/>
         <p>Ul. Vjekoslava Heinzela 40,
         10000 Zagreb, Hrvatska</p>
         </div>
         <div className='info-item'>
-        <img src='ic_baseline-phone-android.png'/>
+        <img src='ic_baseline-phone-android.png' alt=''/>
         <p>(239) 555-0108</p>
         </div>
         <div>
-        <img src='ant-design_twitter-outlined.png' id='footer-img'/>
-        <img src='ant-design_facebook-filled.png' id='footer-img'/>
-        <img src='ant-design_linkedin-filled.png' id='footer-img'/>
+        <img src='ant-design_twitter-outlined.png' id='footer-img' alt=''/>
+        <img src='ant-design_facebook-filled.png' id='footer-img' alt=''/>
+        <img src='ant-design_linkedin-filled.png' id='footer-img' alt=''/>
         </div>
       </div>
     </div>

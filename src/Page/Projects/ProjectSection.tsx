@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import './project.css'
 import Footer from '../../Component/Footer';
-import Navbar from '../../Component/Navbar';
 
 
 const ProjectSection = () => {
@@ -12,7 +11,6 @@ const ProjectSection = () => {
 
   return (
    <section>
-    {/* <Navbar/> */}
     <div>
       <section className='header'>
         <div className='gradient' style={{ position: 'relative', width: '100%', height: '100%' }}>

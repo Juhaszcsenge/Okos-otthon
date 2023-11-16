@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import './HomePage.css'
-import Navbar from '../../Component/Navbar';
 import Header from '../../Component/Header';
 import Card from '../Card/Card';
 import SmarterLiving from '../SmarterLiving';
@@ -15,7 +14,6 @@ const HomePage = () => {
   }, []);
   return (
     <>
-    {/* <Navbar/> */}
     <Header/>
     <section className='home' style={{background:"rgba(255, 255, 255, 0.67)", boxShadow:"0px 4px 31px 0px rgba(0, 0, 0, 0.15)"}}>
     <div className='text-container'>
