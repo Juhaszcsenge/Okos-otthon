@@ -33,7 +33,16 @@ const Navbar = () => {
       {!nav ? (<HiOutlineMenuAlt4 className='iconNav' />) : (<AiOutlineClose style={{ color: 'white' }} className='iconNav' />)}
       </div>
 
-     
+      <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
+        <ul className="mobile-nav">
+      <Link to='/'></Link>
+      <Link to='/home'><li>Home</li></Link>
+      <Link to='/projects'><li>Projects</li></Link>
+      <Link to='/catalogues'><li>Catalogues</li></Link>
+      <Link to='/aboutUs'><li>About Us</li></Link> 
+      <Link to='/contact'><li>Contact</li></Link>
+        </ul>
+      </div>
     </div>
   );
 }
