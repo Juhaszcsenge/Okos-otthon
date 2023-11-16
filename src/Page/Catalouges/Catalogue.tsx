@@ -23,7 +23,7 @@ const Catalogue = () => {
     <div>
       <section className='header'>
         <div className='gradient' style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img src='il_1588xN 2.png' style={{width: "100%", height: "100%"}}/>
+            <img src='il_1588xN 2.png' alt="" style={{width: "100%", height: "100%"}}/>
             <div style={{ position: 'absolute', top: '30%', left: '0', transform: 'translate(30%, -50%)', textAlign: 'center', background: '#FFE39B', width: '20%', padding: '30px' }}>
             <p className='img-text'>
             Animation or image
@@ -39,7 +39,7 @@ const Catalogue = () => {
     <section>
     <div>
     <div className='main-container'>
-            <img src='11.jpg' style={{width: "100%", height: "550px", marginTop:"-60px"}} />
+            <img src='11.jpg' alt="" style={{width: "100%", height: "550px", marginTop:"-60px"}} />
         <div className='text-catalogue'>
           <h2  data-languagePartIdentifier="discover_the_future" className='catalogue-p'>Discover the Future of Smart Living</h2>
           <p  data-languagePartIdentifier="discover_the_future_desc" className='catalogue-p'>
@@ -51,11 +51,11 @@ const Catalogue = () => {
         </div>
        
         <div className='image-container'>
-        <img src='house2.png' style={{width:"600px", height:"400px"}} />
+        <img src='house2.png' alt="" style={{width:"600px", height:"400px"}} />
         </div>
     </div>
     <div className='second-container'>
-            <img src='12.png' style={{width: "100%", height: "550px", marginTop:"-60px"}} />
+            <img src='12.png' alt="" style={{width: "100%", height: "550px", marginTop:"-60px"}} />
         <div className='text-catalogue'>
           <h2  data-languagePartIdentifier= "innovative_living" className='catalogue-p'>Innovative Living, Intelligent Solutions</h2>
           <p  data-languagePartIdentifier= "innovative_living_desc" className='catalogue-p'>
@@ -67,11 +67,11 @@ const Catalogue = () => {
           </p>
         </div>
         <div className='image-container'>
-        <img src='house1.png' style={{width:"600px", height:"400px"}} />
+        <img src='house1.png' alt="" style={{width:"600px", height:"400px"}} />
         </div>
     </div>
     <div className='third-container'>
-            <img src='13.jpg' style={{width: "100%", height: "550px", marginTop:"-60px"}} />
+            <img src='13.jpg' alt="" style={{width: "100%", height: "550px", marginTop:"-60px"}} />
         <div className='text-catalogue'>
           <h2  data-languagePartIdentifier= "future_of_luxury" className='catalogue-p'>Future of Luxury Living on Yachts</h2>
           <p   data-languagePartIdentifier= "future_of_luxury_desc" className='catalogue-p'>
@@ -82,7 +82,7 @@ const Catalogue = () => {
           </p>
         </div>
         <div className='image-container'>
-        <img src='boat.png' style={{width:"580px", height:"393px"}} />
+        <img src='boat.png' alt="" style={{width:"580px", height:"393px"}} />
         </div>
     </div>
      </div>

@@ -8,7 +8,7 @@ const ImgSection = () => {
   return (
     <section className='imgSection'>
         <div className='cover' style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img className='section-img' src='Chat Bot (13).png' style={{width: "100%", height: "100%"}} />
+            <img className='section-img' alt="" src='Chat Bot (13).png' style={{width: "100%", height: "100%"}} />
             <div className='term' >
         <p className='img-text'>
         Temp sensor animation, giff or image
@@ -16,7 +16,7 @@ const ImgSection = () => {
         </div>
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img className='section-img' src='Chat Bot (14).png' style={{width: "100%", height: "100%",marginTop:"-60px"}} />
+            <img className='section-img' alt="" src='Chat Bot (14).png' style={{width: "100%", height: "100%",marginTop:"-60px"}} />
             <div className='term'>
         <p className='img-text'>
         Air Quality sensoranimation, giff or image
@@ -24,7 +24,7 @@ const ImgSection = () => {
         </div>
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img className='section-img' src='Chat Bot (15).png' style={{width: "100%", height: "100%", marginTop:"-60px"}} />
+            <img className='section-img' alt="" src='Chat Bot (15).png' style={{width: "100%", height: "100%", marginTop:"-60px"}} />
             <div  className='term' >
         <p className='img-text'>
         Humidity sensor animation, giff or image
@@ -47,7 +47,7 @@ const ImgSection = () => {
           </div>
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-        <img className='section-img' src='Chat Bot (16).png' style={{ width: '100%', height: '100%', marginTop:"-40px" }} />
+        <img className='section-img' alt="" src='Chat Bot (16).png' style={{ width: '100%', height: '100%', marginTop:"-40px" }} />
         <div className='term-center' >
         <p>
             Temp control module and actuators animation, giff or image
@@ -67,7 +67,7 @@ const ImgSection = () => {
           </div>
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-        <img className='section-img' src='Chat Bot (17).png' style={{width: "100%", height: "100%"}} />
+        <img className='section-img' alt="" src='Chat Bot (17).png' style={{width: "100%", height: "100%"}} />
         <div className='term-right' >
         <p className='imgText'>
         Door and window contact sensor animation, giff or image
@@ -75,7 +75,7 @@ const ImgSection = () => {
         </div>
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-        <img className='section-img' src='Chat Bot (18).png' style={{width: "100%", height: "100%", marginTop:"-60px"}} />
+        <img className='section-img' alt="" src='Chat Bot (18).png' style={{width: "100%", height: "100%", marginTop:"-60px"}} />
         <div  className='term-right' >
         <p className='imgText'>
         Motion detector animation, giff or image
@@ -101,7 +101,7 @@ const ImgSection = () => {
           </div>
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-        <img className='section-img' src='Chat Bot (19).png' style={{width: "100%", height: "100%"}} />
+        <img className='section-img' alt="" src='Chat Bot (19).png' style={{width: "100%", height: "100%"}} />
         <div  className='term-center'>
         <p className='img-text'>
         Water leak detector animation, giff or image

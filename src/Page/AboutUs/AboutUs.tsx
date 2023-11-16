@@ -11,7 +11,7 @@ const AboutUs = () => {
     <div>
       <section className='header'>
         <div className='gradient' style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img src='il_1588xN 2.png' style={{width: "100%", height: "100%"}}/>
+            <img src='il_1588xN 2.png' alt="" style={{width: "100%", height: "100%"}}/>
             <div style={{ position: 'absolute', top: '30%', left: '0', transform: 'translate(30%, -50%)', textAlign: 'center', background: '#FFE39B', width: '20%', padding: '30px' }}>
             <p className='img-text'>
             Animation or image
@@ -25,7 +25,7 @@ const AboutUs = () => {
       </section>
     </div>
     <div className='aboutLeft'  style={{ position: 'relative', width: '100%', height: '100%', top:"-50%"}}>
-    <img src='Chat Bot (5).png' style={{width: "100%", height: "100%"}} />
+    <img src='Chat Bot (5).png' alt="" style={{width: "100%", height: "100%"}} />
     <div className='about-containerLeft'>
           <p className='about-text' style={{padding:"20px", textAlign:"center"}}>
         At BeeHive Smart Homes, we're dedicated to reshaping the way you live. Our journey began with a vision of bringing intelligent solutions into everyday life, 
@@ -36,7 +36,7 @@ const AboutUs = () => {
         </div>
     </div>
     <div className='about' style={{ position: 'relative', width: '100%', height: '100%'}}>
-    <img src='Chat Bot (4).png' style={{width: "100%", height: "100%"}} />
+    <img src='Chat Bot (4).png' alt="" style={{width: "100%", height: "100%"}} />
     <div className='about-container'>
           <p className='about-text' style={{padding:"20px", textAlign:"center"}}>
           As we stand at the intersection of innovation and human-centered design, our mission remains crystal clear: to empower you with solutions that seamlessly adapt to your lifestyle. 

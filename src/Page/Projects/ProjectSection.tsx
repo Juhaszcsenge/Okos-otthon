@@ -16,7 +16,7 @@ const ProjectSection = () => {
     <div>
       <section className='header'>
         <div className='gradient' style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img src='il_1588xN 2.png' style={{width: "100%", height: "100%"}}/>
+            <img src='il_1588xN 2.png' alt="" style={{width: "100%", height: "100%"}}/>
             <div style={{ position: 'absolute', top: '30%', left: '0', transform: 'translate(30%, -50%)', textAlign: 'center', background: '#FFE39B', width: '20%', padding: '30px' }}>
             <p className='img-text'>
             Animation or image
@@ -31,13 +31,13 @@ respecting architectural and innovative expressions.</p>
       </section>
     </div>
     <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-    <img src='Chat Bot (11).png' style={{width: "100%", height: "100%"}} />
+    <img src='Chat Bot (11).png' alt="" style={{width: "100%", height: "100%"}} />
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img className="chatBot1" src='Chat Bot (10).png' style={{width: "100%", height: "100%"}} />
+            <img className="chatBot1" alt="" src='Chat Bot (10).png' style={{width: "100%", height: "100%"}} />
         </div>
         <div className='imgContainer' style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img src='Chat Bot (9).png' style={{width: "100%", height: "100%"}} />
+            <img src='Chat Bot (9).png' alt="" style={{width: "100%", height: "100%"}} />
         <div className='contentContainer'>
           <h2  data-languagePartIdentifier= "blok57">Blok 57</h2>
           <h2  data-languagePartIdentifier="blok57_desc_short">Residental building in Pula, Croatia</h2>
@@ -52,13 +52,13 @@ respecting architectural and innovative expressions.</p>
         </div>
     </div>
     <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-    <img src='Chat Bot (8).png' style={{width: "100%", height: "100%"}} />
+    <img src='Chat Bot (8).png' alt="" style={{width: "100%", height: "100%"}} />
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img src='Chat Bot (7).png' style={{width: "100%", height: "100%"}} />
+            <img src='Chat Bot (7).png' alt="" style={{width: "100%", height: "100%"}} />
         </div>
         <div className='imgContainer' style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img src='Chat Bot (6).png' style={{width: "100%", height: "100%"}} />
+            <img src='Chat Bot (6).png' alt="" style={{width: "100%", height: "100%"}} />
         <div className='otherContainer'>
           <h2  data-languagePartIdentifier= "odra">Odra</h2>
           <h2 data-languagePartIdentifier= "odra_desc_short">Residental Complex in Odra, Croatia</h2>

@@ -12,9 +12,9 @@ const Partners = () => {
             for sustained project success and delighted users.</p>
           </div>
           <div className='img-partner'>
-          <img src='logo.png' />
-          <img src='logo.png'/>
-          <img src='logo.png'/>
+          <img src='logo.png' alt="" />
+          <img src='logo.png' alt=""/>
+          <img src='logo.png' alt=""/>
           </div>
         </div>
     </section>
