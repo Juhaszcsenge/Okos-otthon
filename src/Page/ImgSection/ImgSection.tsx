@@ -25,7 +25,7 @@ const ImgSection = () => {
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
             <img className='section-img' alt="" src='Chat Bot (15).png' style={{width: "100%", height: "100%", marginTop:"-60px"}} />
-            <div  className='term' >
+            <div  className='term-up' >
         <p className='img-text'>
         Humidity sensor animation, giff or image
         </p>

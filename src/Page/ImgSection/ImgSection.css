@@ -72,6 +72,17 @@ padding: 50px;
    padding: 30px;
 }
 
+.term-up{
+  position: absolute;
+   top: 25%;
+   left: 0;
+   transform: translate(30%, -50%); 
+   text-align: center;
+   background: #FFE39B;
+   width: 30%; 
+   padding: 30px;
+}
+
 .term-right{
   position: absolute;
   top: 50%;
@@ -144,6 +155,24 @@ padding: 50px;
 }
 
 
+
+@media (max-width: 788px) {
+  .term-up {
+   position: absolute;
+   top: 15%;
+   left: 0;
+   transform: translate(30%, -50%); 
+   text-align: center;
+   background: #FFE39B;
+   width: 70%; 
+   padding: 20px;
+     
+  }
+}
+
+
+
+
 @media (max-width: 768px) {
     .cover,
     .smart-climate,
@@ -172,16 +201,48 @@ padding: 50px;
 
 
 @media (max-width: 768px){
-  .term{
+  .term {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #FFE39B;
-    width: 60%; 
+    width: 80%; 
+    padding: 20px;
+  }
+
+  .term-up{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFE39B;
+    width: 80%; 
+    padding: 20px;
+  }
+
+  .term-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFE39B;
+    width: 80%; 
+    padding: 20px;
+  }
+
+  .term-right{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFE39B;
+    width: 80%; 
     padding: 20px;
   }
 }
+
+
 
 
 .smart-climate {
@@ -277,10 +338,10 @@ padding: 50px;
 }
 
 @media (max-width: 768px) {
-  .term {
+  /* .term {
     position: static;
     transform: none;
-  }
+  } */
 
   .section-img {
     margin-top: -60px; 
