@@ -20,10 +20,9 @@ const ProjectSection = () => {
             Animation or image
             </p>
             </div>
-            <div className='textContainer' style={{position: "relative", height: "315px", flexShrink: "0", padding:"30px",  background: "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0E0E0E 66.15%)"}}>
+            <div className='textContainer'>
             <h2 style={{color: "white", textAlign: "center", gap:"10px", alignItems:"center",fontSize:"52px", fontWeight:"400", letterSpacing:"0.2px", lineHeight:"62px", fontStyle:"normal", fontFamily:"Roboto"}}>Projects</h2>
-            <p  style={{color: "white", gap:"10px", alignItems:"center", textAlign: "center", fontFamily:"Roboto", fontSize:"20px", fontStyle:"normal", fontWeight:"400", letterSpacing:"0.2px", lineHeight:"150%"}}>Our company provide innovative integrated solutions and strive to create good partnerships, 
-respecting architectural and innovative expressions.</p>
+            <p  style={{color: "white", gap:"10px", alignItems:"center", textAlign: "center", fontFamily:"Roboto", fontSize:"20px", fontStyle:"normal", fontWeight:"400", letterSpacing:"0.2px", lineHeight:"150%"}}>Our company provide innovative integrated solutions and strive to create good partnerships, respecting architectural and innovative expressions.</p>
             </div>
         </div>
       </section>

@@ -1,8 +1,8 @@
 .about-container{
-left:83.4%;
-width: 30.05%;
-height: 81.2%;
-position: absolute;
+  left:80%;
+  width: 35%;
+  height: 81.2%;
+  position: absolute;
   top: 49%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -15,16 +15,16 @@ position: absolute;
 
 
 .about-containerLeft{
-  width: 30.05%;
-height: 81.2%;
-position: absolute;
+  width: 37%;
+  height: 81.2%;
+  position: absolute;
   top: 49%;
   transform: translate(-50%, -50%);
   text-align: center;
   background: rgba(217, 217, 217, 0.67);
   padding: 30px;
   box-sizing: border-box;
-   right: 50%;  
+  right: 42%;  
 }
 
 

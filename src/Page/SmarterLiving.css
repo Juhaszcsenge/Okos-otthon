@@ -30,6 +30,17 @@ h2{
           justify-content: center;
 }
 
+.smarterliving{
+  border: 1px solid var(--light-text, #FFF); 
+  padding: 20px; 
+  box-shadow: 0px 4px 31px 0px var(--dark-background, #181818); 
+  background:  #181818; 
+  color: white;
+  display: block; 
+  margin: 0 auto;
+  width: 180px;
+}
+
 @media (max-width: 768px) {
   .smarte-living {
     padding: 1rem;

@@ -12,15 +12,15 @@ const Navbar = () => {
   return (
     <div id='home' className={nav ? 'navbar navbar-bg' : 'navbar'} style={{backgroundColor: "black"}}>
     <div className={nav ? 'logo dark' : 'logo'}>
-      <li>LOGO</li>
+      <li style={{listStyle: "none"}}>LOGO</li>
       </div>
       <ul className="nav-menu">
       <Link to='/'></Link>
-      <Link to='/home'><li data-languagePartIdentifier="m_home">Home</li></Link>
+      <Link to='/home'><li data-languagePartIdentifier="m_home" style={{marginLeft: "200px"}}>Home</li></Link>
       <Link to='/projects'><li data-languagePartIdentifier="m_projects">Projects</li></Link>
       <Link to='/catalogues'><li data-languagePartIdentifier="m_catalogues">Catalogues</li></Link>
       <Link to='/aboutUs' ><li data-languagePartIdentifier="m_aboutus" >About Us</li></Link>
-      <Link to='/contact'><li data-languagePartIdentifier="m_contact">Contact</li></Link> 
+      <Link to='/contact'><li data-languagePartIdentifier="m_contact" style={{marginRight: "200px"}}>Contact</li></Link> 
       </ul>
       {/*@ts-ignore*/}
       <button switchlanguage='en' style={{background: "black", color: "white", border: "black", whiteSpace: "1", letterSpacing:"1.5px", cursor: "pointer"}}>EN/</button> <br></br>

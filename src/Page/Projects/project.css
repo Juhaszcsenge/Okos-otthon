@@ -1,11 +1,11 @@
 .contentContainer{
      position: absolute; 
-     top: -43%;
+     top: -51%;
      right: 0;
      transform: translate(0, -50%); 
      background: rgba(217, 217, 217, 0.71);
      width: 40%; 
-     /* height: 712px; */
+     height: 910px;
      padding: 50px;
 }
 
@@ -16,6 +16,7 @@
     background: rgba(217, 217, 217, 0.71);
     width: 100%;
     padding: 20px;
+   height: 315px;
   }
   
   /* Text styles */
@@ -81,7 +82,7 @@
     transform: translate(0, -50%); 
     background: rgba(217, 217, 217, 0.71);
     width: 40%; 
-    height: 712px;
+    height: 912px;
     padding: 50px;
   }
 

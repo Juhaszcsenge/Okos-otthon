@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Catalogue.css'
 import Footer from '../../Component/Footer';
 
@@ -15,6 +15,12 @@ const Catalogue = () => {
   const pdf3 = () => {
     window.open('/Yachts.pdf'); 
   };
+
+
+  useEffect(() => {
+    languagePreferencesSystem.reloadAllLanguageResources()
+  }, []);
+
 
   return (
     <>
