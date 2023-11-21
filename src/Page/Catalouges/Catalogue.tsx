@@ -50,7 +50,7 @@ const Catalogue = () => {
          Welcome to our world of intelligent solutions and innovative technology. Our Smart Home Catalog provides a curated selection of cutting-edge products and systems designed to enhance your lifestyle. Explore the details, benefits, 
           and opportunities that await you, and embark on a journey to make your home smarter, more comfortable, and more secure. 
           Your connected, convenient, and efficient living experience starts here. Let's redefine the way you live.
-          <button className='catalogueButton' onClick={pdf} >Read More</button>
+         
           </p>
         </div>
        
@@ -67,7 +67,7 @@ const Catalogue = () => {
           From energy-efficient climate control to advanced security, seamless automation, and immersive entertainment, our smart home features elevate your lifestyle. 
           Explore the endless possibilities, discover the convenience, and embrace a new era where your home adapts to you. 
           Welcome to the future of smart living, where every day is extraordinary.
-          <button className='catalogueButton'  data-languagePartIdentifier= "read_more" onClick={pdf2}>Read More</button>
+         
           </p>
         </div>
         <div className='image-container'>
@@ -77,16 +77,17 @@ const Catalogue = () => {
     <div className='third-container'>
             <img src='13.jpg' alt="" style={{width: "100%", height: "550px", marginTop:"-60px"}} />
         <div className='text-catalogue'>
+        <div className='image-container'>
+            <img src='boat.png' alt="" style={{width:"580px", height:"393px"}} />
+            </div>
           <h2  data-languagePartIdentifier= "future_of_luxury" className='catalogue-p'>Future of Luxury Living on Yachts</h2>
           <p   data-languagePartIdentifier= "future_of_luxury_desc" className='catalogue-p'>
           Experience the epitome of modern comfort and convenience as we introduce Smart Home Solutions for Yachts. 
           Our cutting-edge technology seamlessly integrates with your onboard environment, offering intuitive control over lighting, climate, entertainment, security, and more. 
-          Elevate your yachting experience, whether it's for relaxation, entertainment, or work, with a level of customization and luxury that's unparalleled.
-          <button className='catalogueButton'  data-languagePartIdentifier= "read_more" onClick={pdf3}>Read More</button>
+          Elevate your yachting experience, whether it's for relaxation, entertainment, or work, with a level of customization and luxury that's unparalleled.  
+          <button onClick={pdf3} style={{background: "black"}} className='text-button'>jfkhdsklsdjrf</button>
           </p>
-        </div>
-        <div className='image-container'>
-        <img src='boat.png' alt="" style={{width:"580px", height:"393px"}} />
+          
         </div>
     </div>
      </div>

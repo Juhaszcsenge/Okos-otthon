@@ -21,9 +21,6 @@ const HomePage = () => {
         <p className='home-p'>Intuitive Interface</p>
       </div>
       <div className='home-table' style={{background: "#D9D9D9", boxShadow: "0px 4px 31px 0px rgba(0, 0, 0, 0.15)", position:"relative", bottom:"-470px", left:"230px"}}>
-       {/* <div className='home-text2' style={{textAlign: "center", paddingTop:"-25px", padding: "40px"}}>
-       <p className='home-p2' style={{ textAlign: "center", background:"#FFE39B" }}>Tablet</p>
-       </div> */}
        </div>
        </div>
     </section>

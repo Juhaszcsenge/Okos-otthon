@@ -84,6 +84,12 @@
   /* padding-top: 100px; */
 }
 
+.text-button{
+  text-align: center; /* Középre igazítás */
+  margin-top: 20px;
+  margin-top: 10px;
+}
+
 
 .third-container{
   position: relative;
