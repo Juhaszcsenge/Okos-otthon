@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import './ImgSection.css'
+import ReactPlayer from 'react-player';
 
 const ImgSection = () => {
   useEffect(() => {
@@ -38,6 +39,17 @@ const ImgSection = () => {
           The air quality sensor guarantees the air you breathe is consistently pure and fresh, seamlessly adjusting ventilation for optimal well-being. Meanwhile, the humidity sensor maintains the perfect balance to prevent excess dryness or moisture, ensuring your comfort and health. 
           These cutting-edge sensors effortlessly integrate into your smart home, fostering a harmonious and healthier living environment where technology adapts to your needs, enhancing your lifestyle with unparalleled convenience and well-being.
           </p>
+          <ReactPlayer
+                url={'/air.mp4'}
+                playing={true}
+                loop={true}
+                muted={true}
+                width="90%"
+                height="50%"
+                object-fit="cover"
+                filter="brightness(60%)"
+                style={{ position: 'sticky',  marginBottom: "60px", justifyContent:"center"}}
+              />
         </div>
         </div>
         <div className='smart-climate' style={{marginTop: "20px"}}>
@@ -54,9 +66,23 @@ const ImgSection = () => {
         </p>
         </div>
         <div className='comfort-container' >
-          <p className='img-text' data-languagePartIdentifier= "smart_climate_desc_long">Optimize your home's climate with our Temperature Control Module and Heating Actuators. 
+          <p className='img-text-comfort-container' data-languagePartIdentifier= "smart_climate_desc_long">Optimize your home's climate with our Temperature Control Module and Heating Actuators. 
             Ensure comfort and energy efficiency with precision temperature management and heating control for each room. 
             Experience a smarter, more eco-friendly way of living.</p>
+            <div className='heating-video'>
+            <ReactPlayer
+                url={'/heating.mp4'}
+                playing={true}
+                loop={true}
+                muted={true}
+                width="90%"
+                height="50%"
+                object-fit="cover"
+                filter="brightness(60%)"
+                style={{ position: 'sticky',  marginBottom: "60px", justifyContent:"center"}}
+              />
+            </div>
+           
         </div>
       </div>
         <div className='smart-climate'>
@@ -90,6 +116,17 @@ const ImgSection = () => {
             while our Motion Detectors keep a watchful eye on your home, detecting any movement and ensuring peace of mind. 
             Embrace a more secure and efficient living space where technology works to enhance your safety and daily life.
           </p>
+          <ReactPlayer
+                url={'/motion.mp4'}
+                playing={true}
+                loop={true}
+                muted={true}
+                width="90%"
+                height="50%"
+                object-fit="cover"
+                filter="brightness(60%)"
+                style={{ position: 'sticky',  marginBottom: "60px", justifyContent:"center"}}
+              />
         </div>
         </div>
         <div className='smart-climate'>
@@ -112,6 +149,17 @@ const ImgSection = () => {
         Safeguard your home with our advanced Water Leak Sensor, your trusted Early Warning System against potential water disasters. 
         This intelligent sensor monitors for early leaks, ensuring timely alerts to prevent issues. Enjoy peace, knowing your home is protected.
         </p>
+        <ReactPlayer
+                url={'/water.mp4'}
+                playing={true}
+                loop={true}
+                muted={true}
+                width="90%"
+                height="50%"
+                object-fit="cover"
+                filter="brightness(60%)"
+                style={{ position: 'sticky',  marginBottom: "60px", justifyContent:"center"}}
+              />
       </div>
         </div>
         <div className='smart-climate'>
@@ -120,9 +168,20 @@ const ImgSection = () => {
             <p className='black-p' data-languagePartIdentifier= "beehive_energy_saving_desc">Beehive AI transforms your Home into a smart and energy-efficient living space. 
                 Harnessing advanced AI technology, it optimizes energy usage by learning your preferences and adjusting heating, 
                 cooling, and lighting accordingly. Experience reduced energy bills and a greener lifestyle, all with the touch of a button.</p>
-            <div className='first-section'>
+            {/* <div className='first-section'> */}
+            <ReactPlayer
+                url={'/main.mp4'}
+                playing={true}
+                loop={true}
+                muted={true}
+                width="90%"
+                height="50%"
+                object-fit="cover"
+                filter="brightness(60%)"
+                style={{ position: 'sticky',  marginBottom: "60px", justifyContent:"center"}}
+              />
             {/* <div className='last-section'> */}
-            </div>
+            {/* </div> */}
             {/* </div> */}
             <button style={{border: "1px solid var(--light-text, #FFF)", padding: "20px", margin:"40px", boxShadow: "0px 4px 31px 0px rgba(0, 0, 0, 0.15)", background:"black", color:"white"}}>Save Energy</button>
           </div>
