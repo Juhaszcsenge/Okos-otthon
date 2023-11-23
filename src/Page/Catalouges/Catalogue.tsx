@@ -73,7 +73,7 @@ const Catalogue = () => {
           Our cutting-edge technology seamlessly integrates with your onboard environment, offering intuitive control over lighting, climate, entertainment, security, and more. 
           Elevate your yachting experience, whether it's for relaxation, entertainment, or work, with a level of customization and luxury that's unparalleled.  
        
-          </p>
+         </p>
          
         </div>
     </div>
