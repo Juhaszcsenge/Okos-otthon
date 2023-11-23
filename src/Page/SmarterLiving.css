@@ -16,6 +16,7 @@ h2{
           font-family: Roboto;
           font-weight: 400;
           letter-spacing: 0.2px;
+          padding-top: 20px;
 }
 
 .smart-btn{
@@ -44,10 +45,13 @@ h2{
 @media (max-width: 768px) {
   .smarte-living {
     padding: 1rem;
+    margin-bottom: 30px;
   }
 
   .smarte-living h2 {
     font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 20px;
   }
 
   .smarte-living p {

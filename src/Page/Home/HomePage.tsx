@@ -30,7 +30,7 @@ const HomePage = () => {
                 muted={true}
                 filter="brightness(60%)"
                 width="1000px"
-                height="50%"
+                height="100%"
                 style={{justifyContent:"center" }}
               />
       

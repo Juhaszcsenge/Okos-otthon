@@ -44,7 +44,7 @@ const ImgSection = () => {
                 playing={true}
                 loop={true}
                 muted={true}
-                width="90%"
+                width=""
                 height="50%"
                 object-fit="cover"
                 filter="brightness(60%)"
@@ -75,11 +75,11 @@ const ImgSection = () => {
                 playing={true}
                 loop={true}
                 muted={true}
-                width="90%"
+                width=""
                 height="50%"
                 object-fit="cover"
                 filter="brightness(60%)"
-                style={{ position: 'sticky',  marginBottom: "60px", justifyContent:"center"}}
+                style={{ position: 'sticky',  justifyContent:"center"}}
               />
             </div>
            
@@ -121,11 +121,11 @@ const ImgSection = () => {
                 playing={true}
                 loop={true}
                 muted={true}
-                width="90%"
+                width=""
                 height="50%"
                 object-fit="cover"
                 filter="brightness(60%)"
-                style={{ position: 'sticky',  marginBottom: "60px", justifyContent:"center"}}
+                style={{ position: 'sticky',  marginBottom: "60px", justifyContent:"center", padding: "30px"}}
               />
         </div>
         </div>
@@ -154,11 +154,11 @@ const ImgSection = () => {
                 playing={true}
                 loop={true}
                 muted={true}
-                width="90%"
+                width=""
                 height="50%"
                 object-fit="cover"
                 filter="brightness(60%)"
-                style={{ position: 'sticky',  marginBottom: "60px", justifyContent:"center"}}
+                style={{ position: 'sticky',  marginBottom: "60px", justifyContent:"center", padding: "30px"}}
               />
       </div>
         </div>
