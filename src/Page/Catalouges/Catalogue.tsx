@@ -4,17 +4,17 @@ import Footer from '../../Component/Footer';
 
 const Catalogue = () => {
 
-  const pdf = () => {
-    window.open('/SmartHome_Brochure_HR.pdf'); 
-  };
+  // const pdf = () => {
+  //   window.open('/SmartHome_Brochure_HR.pdf'); 
+  // };
 
-  const pdf2 = () => {
-    window.open('/SmartHome_Brochure.pdf'); 
-  };
+  // const pdf2 = () => {
+  //   window.open('/SmartHome_Brochure.pdf'); 
+  // };
 
-  const pdf3 = () => {
-    window.open('/Yachts.pdf'); 
-  };
+  // const pdf3 = () => {
+  //   window.open('/Yachts.pdf'); 
+  // };
 
 
   useEffect(() => {
@@ -84,7 +84,7 @@ const Catalogue = () => {
           Elevate your yachting experience, whether it's for relaxation, entertainment, or work, with a level of customization and luxury that's unparalleled.  
        
           </p>
-          <button onClick={pdf3} style={{background: "black"}} className='text-button'>jfkhdsklsdjrf</button>
+          <button  style={{background: "black"}} className='text-button'>jfkhdsklsdjrf</button>
         </div>
     </div>
      </div>

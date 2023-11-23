@@ -218,11 +218,6 @@ padding: 50px;
 
 
 @media (max-width: 768px) {
-    .cover,
-    .smart-climate,
-    .validation {
-      /* padding: 15px; */
-    }
   
     .cover img,
     .smart-climate img,
