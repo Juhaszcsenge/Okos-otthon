@@ -14,7 +14,7 @@ letter-spacing: 0.2px;
 
 
 .heating-video{
-  height: 500px;
+  /* height: 500px; */
   margin-top: 35px;
 
 }
@@ -361,7 +361,7 @@ padding: 50px;
 
 .term-optimize{
   position: absolute; 
-  top: 70%;
+  top: 50%;
   right: 0;
   transform: translate(0, -50%); 
   background: rgba(217, 217, 217, 0.71);

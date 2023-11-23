@@ -14,20 +14,17 @@ const AboutUs = () => {
     <div>
       <section className='header'>
         <div className='gradient' style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img src='il_1588xN 2.png' alt="" style={{width: "100%", height: "100%"}}/>
-            <div style={{ position: 'absolute', top: '30%', left: '0', transform: 'translate(30%, -50%)', textAlign: 'center', background: '#FFE39B', width: '20%', padding: '30px' }}>
-            <p className='img-text-about'>
-            Animation or image
-            </p>
+            <img className='first-img' src='il_1588xN 2.png' alt="" style={{width: "100%", height: "100%"}}/>
+            <div style={{ position: 'absolute', top: '30%', left: '0', transform: 'translate(30%, -50%)', textAlign: 'center',width: '20%', padding: '30px' }}>
             </div>
-            <div  style={{position: "relative", height: "315px", flexShrink: "0", padding:"30px", background: "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0E0E0E 66.15%)"}}>
+            <div  className='gradient-text'>
             <h2 style={{color: "white", textAlign: "center", gap:"10px", alignItems:"center",fontSize:"52px", fontWeight:"400", letterSpacing:"0.2px", lineHeight:"62px", fontStyle:"normal", fontFamily:"Roboto"}}>About Us</h2>
-            <p  style={{color: "white", gap:"10px", alignItems:"center", textAlign: "center", fontFamily:"Roboto", fontSize:"20px", fontStyle:"normal", fontWeight:"400", letterSpacing:"0.2px", lineHeight:"150%"}}>Guiding You Through the World of Smart Living: Meet Our Team of Experts in Home Automation and Innovation</p>
+            <p className='first-header'  style={{color: "white", gap:"10px", alignItems:"center", textAlign: "center", fontFamily:"Roboto", fontSize:"20px", fontStyle:"normal", fontWeight:"400", letterSpacing:"0.2px", lineHeight:"150%"}}>Guiding You Through the World of Smart Living: Meet Our Team of Experts in Home Automation and Innovation</p>
             </div>
         </div>
       </section>
     </div>
-    <div className='aboutLeft'  style={{ position: 'relative', width: '100%', height: '100%', top:"-50%"}}>
+    <div className='aboutLeft'>
     <img src='Chat Bot (5).png' alt="" style={{width: "100%", height: "100%"}} />
     <div className='about-containerLeft'>
           <p className='about-text' style={{padding:"20px", textAlign:"center"}} data-languagePartIdentifier="aboutus_part1">

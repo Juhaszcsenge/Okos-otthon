@@ -62,7 +62,7 @@ background: var(--dark-background, #181818);
 
 .card {
     flex: 0 0 calc(100% - 20px); /* Módosítás: Kártyák 768px alatt egymás alatt */
-    padding-left: 15px;
+    /* padding-left: 15px; */
 }
   
   .card > .section {
@@ -96,6 +96,7 @@ background: var(--dark-background, #181818);
   @media (max-width: 480px) {
     .card > .section {
       flex: 0 0 calc(100% - 20px);
+      padding-left: 15px;
      
     }
   }

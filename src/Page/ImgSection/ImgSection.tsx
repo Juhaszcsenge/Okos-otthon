@@ -10,31 +10,31 @@ const ImgSection = () => {
     <section className='imgSection'>
         <div className='cover' style={{ position: 'relative', width: '100%', height: '100%' }}>
             <img className='section-img' alt="" src='Chat Bot (13).png' style={{width: "100%", height: "100%"}} />
-            <div className='term' >
-        <p className='img-text'>
+            {/* <div className='term' >
+       <p className='img-text'>
         Temp sensor animation, giff or image
-        </p>
-        </div>
+        </p> 
+        </div> */}
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
             <img className='section-img' alt="" src='Chat Bot (14).png' style={{width: "100%", height: "100%",marginTop:"-60px"}} />
-            <div className='term'>
-        <p className='img-text'>
+            {/* <div className='term'>
+         <p className='img-text'>
         Air Quality sensoranimation, giff or image
-        </p>
-        </div>
+        </p> 
+        </div> */}
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
             <img className='section-img' alt="" src='Chat Bot (15).png' style={{width: "100%", height: "100%", marginTop:"-60px"}} />
-            <div  className='term-up' >
+            {/* <div  className='term-up' >
         <p className='img-text'>
         Humidity sensor animation, giff or image
-        </p>
-        </div>
+        </p> 
+        </div> */}
         <div className='contentContainer'>
           <h2 data-languagePartIdentifier="your_comfort">Your Comfort, Our Priority:</h2>
           <h2 data-languagePartIdentifier="advanced_sensor">Advanced sensor technology</h2>
-          <p className='imgText' style={{padding:"30px", textAlign: "left", marginBottom:"30px"}} data-languagePartIdentifier="advanced_sensor_desc">
+          <p className='imgText' style={{padding:"30px", textAlign: "left"}} data-languagePartIdentifier="advanced_sensor_desc">
           Discover the essence of smart living through our advanced sensors. Our temperature sensor takes the role of your comfort curator, diligently adjusting each room's climate to create an ideal living space. 
           The air quality sensor guarantees the air you breathe is consistently pure and fresh, seamlessly adjusting ventilation for optimal well-being. Meanwhile, the humidity sensor maintains the perfect balance to prevent excess dryness or moisture, ensuring your comfort and health. 
           These cutting-edge sensors effortlessly integrate into your smart home, fostering a harmonious and healthier living environment where technology adapts to your needs, enhancing your lifestyle with unparalleled convenience and well-being.
@@ -48,7 +48,7 @@ const ImgSection = () => {
                 height="50%"
                 object-fit="cover"
                 filter="brightness(60%)"
-                style={{ position: 'sticky',  marginBottom: "60px", justifyContent:"center"}}
+                style={{ position: 'sticky',  marginBottom: "60px", justifyContent:"center", padding: "30px"}}
               />
         </div>
         </div>
@@ -60,11 +60,11 @@ const ImgSection = () => {
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
         <img className='section-img' alt="" src='Chat Bot (16).png' style={{ width: '100%', height: '100%', marginTop:"-40px" }} />
-        <div className='term-center' >
-        <p>
+        {/* <div className='term-center' >
+         <p>
             Temp control module and actuators animation, giff or image
-        </p>
-        </div>
+        </p> 
+        </div> */}
         <div className='comfort-container' >
           <p className='img-text-comfort-container' data-languagePartIdentifier= "smart_climate_desc_long">Optimize your home's climate with our Temperature Control Module and Heating Actuators. 
             Ensure comfort and energy efficiency with precision temperature management and heating control for each room. 
@@ -94,19 +94,19 @@ const ImgSection = () => {
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
         <img className='section-img' alt="" src='Chat Bot (17).png' style={{width: "100%", height: "100%"}} />
-        <div className='term-right' >
-        <p className='imgText'>
+        {/* <div className='term-right' >
+         <p className='imgText'>
         Door and window contact sensor animation, giff or image
-        </p>
-        </div>
+        </p> 
+        </div> */}
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
         <img className='section-img' alt="" src='Chat Bot (18).png' style={{width: "100%", height: "100%", marginTop:"-60px"}} />
-        <div  className='term-right-down' >
-        <p className='imgText'>
+        {/* <div  className='term-right-down' >
+         <p className='imgText'>
         Motion detector animation, giff or image
-        </p>
-        </div>
+        </p> 
+        </div> */}
         <div className='keeping-home'>
           <h2 className='keeping-h2'  data-languagePartIdentifier= "keeping_your_home_safe">Keeping Your Home Safe:</h2>
           <h2  className='keeping-h2' data-languagePartIdentifier= "smart_security_solutions">Smart Security Solutions </h2>
@@ -139,11 +139,11 @@ const ImgSection = () => {
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
         <img className='section-img' alt="" src='Chat Bot (19).png' style={{width: "100%", height: "100%"}} />
-        <div  className='term-center'>
+        {/* <div  className='term-center'>
         <p className='img-text'>
         Water leak detector animation, giff or image
         </p>
-        </div>
+        </div> */}
         <div  className='term-optimize'>
         <p className='img-text-safeguard' style={{ padding: '20px' }} data-languagePartIdentifier=  "realtime_home_management_desc_long">
         Safeguard your home with our advanced Water Leak Sensor, your trusted Early Warning System against potential water disasters. 

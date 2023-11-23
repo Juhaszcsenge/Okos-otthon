@@ -14,20 +14,20 @@ const ProjectSection = () => {
     <div>
       <section className='header'>
         <div className='gradient' style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img src='il_1588xN 2.png' alt="" style={{width: "100%", height: "100%"}}/>
-            <div style={{ position: 'absolute', top: '30%', left: '0', transform: 'translate(30%, -50%)', textAlign: 'center', background: '#FFE39B', width: '20%', padding: '30px' }}>
-            <p className='img-text'>
+            <img className='first-img' src='il_1588xN 2.png' alt="" style={{width: "100%", height: "100%"}}/>
+            <div style={{ position: 'absolute', top: '30%', left: '0', transform: 'translate(30%, -50%)', textAlign: 'center',  width: '20%', padding: '30px' }}>
+            {/* <p className='img-text'>
             Animation or image
-            </p>
+            </p> */}
             </div>
             <div className='textContainer'>
             <h2 style={{color: "white", textAlign: "center", gap:"10px", alignItems:"center",fontSize:"52px", fontWeight:"400", letterSpacing:"0.2px", lineHeight:"62px", fontStyle:"normal", fontFamily:"Roboto"}}>Projects</h2>
-            <p  style={{color: "white", gap:"10px", alignItems:"center", textAlign: "center", fontFamily:"Roboto", fontSize:"20px", fontStyle:"normal", fontWeight:"400", letterSpacing:"0.2px", lineHeight:"150%"}}>Our company provide innovative integrated solutions and strive to create good partnerships, respecting architectural and innovative expressions.</p>
+            <p className='first-header' style={{color: "white", gap:"10px", alignItems:"center", textAlign: "center", fontFamily:"Roboto", fontSize:"20px", fontStyle:"normal", fontWeight:"400", letterSpacing:"0.2px", lineHeight:"150%"}}>Our company provide innovative integrated solutions and strive to create good partnerships, respecting architectural and innovative expressions.</p>
             </div>
         </div>
       </section>
     </div>
-    <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+    <div className='project-head'>
     <img src='Chat Bot (11).png' alt="" style={{width: "100%", height: "100%"}} />
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
