@@ -75,7 +75,7 @@ const Catalogue = () => {
        
          </p>
          
-        </div>
+    </div>
     </div>
      </div>
     </section>
