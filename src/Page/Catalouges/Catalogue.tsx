@@ -4,17 +4,7 @@ import Footer from '../../Component/Footer';
 
 const Catalogue = () => {
 
-  // const pdf = () => {
-  //   window.open('/SmartHome_Brochure_HR.pdf'); 
-  // };
 
-  // const pdf2 = () => {
-  //   window.open('/SmartHome_Brochure.pdf'); 
-  // };
-
-  // const pdf3 = () => {
-  //   window.open('/Yachts.pdf'); 
-  // };
 
 
   useEffect(() => {
