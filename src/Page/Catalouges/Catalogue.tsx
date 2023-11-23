@@ -74,7 +74,7 @@ const Catalogue = () => {
           Elevate your yachting experience, whether it's for relaxation, entertainment, or work, with a level of customization and luxury that's unparalleled.  
        
           </p>
-          <button  style={{background: "black"}} className='text-button'>jfkhdsklsdjrf</button>
+         
         </div>
     </div>
      </div>
