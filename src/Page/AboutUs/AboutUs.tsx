@@ -18,8 +18,8 @@ const AboutUs = () => {
             <div style={{ position: 'absolute', top: '30%', left: '0', transform: 'translate(30%, -50%)', textAlign: 'center',width: '20%', padding: '30px' }}>
             </div>
             <div  className='gradient-text'>
-            <h2 style={{color: "white", textAlign: "center", gap:"10px", alignItems:"center",fontSize:"52px", fontWeight:"400", letterSpacing:"0.2px", lineHeight:"62px", fontStyle:"normal", fontFamily:"Roboto"}}>About Us</h2>
-            <p className='first-header'  style={{color: "white", gap:"10px", alignItems:"center", textAlign: "center", fontFamily:"Roboto", fontSize:"20px", fontStyle:"normal", fontWeight:"400", letterSpacing:"0.2px", lineHeight:"150%"}}>Guiding You Through the World of Smart Living: Meet Our Team of Experts in Home Automation and Innovation</p>
+            <h2 className='header-h2'>About Us</h2>
+            <p className='first-header'>Guiding You Through the World of Smart Living: Meet Our Team of Experts in Home Automation and Innovation</p>
             </div>
         </div>
       </section>
@@ -27,21 +27,21 @@ const AboutUs = () => {
     <div className='aboutLeft'>
     <img src='Chat Bot (5).png' alt="" style={{width: "100%", height: "100%"}} />
     <div className='about-containerLeft'>
-          <p className='about-text' style={{padding:"20px", textAlign:"center"}} data-languagePartIdentifier="aboutus_part1">
-        At BeeHive Smart Homes, we're dedicated to reshaping the way you live. Our journey began with a vision of bringing intelligent solutions into everyday life, 
-        simplifying and enhancing your home experience. With a passionate team of experts, we've transformed that vision into reality. 
-        From smart home systems that prioritize convenience, security, and efficiency to integrated solutions that elevate modern living, we're at the forefront of innovation.</p>
-        <p className='img-text' style={{padding:"20px", textAlign:"center"}}  >Our commitment extends beyond technology; it's about understanding your unique needs and aspirations. We're your partner in creating a smarter, more comfortable, and safer living space. Each project we undertake is a testament to our relentless pursuit of excellence. 
-        We invite you to join us on this exciting journey as we redefine smart living, one home at a time."</p>
+          <p  className='about-text' data-languagePartIdentifier="aboutus_part1">At BeeHive Smart Homes, we're dedicated to reshaping the way you live. Our journey began with a vision of bringing intelligent solutions into everyday life, simplifying and enhancing your home experience. 
+          With a passionate team of experts, we've transformed that vision into reality. 
+          From smart home systems that prioritize convenience, security, and efficiency to integrated solutions that elevate modern living, we're at the forefront of innovation.</p>
+          <p className='about-text'  data-languagePartIdentifier="our_commited">Our commitment extends beyond technology; it's about understanding your unique needs and aspirations. We're your partner in creating a smarter, more comfortable, and safer living space. 
+          Each project we undertake is a testament to our relentless pursuit of excellence. 
+          We invite you to join us on this exciting journey as we redefine smart living, one home at a time."</p>
         </div>
     </div>
     <div className='about' style={{ position: 'relative', width: '100%', height: '100%'}}>
     <img src='Chat Bot (4).png' alt="" style={{width: "100%", height: "100%"}} />
     <div className='about-container'>
-          <p className='about-text' style={{padding:"20px", textAlign:"center"}} data-languagePartIdentifier="aboutus_part2">
+          <p className='about-text'  data-languagePartIdentifier="aboutus_part2">
           As we stand at the intersection of innovation and human-centered design, our mission remains crystal clear: to empower you with solutions that seamlessly adapt to your lifestyle. 
           Our journey is marked by collaborations with leading construction firms and esteemed partners, working together to create spaces that harmonize technology and aesthetics.</p>
-        <p className='about-text' style={{padding:"20px", textAlign:"center"}}>Our commitment extends beyond technology; it's about understanding your unique needs and aspirations. We're your partner in creating a smarter, more comfortable, and safer living space. Each project we undertake is a testament to our relentless pursuit of excellence. 
+        <p className='about-text' >Our commitment extends beyond technology; it's about understanding your unique needs and aspirations. We're your partner in creating a smarter, more comfortable, and safer living space. Each project we undertake is a testament to our relentless pursuit of excellence. 
         We invite you to join us on this exciting journey as we redefine smart living, one home at a time."</p>
     </div>
     </div>

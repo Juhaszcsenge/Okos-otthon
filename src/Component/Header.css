@@ -65,7 +65,7 @@
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0E0E0E 66.15%);
   } */
   
-  h2 {
+  .header-h2 {
     color: white;
     text-align: center;
     gap: 10px;
@@ -78,7 +78,7 @@
     font-family: 'Roboto', sans-serif;
   }
   
-  p {
+  .first-header {
     /* color: white; */
     gap: 10px;
     align-items: center;

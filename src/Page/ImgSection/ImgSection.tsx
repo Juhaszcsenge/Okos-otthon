@@ -17,7 +17,7 @@ const ImgSection = () => {
         </div> */}
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img className='section-img' alt="" src='Chat Bot (14).png' style={{width: "100%", height: "100%",marginTop:"-60px"}} />
+            <img className='section-img' alt="" src='Chat Bot (14).png' style={{width: "100%", height: "100%"}} />
             {/* <div className='term'>
          <p className='img-text'>
         Air Quality sensoranimation, giff or image
@@ -25,13 +25,13 @@ const ImgSection = () => {
         </div> */}
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img className='section-img' alt="" src='Chat Bot (15).png' style={{width: "100%", height: "100%", marginTop:"-60px"}} />
+            <img className='section-img' alt="" src='Chat Bot (15).png' style={{width: "100%", height: "100%"}} />
             {/* <div  className='term-up' >
         <p className='img-text'>
         Humidity sensor animation, giff or image
         </p> 
         </div> */}
-        <div className='contentContainer'>
+        <div className='advancedContainer'>
           <h2 data-languagePartIdentifier="your_comfort">Your Comfort, Our Priority:</h2>
           <h2 data-languagePartIdentifier="advanced_sensor">Advanced sensor technology</h2>
           <p className='imgText' style={{padding:"30px", textAlign: "left"}} data-languagePartIdentifier="advanced_sensor_desc">
@@ -54,7 +54,7 @@ const ImgSection = () => {
         </div>
         <div className='smart-climate' style={{marginTop: "20px"}}>
           <div className='validation' style={{background: "var(--dark-background, #181818)"}}>
-            <h2 style={{textAlign:"center"}} data-languagePartIdentifier= "smart_climate">Smart Climate Solutions</h2>
+            <h2 className='validation-h2' style={{textAlign:"center", color: "white"}} data-languagePartIdentifier= "smart_climate">Smart Climate Solutions</h2>
             <p className='black-p' data-languagePartIdentifier= "smart_climate_desc_short">Elevate your environment with our advanced climate control solutions, crafting a personalised Home haven</p>
           </div>
         </div>
@@ -66,7 +66,7 @@ const ImgSection = () => {
         </p> 
         </div> */}
         <div className='comfort-container' >
-          <p className='img-text-comfort-container' data-languagePartIdentifier= "smart_climate_desc_long">Optimize your home's climate with our Temperature Control Module and Heating Actuators. 
+          <p className='img-text-comfort-container' data-languagePartIdentifier= "smart_climate_desc_long" style={{padding: "20px"}}>Optimize your home's climate with our Temperature Control Module and Heating Actuators. 
             Ensure comfort and energy efficiency with precision temperature management and heating control for each room. 
             Experience a smarter, more eco-friendly way of living.</p>
             <div className='heating-video'>
@@ -101,7 +101,7 @@ const ImgSection = () => {
         </div> */}
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-        <img className='section-img' alt="" src='Chat Bot (18).png' style={{width: "100%", height: "100%", marginTop:"-60px"}} />
+        <img className='section-img' alt="" src='Chat Bot (18).png' style={{width: "100%", height: "100%"}} />
         {/* <div  className='term-right-down' >
          <p className='imgText'>
         Motion detector animation, giff or image

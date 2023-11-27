@@ -10,33 +10,53 @@
     text-align: center;
 }
 
+
+.form{
+    width: 500px;
+}
+
 .child {
     display: inline-block;
     padding: 1rem 1rem;
     vertical-align: middle;
     /* width: 30%;
     height: 50%; */
+    margin: 60px;
+    margin-right: 70px
+}
+
+@media screen and (max-width: 500px){
+    .child{
+        margin: 0px;
+        margin-right: 0px;
+    }
+
+    .form{
+        width: 300px;
+    }
 }
 
 .classic {
-    font-family: Roboto;
+    color: white;
+    font-family: Roboto, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 1.2px;
-    padding-right: 200px; 
+    /* padding-right: 200px;  */
+    padding-bottom: 15px;
 }
 
 .input-box {
-width: 100%;
-padding: 17.049px 27.279px;
+width: 90%;
+padding: 20px;
 flex-direction: column;
 align-items: flex-start;   
 }
 
 input {
-    width: 100%;
+    width: 90%;
     padding: 10px; 
     border-radius: 5px;
     border: 1px solid #FFF;
@@ -45,7 +65,7 @@ input {
 
 .first {
     color: #FFF;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -72,16 +92,17 @@ ul {
 
 .btn {
     height: 52px;
-    width: 100%;
+    width: 50%;
+    margin-right: 150px;
     margin-top: 25px;
     align-items: center;
     flex-shrink: 0;
 }
 
 .message-box {
-    width: 100%;
+    width: 90%;
     height: 86px;
-    padding: 17.049px 27.279px;
+    padding: 20px;
     flex-direction: column;
     align-items: flex-start;
 }
@@ -117,12 +138,12 @@ h3 {
 
 @media screen and (max-width: 1206px) {
     .parent {
-        margin-top: -100px;
+        margin-top: -200px;
     }
 
-    .child {
+    /* .child {
         margin: 20px;
-    }
+    } */
 
     .header {
         width: 100%;
@@ -144,14 +165,25 @@ h3 {
     }
 }
 
+
+
+
+@media only screen and (min-width: 1024px) and (max-width: 3500px){
+    .parent{
+        margin-top: -200px;
+    }
+}
+
+
+
 @media screen and (max-width: 700px) {
     .parent {
         margin-top: -100px;
     }
 
-    .child {
+    /* .child {
         margin: 20px;
-    }
+    } */
 
     .header {
         width: 100%;
@@ -178,9 +210,9 @@ h3 {
         margin-top: -100px;
     }
 
-    .child {
+    /* .child {
         margin: 20px;
-    }
+    } */
 
     .header {
         width: 100%;
@@ -212,6 +244,10 @@ h3 {
         width: 100%;
         padding: 20px;
         top: -150px;
+    }
+    
+    .form{
+        width: 250px;
     }
 }
 
@@ -258,14 +294,14 @@ h3 {
   
   @media (max-width: 768px){
     .parent{
-      height: 300px;
-      margin-top: 200px;
+      /* height: 300px; */
+      /* margin-top: 200px; */
   }
   }
   
   @media (max-width: 576px){
     .parent{
-      height: 300px;
-      margin-top: 400px;
+      /* height: 300px; */
+      margin-top: 260px;
   }
   }

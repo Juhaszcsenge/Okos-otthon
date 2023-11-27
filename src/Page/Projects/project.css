@@ -20,7 +20,7 @@
   }
   
   /* Text styles */
-  .textContainer h2 {
+  /* .textContainer h2 {
     text-align: left;
     font-size: 31px;
     font-style: normal;
@@ -29,15 +29,15 @@
     letter-spacing: 0.2px;
     color: black;
     margin: 20px;
-  }
+  } */
   
-  .textContainer p {
-    /* padding: 30px; */
+  /* .textContainer p {
+     padding: 30px; 
     text-align: left;
     margin-bottom: 30px;
     font-family: 'Roboto', sans-serif;
     color: black;
-  }
+  } */
   
 
 .imgContainer{
@@ -69,11 +69,15 @@
   }
   
   .contentContainer-p {
-    padding: 30px;
-    text-align: left;
-    margin-bottom: 30px;
-    font-family: 'Roboto', sans-serif;
     color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
   }
 
   .otherContainer{
@@ -144,7 +148,7 @@
         text-align: center;
     }
 
-    .textContainer h2 {
+    /* .textContainer h2 {
         text-align: left;
         font-size: 31px;
         font-style: normal;
@@ -153,13 +157,13 @@
         letter-spacing: 0.2px;
         color: white;
         margin: 20px;
-      }
+      } */
       
-      .textContainer p {
-        /* padding: 30px; */
+      /* .textContainer p {
+        padding: 30px; 
         text-align: left;
         margin-bottom: 30px;
-    }
+    } */
       .projectButton{
         display: flex;
         text-align: center;
@@ -178,7 +182,7 @@
 
     .imgText {
         color: white;
-        font-family: Roboto;
+        font-family: Roboto, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -190,6 +194,34 @@
       
 }
 
+.header-h2 {
+  color: white;
+  text-align: center;
+  gap: 10px;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 62px;
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.first-header{
+  color: white;
+  gap: 10px;
+  align-items: center;
+   text-align: center;
+   font-family: Roboto, sans-serif;  
+   font-size: 20px;
+   font-style: normal; 
+   font-weight: 400;
+  letter-spacing: 0.2px; 
+  line-height: 150%;
+ } 
+
 
 .project-head{
   position: relative; 
@@ -198,17 +230,24 @@
 
 }
 
+@media (max-width: 1100px){
+  .project-head {
+    /* height: 300px; */
+    margin-top: -200px;
+}
+}
+
 @media (max-width: 768px){
   .project-head {
-    height: 300px;
+    /* height: 300px; */
     margin-top: 200px;
 }
 }
 
 @media (max-width: 576px){
   .project-head {
-    height: 300px;
-    margin-top: 400px;
+    /* height: 300px; */
+    margin-top: 350px;
 }
 }
 

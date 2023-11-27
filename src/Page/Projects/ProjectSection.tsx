@@ -21,8 +21,8 @@ const ProjectSection = () => {
             </p> */}
             </div>
             <div className='textContainer'>
-            <h2 style={{color: "white", textAlign: "center", gap:"10px", alignItems:"center",fontSize:"52px", fontWeight:"400", letterSpacing:"0.2px", lineHeight:"62px", fontStyle:"normal", fontFamily:"Roboto"}}>Projects</h2>
-            <p className='first-header' style={{color: "white", gap:"10px", alignItems:"center", textAlign: "center", fontFamily:"Roboto", fontSize:"20px", fontStyle:"normal", fontWeight:"400", letterSpacing:"0.2px", lineHeight:"150%"}}>Our company provide innovative integrated solutions and strive to create good partnerships, respecting architectural and innovative expressions.</p>
+            <h2 className='header-h2'>Projects</h2>
+            <p className='first-header'>Our company provide innovative integrated solutions and strive to create good partnerships, respecting architectural and innovative expressions.</p>
             </div>
         </div>
       </section>
@@ -43,7 +43,7 @@ const ProjectSection = () => {
           Equipped with BeeHiveSG Smart Home systems, these apartments redefine modern living. 
           Residents experience both convenience and comfort, thanks to our meticulously designed on-site building control system, offering immediate usability
           </p>
-          <button className='projectButton'  data-languagePartIdentifier="elevate_your_home_desc">
+          <button className='projectButton'  data-languagePartIdentifier="read_more">
             Read more
           </button>
         </div>
@@ -63,7 +63,7 @@ const ProjectSection = () => {
           Partnering with the main contractor for the 'Odra' residential complex development in Croatia, we're bringing smart living to 24 buildings and 300 apartments, 
           enhancing convenience, security, and energy efficiency. Our high-quality systems make life in this development even more exceptional.
           </p>
-          <button className='projectButton'  data-languagePartIdentifier="elevate_your_home_desc">
+          <button className='projectButton'  data-languagePartIdentifier="read_more">
             Read more
           </button>
         </div>

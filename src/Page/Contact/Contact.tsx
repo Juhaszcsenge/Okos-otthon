@@ -14,18 +14,18 @@ const Contact = () => {
             <div style={{ position: 'absolute', top: '30%', left: '0', transform: 'translate(30%, -50%)', textAlign: 'center',  width: '20%', padding: '30px' }}>
             </div>
             <div className='gradient-text' style={{position: "relative", width: "100%", height: "315px", flexShrink: "0", padding:"30px",  background: "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0E0E0E 66.15%)"}}>
-            <h2 style={{color: "white", textAlign: "center", gap:"10px", alignItems:"center",fontSize:"52px", fontWeight:"400", letterSpacing:"0.2px", lineHeight:"62px", fontStyle:"normal", fontFamily:"Roboto"}}>Contact</h2>
+            <h2 className='header-h2'>Contact</h2>
             </div>
         </div>
       </section>
     </div>
-      <div className='parent' style={{marginTop:"-200px"}}>
+      <div className='parent'>
         <Row>
-          <div className='child' style={{ display: "inline-block",  margin:"60px"}}>
+          <div className='child' style={{ display: "inline-block"}}>
             <Col lg='6' md='6' style={{ alignItems: "center"}}>
               <div style={{ color: "white"}}>
                 <h2 className='first'>Get in touch with us</h2>
-                <h2 className='ContactTitle'>Phone Number</h2>
+                <h2 style={{ paddingRight: "200px", paddingBottom: "15px", paddingTop: "50px" }}>Phone Number</h2>
                 <div style={{ width: "18px", height: "14px", background: "#D9D9D9" }}>
                   <p style={{ whiteSpace: "nowrap", paddingLeft: "50px", textAlign: "center", marginTop: "20px" }}>Office Number +36 1234567899</p>
                 </div>
@@ -53,14 +53,15 @@ const Contact = () => {
             </Col>
           </div>
 
-          <div className='child' style={{ margin:"60px"}}>
+          <div className='child' >
             <Col lg='6' md='6' className="d-flex justify-content-end align-items-center">
               <h2 className='classic'>Send message</h2>
-              <form>
-                <div className="input-box">
+              <div style={{ paddingRight: "200px", paddingBottom: "15px", paddingTop: "50px" }}></div>
+              <form className='form' >
+                <div className="input-box">                
                   <input type="text" required placeholder="Your Full Name" name="name" />
                 </div>
-                <div className="input-box">
+                <div className="input-box">               
                   <input type="phone" required placeholder="+36 01201123" name="phone" />
                 </div>
                 <div className="input-box">
