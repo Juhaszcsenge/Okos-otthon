@@ -292,12 +292,7 @@ h3 {
   
   }
   
-  @media (max-width: 768px){
-    .parent{
-      /* height: 300px; */
-      /* margin-top: 200px; */
-  }
-  }
+  
   
   @media (max-width: 576px){
     .parent{

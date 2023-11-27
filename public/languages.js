@@ -145,7 +145,7 @@ class LanguagePreference {
         let i = 0;
         while(i < all_language_elements.length){
             // We need to check if current element from all_language_elements contains data-toggle="tooltip" attribute, because if it contains we don't want to change the text
-            if(all_language_elements[i].getAttribute("data-toggle") != "tooltip"){
+            if(all_language_elements[i].getAttribute("data-toggle") !== "tooltip"){
                 // It does not contain, so we can apply the required text
                 all_language_elements[i].innerHTML = this.languages[selectedLanguage][all_language_elements[i].getAttribute("data-languagePartIdentifier")];
             }

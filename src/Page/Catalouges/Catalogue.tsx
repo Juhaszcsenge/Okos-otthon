@@ -5,7 +5,9 @@ import Footer from '../../Component/Footer';
 const Catalogue = () => {
 
 
-
+  const pdf = () => {
+      window.open('/SmartHome_Brochure_HR.pdf'); 
+    };
 
   useEffect(() => {
     languagePreferencesSystem.reloadAllLanguageResources()
@@ -30,38 +32,42 @@ const Catalogue = () => {
     <section>
     <div>
     <div className='main-container'>
-            <img src='11.jpg' alt="" style={{width: "100%", height: "550px", marginTop:"-60px"}} />
+      <div className='back-col'>
+      <img className='background-image' src='11.jpg' alt="" />
+      </div>
         <div className='text-catalogue'>
-          <h2  data-languagePartIdentifier="discover_the_future" className='catalogue-p'>Discover the Future of Smart Living</h2>
+          <h2  data-languagePartIdentifier="discover_the_future" className='catalogue-h2'>Discover the Future of Smart Living</h2>
           <p  data-languagePartIdentifier="discover_the_future_desc" className='catalogue-p'>
          Welcome to our world of intelligent solutions and innovative technology. Our Smart Home Catalog provides a curated selection of cutting-edge products and systems designed to enhance your lifestyle. Explore the details, benefits, 
           and opportunities that await you, and embark on a journey to make your home smarter, more comfortable, and more secure. 
           Your connected, convenient, and efficient living experience starts here. Let's redefine the way you live.
-         
           </p>
+          <button className='catalouge-button' onClick={pdf}>Read More</button>
         </div>
        
         <div className='image-container'>
-        <img src='house2.png' alt="" style={{width:"600px", height:"400px"}} />
+        <img src='house2.png' alt=""  />
         </div>
     </div>
-    <div className='second-container'>
-            <img src='12.png' alt="" style={{width: "100%", height: "550px", marginTop:"-60px"}} />
+     {/* <div className='text-catalogue'>
+     <div className='back-col'>
+            <img className='background-image' src='12.png' alt=""/>
+       </div>
         <div className='text-catalogue'>
-          <h2  data-languagePartIdentifier= "innovative_living" className='catalogue-p'>Innovative Living, Intelligent Solutions</h2>
+          <h2  data-languagePartIdentifier= "innovative_living" className='catalogue-h2'>Innovative Living, Intelligent Solutions</h2>
           <p  data-languagePartIdentifier= "innovative_living_desc" className='catalogue-p'>
           Our Smart Home Presentation unveils an array of intelligent solutions that redefine modern living. 
           From energy-efficient climate control to advanced security, seamless automation, and immersive entertainment, our smart home features elevate your lifestyle. 
           Explore the endless possibilities, discover the convenience, and embrace a new era where your home adapts to you. 
           Welcome to the future of smart living, where every day is extraordinary.
-         
           </p>
+           <button className='catalouge-button' onClick={pdf}>Read More</button>
         </div>
         <div className='image-container'>
-        <img src='house1.png' alt="" style={{width:"600px", height:"400px"}} />
+        <img src='house1.png' alt=""/>
         </div>
-    </div>
-    <div className='third-container'>
+    </div> */}
+    {/* <div className='third-container'>
             <img src='13.jpg' alt="" style={{width: "100%", height: "550px", marginTop:"-60px"}} />
         <div className='text-catalogue'>
         <div className='image-container'>
@@ -76,7 +82,7 @@ const Catalogue = () => {
          </p>
          
     </div>
-    </div>
+    </div> */}
      </div>
     </section>
     <Footer/>

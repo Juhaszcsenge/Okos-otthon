@@ -23,7 +23,7 @@ const Contact = () => {
         <Row>
           <div className='child' style={{ display: "inline-block"}}>
             <Col lg='6' md='6' style={{ alignItems: "center"}}>
-              <div style={{ color: "white"}}>
+              <div className='form' style={{ color: "white"}}>
                 <h2 className='first'>Get in touch with us</h2>
                 <h2 style={{ paddingRight: "200px", paddingBottom: "15px", paddingTop: "50px" }}>Phone Number</h2>
                 <div style={{ width: "18px", height: "14px", background: "#D9D9D9" }}>

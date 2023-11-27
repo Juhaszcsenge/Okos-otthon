@@ -241,12 +241,7 @@
   top:-50%;
 }
 
-@media (max-width: 768px){
-  .aboutLeft {
-    /* height: 300px; */
-    /* margin-top: 300px; */
-}
-}
+
 
 
 @media (max-width: 570px){
