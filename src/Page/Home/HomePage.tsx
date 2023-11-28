@@ -5,10 +5,8 @@ import Card from '../Card/Card';
 import SmarterLiving from '../SmarterLiving';
 import ImgSection from '../ImgSection/ImgSection';
 import Footer from '../../Component/Footer';
-import ReactPlayer from 'react-player';
 import MobileUi from '../FloorPlan/MobileUi';
-import FloorPlan from '../FloorPlan/FloorPlan';
-import Kitchen from '../FloorPlan/Kitchen';
+
 
 
 
