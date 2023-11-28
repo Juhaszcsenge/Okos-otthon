@@ -38,7 +38,7 @@ const ProjectSection = () => {
         <div className='contentContainer'>
           <h2  data-languagePartIdentifier= "blok57">Blok 57</h2>
           <h2  data-languagePartIdentifier="blok57_desc_short">Residental building in Pula, Croatia</h2>
-          <p  data-languagePartIdentifier= "blok57_desc_long" className='contentContainer-p' style={{padding:"30px", textAlign: "left", marginBottom:"30px"}}>
+          <p  data-languagePartIdentifier= "blok57_desc_long" className='imgText' style={{padding:"30px", textAlign: "left", marginBottom:"30px"}}>
           In collaboration with a leading construction firm, we've introduced 30 cutting-edge residential units in Pula, Croatia's city center. 
           Equipped with BeeHiveSG Smart Home systems, these apartments redefine modern living. 
           Residents experience both convenience and comfort, thanks to our meticulously designed on-site building control system, offering immediate usability
