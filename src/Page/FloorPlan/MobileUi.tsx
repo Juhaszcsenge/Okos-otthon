@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './mobileUi.css'
 
 
 
@@ -41,7 +42,7 @@ type Room = {
 
 
 return (
-    <div style={{ display: 'flex', flexDirection: 'column', backgroundColor: "white", borderRadius:"20px", padding: "20px", height: "580px", marginLeft:"50%" }}>
+    <div className='flex-container' >
       {Array.from({ length: rooms.length / 2 }, (_, rowIndex) => (
         <div key={rowIndex} style={{ display: 'flex' }}>
           {Array.from({ length: 2 }, (_, colIndex) => {
