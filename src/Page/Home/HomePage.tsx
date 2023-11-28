@@ -6,6 +6,9 @@ import SmarterLiving from '../SmarterLiving';
 import ImgSection from '../ImgSection/ImgSection';
 import Footer from '../../Component/Footer';
 import ReactPlayer from 'react-player';
+import MobileUi from '../FloorPlan/MobileUi';
+import FloorPlan from '../FloorPlan/FloorPlan';
+import Kitchen from '../FloorPlan/Kitchen';
 
 
 
@@ -23,7 +26,7 @@ const HomePage = () => {
       </div> */}
       {/* <div className='home-table' style={{background: "#D9D9D9", boxShadow: "0px 4px 31px 0px rgba(0, 0, 0, 0.15)", position:"relative", bottom:"-470px", left:"230px"}}> */}
      
-      <ReactPlayer
+      {/* <ReactPlayer
                 url={'/main.mp4'}
                 playing={true}
                 loop={true}
@@ -32,11 +35,14 @@ const HomePage = () => {
                 width="1000px"
                 height="100%"
                 style={{justifyContent:"center" }}
-              />
+              /> */}
       
       
        {/* </div> */}
        {/* </div> */}
+       {/* <FloorPlan/> */}
+       {/* <Kitchen/> */}
+       <MobileUi/>
     </section>
     <Card/>
     <SmarterLiving/>

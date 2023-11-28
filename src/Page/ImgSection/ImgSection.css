@@ -28,13 +28,13 @@ letter-spacing: 0.2px;
   right: 0;
   transform: translate(0, -50%); 
   background: rgba(217, 217, 217, 0.71);
-  width: 40%; 
-  height: 1100px;
-  padding: 30px;
+  width: 50%; 
+  height: 980px;
+  padding: 60px;
 }
 
 
-@media (max-width: 1500px){
+@media (max-width: 1710px){
   .advancedContainer {
     position: absolute;
     top: -40%;
@@ -66,13 +66,25 @@ letter-spacing: 0.2px;
 }
 .advancedContainer h2 {
   text-align: left;
+  padding-top: 30px;
+  padding-left: 30px;
   font-size: 31px;
   font-style: normal;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   letter-spacing: 0.2px;
   color: black;
-  padding: 30px;
+}
+
+.advancedContainer h1 {
+  text-align: left;
+  padding-left: 30px;
+  font-size: 52px;
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  color: black;
 }
 
 .validation-h2{
@@ -105,13 +117,24 @@ letter-spacing: 0.2px;
 .keeping-h2{
 color: black;
 font-family: Roboto, sans-serif;
-font-size: 32px;
+font-size: 52px;
 font-style: normal;
 font-weight: 400;
 line-height: 62px; /* 119.231% */
 letter-spacing: 0.2px;
 padding-left: 30px;
 }
+
+.keeping-h1{
+  color: black;
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 62px; /* 119.231% */
+  letter-spacing: 0.2px;
+  padding-left: 30px;
+  }
 
 .keeping-imgText{
   color: black;
@@ -127,7 +150,7 @@ padding-left: 30px;
 
 .heating-video{
   /* height: 500px; */
-  margin-top: 35px;
+  margin-top: 60px;
 
 }
 
@@ -262,19 +285,28 @@ padding: 50px;
   left: 0;
   transform: translate(0, -50%); 
   background: rgba(217, 217, 217, 0.71);
-  width: 40%;
-  padding: 30px;
+  width: 50%;
+  height: 800px;
+  padding: 80px;
 }
 
 
-@media only screen and (max-width: 1679px) {
+@media only screen and (max-width: 1710px) {
   .keeping-home {
     top: 3%;
-    width: 50%;
     height: 800px;
     padding-bottom: 130px;
-  }
+    position: absolute;
+    /* top: -40%; */
+    right: 0;
+    transform: translate(0, -50%);
+    background: rgba(217, 217, 217, 0.71);
+    width: 60%;
+    /* height: 1100px; */
+    padding: 30px;
 }
+  }
+
 
 
 .imgText {
@@ -335,8 +367,8 @@ padding: 50px;
 
 .black-p{
   color: white;
-    /* text-align: center; */
-    text-align: left;
+    text-align: center;
+    /* text-align: left; */
     font-size: 20px;
     font-style: normal;
     font-family: 'Roboto', sans-serif;
@@ -482,7 +514,7 @@ padding: 50px;
   background: rgba(217, 217, 217, 0.71);
   width: 34%; 
   height: 90%;
-  padding: 50px;
+  padding: 80px;
 
 }
 

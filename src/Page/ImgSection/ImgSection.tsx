@@ -33,7 +33,7 @@ const ImgSection = () => {
         </div> */}
         <div className='advancedContainer'>
           <h2 data-languagePartIdentifier="your_comfort">Your Comfort, Our Priority:</h2>
-          <h2 data-languagePartIdentifier="advanced_sensor">Advanced sensor technology</h2>
+          <h1 data-languagePartIdentifier="advanced_sensor">Advanced sensor technology</h1>
           <p className='imgText' style={{padding:"30px", textAlign: "left"}} data-languagePartIdentifier="advanced_sensor_desc">
           Discover the essence of smart living through our advanced sensors. Our temperature sensor takes the role of your comfort curator, diligently adjusting each room's climate to create an ideal living space. 
           The air quality sensor guarantees the air you breathe is consistently pure and fresh, seamlessly adjusting ventilation for optimal well-being. Meanwhile, the humidity sensor maintains the perfect balance to prevent excess dryness or moisture, ensuring your comfort and health. 
@@ -109,7 +109,7 @@ const ImgSection = () => {
         </div> */}
         <div className='keeping-home'>
           <h2 className='keeping-h2'  data-languagePartIdentifier= "keeping_your_home_safe">Keeping Your Home Safe:</h2>
-          <h2  className='keeping-h2' data-languagePartIdentifier= "smart_security_solutions">Smart Security Solutions </h2>
+          <h1  className='keeping-h1' data-languagePartIdentifier= "smart_security_solutions">Smart Security Solutions </h1>
           <p  className='keeping-imgText' data-languagePartIdentifier= "smart_security_solutions_desc">
             Elevate your home's security and convenience with our Door and Window Contact Sensors and Motion Detectors. 
             Our Contact Sensors provide an added layer of protection by alerting you to door or window activity, 

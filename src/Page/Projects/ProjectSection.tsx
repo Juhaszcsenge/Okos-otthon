@@ -28,16 +28,16 @@ const ProjectSection = () => {
       </section>
     </div>
     <div className='project-head'>
-    <img src='Chat Bot (11).png' alt="" style={{width: "100%", height: "100%"}} />
+    <img className='section-img' src='Chat Bot (11).png' alt="" style={{width: "100%", height: "100%"}} />
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img className="chatBot1" alt="" src='Chat Bot (10).png' style={{width: "100%", height: "100%"}} />
+            <img  className='section-img' alt="" src='Chat Bot (10).png' style={{width: "100%", height: "100%"}} />
         </div>
         <div className='imgContainer' style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img src='Chat Bot (9).png' alt="" style={{width: "100%", height: "100%"}} />
+            <img className='section-img' src='Chat Bot (9).png' alt="" style={{width: "100%", height: "100%"}} />
         <div className='contentContainer'>
           <h2  data-languagePartIdentifier= "blok57">Blok 57</h2>
-          <h2  data-languagePartIdentifier="blok57_desc_short">Residental building in Pula, Croatia</h2>
+          <h1  data-languagePartIdentifier="blok57_desc_short">Residental building in Pula, Croatia</h1>
           <p  data-languagePartIdentifier= "blok57_desc_long" className='imgText' style={{padding:"30px", textAlign: "left", marginBottom:"30px"}}>
           In collaboration with a leading construction firm, we've introduced 30 cutting-edge residential units in Pula, Croatia's city center. 
           Equipped with BeeHiveSG Smart Home systems, these apartments redefine modern living. 
@@ -49,16 +49,16 @@ const ProjectSection = () => {
         </div>
     </div>
     <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-    <img src='Chat Bot (8).png' alt="" style={{width: "100%", height: "100%"}} />
+    <img  className='section-img' src='Chat Bot (8).png' alt="" style={{width: "100%", height: "100%"}} />
         </div>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img src='Chat Bot (7).png' alt="" style={{width: "100%", height: "100%"}} />
+            <img  className='section-img' src='Chat Bot (7).png' alt="" style={{width: "100%", height: "100%"}} />
         </div>
         <div className='imgContainer' style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img src='Chat Bot (6).png' alt="" style={{width: "100%", height: "100%"}} />
+            <img  className='section-img' src='Chat Bot (6).png' alt="" style={{width: "100%", height: "100%"}} />
         <div className='otherContainer'>
           <h2  data-languagePartIdentifier= "odra">Odra</h2>
-          <h2 data-languagePartIdentifier= "odra_desc_short">Residental Complex in Odra, Croatia</h2>
+          <h1 data-languagePartIdentifier= "odra_desc_short">Residental Complex in Odra, Croatia</h1>
           <p  data-languagePartIdentifier="odra_desc_long" className='imgText' style={{padding:"30px", textAlign: "left", marginBottom:"30px"}}>
           Partnering with the main contractor for the 'Odra' residential complex development in Croatia, we're bringing smart living to 24 buildings and 300 apartments, 
           enhancing convenience, security, and energy efficiency. Our high-quality systems make life in this development even more exceptional.

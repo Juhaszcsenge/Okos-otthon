@@ -7,7 +7,10 @@
   }
   
   .background-image img {
-    width: 100%;
+    background-size: cover;
+    /* background-image: url('11.jpg'); */
+    overflow: hidden;
+    /* width: 100%; */
     height: auto;
     display: block;
     background-color:  rgba(217, 217, 217, 0.67);

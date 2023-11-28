@@ -31,9 +31,9 @@ const Catalogue = () => {
     </div>
     <section>
     <div>
-    <div className='main-container'>
-      <div className='back-col'>
-      <img className='background-image' src='11.jpg' alt="" />
+    <div className='main-container' style={{width: "100%", overflow: "hidden"}}>
+      <div className='back-col' style={{ maxWidth: "100vw"}}>
+      <img className='background-image' src='11.jpg' alt="" style={{backgroundSize: "cover", overflow: "hidden", height: "auto"}} />
       </div>
         <div className='text-catalogue'>
           <h2  data-languagePartIdentifier="discover_the_future" className='catalogue-h2'>Discover the Future of Smart Living</h2>
