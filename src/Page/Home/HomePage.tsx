@@ -6,6 +6,7 @@ import SmarterLiving from '../SmarterLiving';
 import ImgSection from '../ImgSection/ImgSection';
 import Footer from '../../Component/Footer';
 import MobileUi from '../FloorPlan/MobileUi';
+import Pictures from '../FloorPlan/Pictures';
 
 
 
@@ -40,7 +41,8 @@ const HomePage = () => {
        {/* </div> */}
        {/* <FloorPlan/> */}
        {/* <Kitchen/> */}
-       <MobileUi/>
+       {/* <MobileUi/> */}
+       <Pictures/>
     </section>
     <Card/>
     <SmarterLiving/>

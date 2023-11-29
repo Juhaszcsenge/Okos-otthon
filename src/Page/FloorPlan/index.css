@@ -1,0 +1,228 @@
+/*CSS változók, ezeket írja felül az index JS az eventeken*/
+:root {
+    --rightBedRoom: 90%;
+    --leftBedRoom: 90%;
+    --kitchen: 90%;
+    --livingRoom: 90%;
+    --bathRoom: 90%;
+    --leftTerrace: 90%;
+    --topTerrace: 90%;
+    --leftHalf: 100%;
+    --rightHalf: 100%;
+}
+
+body {
+    background-color: rgb(66, 66, 66);
+}
+
+* {
+    transition: all 0.2s;
+}
+
+.container-pictures {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    /* margin: auto; */
+    overflow: hidden;
+    /* border-radius: 20px; */
+    /* border: solid 2px rgb(164, 164, 164); */
+    margin-bottom: 20px;
+    margin-left: 20%;
+}
+
+.houseImage IMG {
+    object-fit: cover;
+    width: 100%;
+    z-index: 10;
+}
+
+.houseImage {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.imageBlanket {
+    height: 100%;
+    width: 100%;
+    z-index: 15;
+    position: absolute;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
+    border-radius: 20px;
+    padding: 20px;
+    height: 580px;
+    margin-left: 50%;
+    /* width: 380px; */
+}
+
+.mobile-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    height: 580px;
+    margin-left: 70%;
+    width: 380px;
+    margin-top: -690px;
+}
+
+
+/*gyakorlatilag egy bootstrap grid felosztást csináltam bootstrap nélkül, így mivel %-os értékekben vannak a terület felhasználások, ezért amennyiben csökken vagy nő a fő container mérete, ezek lekövetik, így
+a felosztás responsive. Én speciel 16x16 kockára osztottam a képet, ezért a 6.25%-os értékek (1/16) méret, de természetesen mehetsz 20x20 al is és akkor 5%-osak az értékek, de akkor értelemszerűen 20 sorod és 20 oszlopod
+kell legyen a HTML-ben ahol ID-ket csak azért adtam minden egyes kockának, könnyebb legyen eligazodni amikor pakolod rájuk a classokat. 
+Természetesen minél több kockára osztod a képet annál pontosabban tudsz területeket világítani, de annál több a pepecselés is vele ;) */
+
+.blanketRows {
+    height: 6.25%;
+    display: flex;
+}
+
+.blanketCols {
+    opacity: 60%;
+    background-color: black;
+    width: 6.25%;
+}
+
+.halfCol {
+    display: flex;
+    background-color: unset;
+}
+
+.halfTile {
+    width: 50%;
+    height: 100%;
+}
+
+.leftHalf {
+    background-color: black;
+    opacity: var(--leftHalf);
+}
+
+.rightHalf {
+    background-color: black;
+    opacity: var(--rightHalf);
+
+}
+
+
+.rightBedRoom {
+    opacity: var(--rightBedRoom);
+}
+
+.leftBedRoom {
+    opacity: var(--leftBedRoom);
+}
+
+.livingRoom {
+    opacity: var(--livingRoom);
+}
+
+.kitchen {
+    opacity: var(--kitchen);
+}
+
+.bathRoom {
+    opacity: var(--bathRoom);
+}
+
+.leftTerrace {
+    opacity: var(--leftTerrace);
+}
+
+.topTerrace {
+    opacity: var(--topTerrace);
+}
+
+/* button {
+    font-size: 24px;
+    padding: 16px;
+    font-weight: 600;
+    background-color: rgb(36, 36, 36);
+    cursor: pointer;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    text-align: center;
+} */
+
+/* .buttons {
+    background: black;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: grey;
+    box-shadow: 0px 0px 1px 1px black;
+}
+
+.buttonBoxes {
+    text-align: center;
+    font-size: 24px;
+    background: rgb(99, 99, 99);
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 2px;
+} */
+
+.mainWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+/*mobil nézetben 90%-ra tettem a képernyőn betöltött szélességet a képnek, viszont landscape mobil nézetnek kellhet egy másik query további optimalizáláshoz magasság/szélesség értékekkel játszva */
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 96%;
+        font-size: 12px;
+        margin: 5px;
+    }
+
+    button {
+        font-size: 12px;
+    }
+
+    .buttonBoxes {
+        letter-spacing: 0px;
+        font-size: 12px;
+        margin: 8px;
+        color: white;
+        padding-top: 5px;
+    }
+    .buttons {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-height: 512px) {
+    .container {
+        width: 50%;
+        font-size: 12px;
+        margin: 3px;
+    }
+    .mainWrapper {
+        flex-direction: row;
+    }
+    .buttons {
+        width: 90%;
+        padding: 5px;
+    }
+    .buttonBoxes {
+        letter-spacing: 0px;
+        font-size: 12px;
+        margin: 3px;
+        color: white;
+        padding-top: 5px;
+    }
+}
