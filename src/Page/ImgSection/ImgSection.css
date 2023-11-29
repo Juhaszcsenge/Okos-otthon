@@ -486,6 +486,21 @@ padding: 50px;
   .validation {
     padding: 15px;
   }
+}
+
+  @media (max-width: 768px) {
+    .black-p{
+    color: white;
+    /* text-align: center; */
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    margin: 20px;
+    padding: 20px;
+    }
 
   /* .validation h2 {
     font-size: 1.5rem;
