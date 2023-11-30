@@ -77,11 +77,11 @@
 }
 
 
-@media screen and (min-width: 1200px) and (max-width: 2000px) {
+@media screen and (min-width: 1200px) and (max-width: 1980px) {
   .gradient-text {
     height: 315px; 
     width: 100%;
-    top: 1200px; 
+    top: 1300px; 
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0E0E0E 66.15%);
     flex-shrink: 0; 
     padding: 30px; 
