@@ -1,12 +1,12 @@
 /*CSS változók, ezeket írja felül az index JS az eventeken*/
 :root {
-    --rightBedRoom: 90%;
-    --leftBedRoom: 90%;
-    --kitchen: 90%;
-    --livingRoom: 90%;
-    --bathRoom: 90%;
-    --leftTerrace: 90%;
-    --topTerrace: 90%;
+    --rightBedRoom: 60%;
+    --leftBedRoom: 60%;
+    --kitchen: 60%;
+    --livingRoom: 60%;
+    --bathRoom: 60%;
+    --leftTerrace: 60%;
+    --topTerrace: 60%;
     --leftHalf: 100%;
     --rightHalf: 100%;
 }
@@ -29,6 +29,7 @@ body {
     /* border: solid 2px rgb(164, 164, 164); */
     margin-bottom: 20px;
     margin-left: 20%;
+    z-index: 0;
 }
 
 .houseImage IMG {
@@ -46,7 +47,7 @@ body {
 .imageBlanket {
     height: 100%;
     width: 100%;
-    z-index: 15;
+    z-index: 12;
     position: absolute;
 }
 
@@ -85,7 +86,7 @@ Természetesen minél több kockára osztod a képet annál pontosabban tudsz te
 }
 
 .blanketCols {
-    opacity: 60%;
+    opacity: 50%;
     background-color: black;
     width: 6.25%;
 }
@@ -111,6 +112,10 @@ Természetesen minél több kockára osztod a képet annál pontosabban tudsz te
 
 }
 
+.leftBathRoom{
+    background-color: black;
+    opacity: var(--leftBathRoom);
+}
 
 .rightBedRoom {
     opacity: var(--rightBedRoom);

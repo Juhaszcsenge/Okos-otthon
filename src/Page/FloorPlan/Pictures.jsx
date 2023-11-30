@@ -8,31 +8,31 @@ import './index.css'
 export default function Pictures() {
 
 
-  const rooms = [
-    { id: 'kitchen', img:'/image 1 (1).png',  name: 'Kitchen Light', title: 'Off' },
-    { id: 'kitchen', img:'/image 2.png',   name: 'Kitchen Light', title: 'On' },
-    { id: 'living-room', img:'/image 3 (1).png',   name: 'Living Room', title: 'Off' },
-    { id: 'living-room', img:'image 4.png',   name: 'Living Room', title: 'On' },
-    { id: 'bedroom', img:'/image 5 (1).png',   name: 'Dinning Room', title: 'Off' },
-    { id: 'bedroom', img:'/image 6.png',   name: 'Dinning Room', title: 'On' },
-    { id: 'bathroom1', img:'/image 8 (1).png',   name: 'Bathroom 1', title: 'Off' },
-    { id: 'bathroom1', img:'image 7.png',   name: 'Bathroom 1', title: 'On' },
-    { id: 'bathroom2', img:'/image 10 (1).png',   name: 'Bathroom 2', title: 'Off' },
-    { id: 'bathroom2', img:'/image 9.png',   name: 'Bathroom 2', title: 'On' },
-    { id: 'dinning-room', img:'/image 11 (1).png',   name: 'Bedroom', title: 'Off' },
-    { id: 'dinning-room', img:'/image 12.png',   name: 'Bedroom', title: 'On' },
-    { id: 'guest-room', img:'/image 13.png',   name: 'Guest Room', title: 'Off' },
-    { id: 'guest-room', img:'/image 14.png',   name: 'Guest Room', title: 'On' },
-    { id: 'terrace', img:'/image 15.png',   name: 'Terrace', title: 'Off' },
-    { id: 'terrace', img:'/image 16.png',   name: 'Terrace', title: 'On' },
-  ];
+  // const rooms = [
+  //   { id: 'kitchen', img:'/image 1 (1).png',  name: 'Kitchen Light', title: 'Off' },
+  //   { id: 'kitchen', img:'/image 2.png',   name: 'Kitchen Light', title: 'On' },
+  //   { id: 'living-room', img:'/image 3 (1).png',   name: 'Living Room', title: 'Off' },
+  //   { id: 'living-room', img:'image 4.png',   name: 'Living Room', title: 'On' },
+  //   { id: 'bedroom', img:'/image 5 (1).png',   name: 'Dinning Room', title: 'Off' },
+  //   { id: 'bedroom', img:'/image 6.png',   name: 'Dinning Room', title: 'On' },
+  //   { id: 'bathroom1', img:'/image 8 (1).png',   name: 'Bathroom 1', title: 'Off' },
+  //   { id: 'bathroom1', img:'image 7.png',   name: 'Bathroom 1', title: 'On' },
+  //   { id: 'bathroom2', img:'/image 10 (1).png',   name: 'Bathroom 2', title: 'Off' },
+  //   { id: 'bathroom2', img:'/image 9.png',   name: 'Bathroom 2', title: 'On' },
+  //   { id: 'dinning-room', img:'/image 11 (1).png',   name: 'Bedroom', title: 'Off' },
+  //   { id: 'dinning-room', img:'/image 12.png',   name: 'Bedroom', title: 'On' },
+  //   { id: 'guest-room', img:'/image 13.png',   name: 'Guest Room', title: 'Off' },
+  //   { id: 'guest-room', img:'/image 14.png',   name: 'Guest Room', title: 'On' },
+  //   { id: 'terrace', img:'/image 15.png',   name: 'Terrace', title: 'Off' },
+  //   { id: 'terrace', img:'/image 16.png',   name: 'Terrace', title: 'On' },
+  // ];
 
 
   const [selectedRoom, setSelectedRoom] = useState(null);
 
-  const handleLightSwitch = (roomId) => {
-    setSelectedRoom((prevRoom) => (prevRoom === roomId ? null : roomId));
-  };
+  // const handleLightSwitch = (roomId) => {
+  //   setSelectedRoom((prevRoom) => (prevRoom === roomId ? null : roomId));
+  // };
 
   const StyledButton = ({ onClick, isSelected, img }) => (
     <button
@@ -62,11 +62,11 @@ export default function Pictures() {
   }
 
   function leftBedRoomButtonOff() {
-    root.style.setProperty('--leftBedRoom', `${60}%`);
+    root.style.setProperty('--leftBedRoom', `${50}%`);
   }
 
   function rightBedRoomButtonOff() {
-    root.style.setProperty('--rightBedRoom', `${60}%`);
+    root.style.setProperty('--rightBedRoom', `${50}%`);
   }
 
   function rightBedRoomButtonOn() {
@@ -74,7 +74,7 @@ export default function Pictures() {
   }
 
   function kitchenButtonOff() {
-    root.style.setProperty('--kitchen', `${60}%`);
+    root.style.setProperty('--kitchen', `${50}%`);
   }
 
   function kitchenButtonOn() {
@@ -85,32 +85,33 @@ export default function Pictures() {
     root.style.setProperty('--leftTerrace',`${0}%`);
   }
   function leftTerraceButtonOff(){
-    root.style.setProperty('--leftTerrace',`${60}%`);
+    root.style.setProperty('--leftTerrace',`${50}%`);
   }
   function livingRoomButtonOn(){
     root.style.setProperty('--livingRoom',`${0}%`);
   }
   function livingRoomButtonOff(){
-    root.style.setProperty('--livingRoom',`${60}%`);
+    root.style.setProperty('--livingRoom',`${50}%`);
   }
  function topTerraceButtonOn(){
   root.style.setProperty('--topTerrace', `${0}%`);
  } 
  function topTerraceButtonOff(){
-  root.style.setProperty('--topTerrace', `${60}%`);
+  root.style.setProperty('--topTerrace', `${50}%`);
  }
  function leftTerraceButtonOn(){
   root.style.setProperty('--leftTerrace', `${0}%`);
  } 
  function leftTerraceButtonOff(){
-  root.style.setProperty('--leftTerrace', `${90}%`);
+  root.style.setProperty('--leftTerrace', `${50}%`);
  }
 function bathRoomButtonOn(){
   root.style.setProperty('--rightHalf', `${0}%`);
+  root.style.setProperty('--bathRoom',`${0}%`)
 }
 function bathRoomButtonOff(){
-  root.style.setProperty('--rightHalf', `${60}%`);
-  root.style.setProperty('--bathRoom',`${60}%`)
+  root.style.setProperty('--rightHalf', `${50}%`);
+  root.style.setProperty('--bathRoom',`${50}%`)
 }
  
   return (
@@ -289,6 +290,7 @@ function bathRoomButtonOff(){
               <div className="blanketCols bathRoom" id="i08" />
               <div className="blanketCols bathRoom" id="i09" />
               <div className="blanketCols bathRoom" id="i10" />
+              {/* változsarva */}
               <div className="blanketCols bathRoom" id="i11" />
               <div className="blanketCols livingRoom" id="i12" />
               <div className="blanketCols livingRoom" id="i13" />
@@ -427,8 +429,8 @@ function bathRoomButtonOff(){
         </div>
       </div>
       <div>
-        <div className="buttons container">
-          <div className="mobile-container" style={{ backgroundImage: 'url("/image 17(1).png")' }}>
+        <div className="buttons container" style={{backgroundColor: 'transparent'} }>
+          <div className="mobile-container" style={{ backgroundImage: "url('/image 17.png')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat : 'no-repeat' }}>
             <div>
             <StyledButton onClick={leftBedRoomButtonOn}  isSelected={selectedRoom === 'leftBedRoomOn'}
                 img="/image 12.png"

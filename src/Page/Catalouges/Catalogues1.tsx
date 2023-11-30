@@ -40,19 +40,6 @@ const Catalogues1 = () => {
         </div>
       </section>
     </div>
-    {/* <div className="container">
-      <div className="row">
-        <div className="col-md-6">
-        </div>
-        <div className="col-md-6" style={{width:"600px", boxSizing: "border-box"}}>
-          <h2 className='catalogue-h2'>Discover the Future of Smart Living</h2>
-          <p style={{textAlign: "left", boxSizing: "border-box", color: "white"}}> Welcome to our world of intelligent solutions and innovative technology. Our Smart Home Catalog provides a curated selection of cutting-edge products and systems designed to enhance your lifestyle. Explore the details, benefits, 
-          and opportunities that await you, and embark on a journey to make your home smarter, more comfortable, and more secure. 
-          Your connected, convenient, and efficient living experience starts here. Let's redefine the way you live.</p>
-        </div>  
-        
-      </div>
-    </div> */}
     <Container fluid >
       <Row style={{ backgroundImage: "url('/11.jpg')", backgroundRepeat: "no-repeat", backgroundSize: 'cover'}}>
         <Col md={6}  className='d-flex justify-content-center' style={{ backgroundColor: 'rgba(217, 217, 217, 0.67)', padding: '20px', backgroundRepeat: "no-repeat", paddingLeft: "50px"  }}>

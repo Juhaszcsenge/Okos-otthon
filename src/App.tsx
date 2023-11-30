@@ -7,6 +7,7 @@ import Catalogues1 from './Page/Catalouges/Catalogues1';
 import AboutUs from './Page/AboutUs/AboutUs';
 import Contact from './Page/Contact/Contact';
 import Navbar from './Component/Navbar';
+// import Contact1 from './Page/Contact/Contact1';
 
 
 export default class App extends Component{
@@ -27,6 +28,7 @@ export default class App extends Component{
               <Route path='/catalogues'  element={<Catalogues1></Catalogues1>}></Route>
               <Route path='/aboutUs'  element={<AboutUs></AboutUs>}></Route>
               <Route path='/contact'  element={<Contact></Contact>}></Route>
+              {/* <Route path='/contact'  element={<Contact1></Contact1>}></Route> */}
           </Routes> 
     </div>
   }

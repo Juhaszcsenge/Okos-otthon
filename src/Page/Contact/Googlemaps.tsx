@@ -10,7 +10,7 @@ import { Container } from "react-bootstrap";
   
    
     return (
-        <Container className="map">
+        <Container className="map" fluid>
             <section id="menux">
                     <div className="row.map"> 
                     <iframe 
