@@ -28,7 +28,7 @@ export default function Pictures() {
   // ];
 
 
-  const [selectedRoom, setSelectedRoom] = useState(null);
+  const [selectedRoom] = useState(null);
 
   // const handleLightSwitch = (roomId) => {
   //   setSelectedRoom((prevRoom) => (prevRoom === roomId ? null : roomId));
@@ -99,12 +99,12 @@ export default function Pictures() {
  function topTerraceButtonOff(){
   root.style.setProperty('--topTerrace', `${50}%`);
  }
- function leftTerraceButtonOn(){
-  root.style.setProperty('--leftTerrace', `${0}%`);
- } 
- function leftTerraceButtonOff(){
-  root.style.setProperty('--leftTerrace', `${50}%`);
- }
+//  function leftTerraceButtonOn(){
+//   root.style.setProperty('--leftTerrace', `${0}%`);
+//  } 
+//  function leftTerraceButtonOff(){
+//   root.style.setProperty('--leftTerrace', `${50}%`);
+//  }
 function bathRoomButtonOn(){
   root.style.setProperty('--rightHalf', `${0}%`);
   root.style.setProperty('--bathRoom',`${0}%`)
