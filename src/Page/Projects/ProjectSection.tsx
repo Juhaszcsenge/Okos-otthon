@@ -12,17 +12,15 @@ const ProjectSection = () => {
   return (
    <section>
     <div>
-      <section className='header'>
-        <div className='gradient' style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img className='first-img' src='il_1588xN 2.png' alt="" style={{width: "100%", height: "100%"}}/>
-            <div style={{ position: 'absolute', top: '30%', left: '0', transform: 'translate(30%, -50%)', textAlign: 'center',  width: '20%', padding: '30px' }}>
-            {/* <p className='img-text'>
-            Animation or image
-            </p> */}
+    <section className='header' style={{backgroundImage: "url('/il_1588xN 2.png')"}}>
+        <div className='gradient' >
+            {/* <img className='first-img' src='il_1588xN 2.png' alt="" /> */}
+            <div style={{ position: 'absolute', top: '30%', left: '0', transform: 'translate(30%, -50%)', textAlign: 'center', width: '20%', padding: '30px' }}>
             </div>
-            <div className='textContainer'>
-            <h2 className='header-h2'>Projects</h2>
-            <p className='first-header'>Our company provide innovative integrated solutions and strive to create good partnerships, respecting architectural and innovative expressions.</p>
+            <div className='gradient-text' >
+            <h2 className='header-h2'  data-languagePartIdentifier="m_projects">Projects</h2>
+            <p className='first-header'  data-languagePartIdentifier="redefine_modern_living">Our company provide innovative integrated solutions and strive to create good partnerships, 
+respecting architectural and innovative expressions.</p>
             </div>
         </div>
       </section>

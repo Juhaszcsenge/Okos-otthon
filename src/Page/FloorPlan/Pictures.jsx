@@ -1,5 +1,8 @@
 // import room from 'szoba.jpg';
+import 'bootstrap/dist/css/bootstrap.css';
 import React, { useState } from 'react';
+import { Row, Col} from 'react-bootstrap'
+
 import './index.css'
 
 
@@ -105,17 +108,19 @@ export default function Pictures() {
 //  function leftTerraceButtonOff(){
 //   root.style.setProperty('--leftTerrace', `${50}%`);
 //  }
-function bathRoomButtonOn(){
-  root.style.setProperty('--rightHalf', `${0}%`);
+function leftBathRoomButtonOn(){
+  // root.style.setProperty('--leftbathRoom', `${0}%`);
   root.style.setProperty('--bathRoom',`${0}%`)
+  root.style.setProperty('--rightHalf', `${0}%`);
 }
 function bathRoomButtonOff(){
   root.style.setProperty('--rightHalf', `${50}%`);
   root.style.setProperty('--bathRoom',`${50}%`)
 }
  
-  return (
-    <div >
+  return ( 
+    <Row style={{marginTop: "300px"}}>
+    <Col md={6} className='d-flex justify-content-center'>
     <div className="mainWrapper">
       <div className="container-pictures">
         <div className="houseImage">
@@ -428,9 +433,11 @@ function bathRoomButtonOff(){
           <img src="./szoba.jpg" alt="room" />
         </div>
       </div>
-      <div>
-        <div className="buttons container" style={{backgroundColor: 'transparent'} }>
-          <div className="mobile-container" style={{ backgroundImage: "url('/image 17.png')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat : 'no-repeat' }}>
+      </div>
+      </Col>
+      <Col md={6} className="mobile-left">
+        <div className="buttons-container" style={{backgroundColor: 'transparent'} }>
+          <div className="mobile-container" style={{ backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat : 'no-repeat' }}>
             <div>
             <StyledButton onClick={leftBedRoomButtonOn}  isSelected={selectedRoom === 'leftBedRoomOn'}
                 img="/image 12.png"
@@ -472,7 +479,7 @@ function bathRoomButtonOff(){
                 name="Left Bedroom" />
             </div>
             <div>
-            <StyledButton onClick={bathRoomButtonOn}  isSelected={selectedRoom === 'bathRoomButtonOn'}
+            <StyledButton onClick={leftBathRoomButtonOn}  isSelected={selectedRoom === 'bathRoomButtonOn'}
                 img="/image 7.png"
                 title="On"
                 name="Left Bedroom"/>
@@ -518,8 +525,8 @@ function bathRoomButtonOff(){
             </div> */}
             </div>
             </div>
-            </div>
-            </div>
-            </div>
+            </Col>
+            </Row>
+
   );
 }

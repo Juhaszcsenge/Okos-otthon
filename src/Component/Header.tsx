@@ -4,9 +4,9 @@ import './Header.css'
 const Header = () => {
   return (
     <div>
-      <section className='header'>
+      <section className='header' style={{backgroundImage: "url('/il_1588xN 2.png')"}}>
         <div className='gradient' >
-            <img className='first-img' src='il_1588xN 2.png' alt="" />
+            {/* <img className='first-img' src='il_1588xN 2.png' alt="" /> */}
             <div style={{ position: 'absolute', top: '30%', left: '0', transform: 'translate(30%, -50%)', textAlign: 'center', width: '20%', padding: '30px' }}>
             </div>
             <div className='gradient-text' >

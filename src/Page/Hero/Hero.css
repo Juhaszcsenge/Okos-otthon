@@ -1,0 +1,166 @@
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1473186578172-c141e6798cf4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1973&q=80");
+    /* background-size: auto; */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 80vh;
+    padding-top: 12%;
+    padding-right: 50px;
+    color: #fff;
+
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* align-items: flex-start; */
+  }
+  .hero #heading h3 {
+    color: #fff;
+    margin: 0;
+  }
+  .hero #heading {
+    /* text-align: left; */
+    position: relative;
+    z-index: 1;
+    /* margin: 0; */
+    /* padding: 0; */
+  }
+  @media screen and (max-width: 768px) {
+    .margin {
+      height: 40vh;
+    }
+    .hero {
+      background-position: right;
+      padding-top: 50%;
+      height: 80vh;
+    }
+    .hero .row {
+      width: 100%;
+    }
+  }
+
+.button .et_pb_section .et_pb_button_0 {
+  color: #919191!important;
+  border-color: rgba(0,0,0,0);
+  border-radius: 100px;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif!important;
+  text-transform: uppercase!important;
+  background-color: #ffffff;
+}
+.et_pb_button_0_wrapper .et_pb_button_0, .et_pb_button_0_wrapper .et_pb_button_0:hover {
+  padding-top: 16px!important;
+  padding-right: 30px!important;
+  padding-bottom: 16px!important;
+  padding-left: 30px!important;
+}
+.et_pb_button_module_wrapper>a {
+  display: inline-block;
+}
+.et_pb_button_0, .et_pb_button_0:after {
+  transition: all 300ms ease 0ms;
+}
+.et_pb_button_0 {
+ 
+  transition: letter-spacing 300ms ease 0ms;
+}
+.et_pb_button, .et_pb_button_inner {
+  position: relative;
+}
+.et_pb_button {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.3em 1em;
+  line-height: 1.7em!important;
+  background-color: transparent;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  border: 2px solid;
+  border-radius: 3px;
+  -webkit-transition-duration: .2s;
+  transition-duration: .2s;
+  -webkit-transition-property: all!important;
+  transition-property: all!important;
+}
+a, a:hover {
+  text-decoration: none;
+}
+
+.row {
+  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  color: rgba(0,0,0,0.67)!important;
+  line-height: 1.4em;
+}
+
+ .et_pb_section .et_pb_button_0 {
+  color: #919191!important;
+  border-color: rgba(0,0,0,0);
+  border-radius: 100px;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif!important;
+  text-transform: uppercase!important;
+  background-color: #ffffff;
+}
+.et_pb_button_0_wrapper .et_pb_button_0, .et_pb_button_0_wrapper .et_pb_button_0:hover {
+  padding-top: 16px!important;
+  padding-right: 30px!important;
+  padding-bottom: 16px!important;
+  padding-left: 30px!important;
+}
+.et_pb_button_module_wrapper>a {
+  display: inline-block;
+}
+
+
+@media screen and (max-width: 768px) {
+  .hero {
+    background-position: right;
+    padding-top: 50%;
+    height: 50vh; /* Módosítsd a mobil nézet magasságát az igényeidnek megfelelően */
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .hero {
+    padding-top: 12%;
+    height: 80vh; /* Módosítsd a laptop nézet magasságát az igényeidnek megfelelően */
+  }
+}
+
+
+.et_pb_button_0 {
+  padding: 0.8em 2em; /* Módosítsd az igényeidnek megfelelően */
+}
+
+@media screen and (max-width: 768px) {
+  .et_pb_button_0 {
+    padding: 0.8em 1.5em; /* Módosítsd az igényeidnek megfelelően mobil nézetben */
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .row {
+    font-size: 24px;
+  }
+
+  .et_pb_button_0_wrapper .et_pb_button_0,
+  .et_pb_button_0_wrapper .et_pb_button_0:hover {
+    padding-top: 12px!important;
+    padding-right: 20px!important;
+    padding-bottom: 12px!important;
+    padding-left: 20px!important;
+  }
+}

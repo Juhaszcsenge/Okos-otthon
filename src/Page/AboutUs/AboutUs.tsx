@@ -12,14 +12,14 @@ const AboutUs = () => {
   return (
     <section>
     <div>
-      <section className='header'>
-        <div className='gradient' style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img className='first-img' src='il_1588xN 2.png' alt="" style={{width: "100%", height: "100%"}}/>
-            <div style={{ position: 'absolute', top: '30%', left: '0', transform: 'translate(30%, -50%)', textAlign: 'center',width: '20%', padding: '30px' }}>
+    <section className='header' style={{backgroundImage: "url('/il_1588xN 2.png')"}}>
+        <div className='gradient' >
+            {/* <img className='first-img' src='il_1588xN 2.png' alt="" /> */}
+            <div style={{ position: 'absolute', top: '30%', left: '0', transform: 'translate(30%, -50%)', textAlign: 'center', width: '20%', padding: '30px' }}>
             </div>
-            <div  className='gradient-text'>
-            <h2 className='header-h2'>About Us</h2>
-            <p className='first-header'>Guiding You Through the World of Smart Living: Meet Our Team of Experts in Home Automation and Innovation</p>
+            <div className='gradient-text' >
+            <h2 className='header-h2' data-languagePartIdentifier="m_aboutus">About Us</h2>
+            <p className='first-header'  data-languagePartIdentifier="redefine_modern_living">Guiding You Through the World of Smart Living: Meet Our Team of Experts in Home Automation and Innovation</p>
             </div>
         </div>
       </section>

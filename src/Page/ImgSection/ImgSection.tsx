@@ -39,6 +39,7 @@ const ImgSection = () => {
           The air quality sensor guarantees the air you breathe is consistently pure and fresh, seamlessly adjusting ventilation for optimal well-being. Meanwhile, the humidity sensor maintains the perfect balance to prevent excess dryness or moisture, ensuring your comfort and health. 
           These cutting-edge sensors effortlessly integrate into your smart home, fostering a harmonious and healthier living environment where technology adapts to your needs, enhancing your lifestyle with unparalleled convenience and well-being.
           </p>
+          <div className="advanced-video">
           <ReactPlayer
                 url={'/air.mp4'}
                 playing={true}
@@ -48,8 +49,9 @@ const ImgSection = () => {
                 height="50%"
                 object-fit="cover"
                 filter="brightness(60%)"
-                style={{ position: 'sticky',  marginBottom: "60px", justifyContent:"center", padding: "30px"}}
+                style={{ position: 'sticky',  marginBottom: "60px", justifyContent:"center", padding: "60px", marginTop: "-70px"}}
               />
+              </div>
         </div>
         </div>
         <div className='smart-climate' style={{marginTop: "20px"}}>
@@ -69,7 +71,7 @@ const ImgSection = () => {
           <p className='img-text-comfort-container' data-languagePartIdentifier= "smart_climate_desc_long" style={{padding: "20px"}}>Optimize your home's climate with our Temperature Control Module and Heating Actuators. 
             Ensure comfort and energy efficiency with precision temperature management and heating control for each room. 
             Experience a smarter, more eco-friendly way of living.</p>
-            <div className='heating-video'>
+            <div className="advanced-video">
             <ReactPlayer
                 url={'/heating.mp4'}
                 playing={true}
@@ -79,7 +81,7 @@ const ImgSection = () => {
                 height="50%"
                 object-fit="cover"
                 filter="brightness(60%)"
-                style={{ position: 'sticky',  justifyContent:"center"}}
+                style={{ position: 'sticky',  justifyContent:"center", padding: "30px", marginTop: "-30px"}}
               />
             </div>
            
@@ -116,6 +118,7 @@ const ImgSection = () => {
             while our Motion Detectors keep a watchful eye on your home, detecting any movement and ensuring peace of mind. 
             Embrace a more secure and efficient living space where technology works to enhance your safety and daily life.
           </p>
+          <div className="keeping-video">
           <ReactPlayer
                 url={'/motion.mp4'}
                 playing={true}
@@ -125,8 +128,10 @@ const ImgSection = () => {
                 height="50%"
                 object-fit="cover"
                 filter="brightness(60%)"
-                style={{ position: 'sticky',  marginBottom: "60px", justifyContent:"center", padding: "30px"}}
+                // style={{ position: 'sticky',  marginBottom: "60px", justifyContent:"center", padding: "30px"}}
+                
               />
+            </div>
         </div>
         </div>
         <div className='smart-climate'>

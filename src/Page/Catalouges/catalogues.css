@@ -1,4 +1,115 @@
-.d-flex .justify-content-center
-{ 
-    background-repeat: no-repeat;
+
+
+.catalogue-p{
+    color: black; 
+    margin-bottom: 40px;
+    margin-right: 290px;
 }
+
+
+.catalogue-button{
+    background-color: transparent;
+     border-color: black;
+     border-radius: 0; 
+     color: black; 
+     font-weight: bolder; 
+     width: 20%;
+}
+
+@media (max-width: 1319px) {
+    .container-fluid {
+      padding: 0;
+    }
+  
+    .row {
+      flex-direction: column-reverse;
+    }
+  
+    .col-md-6 {
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    .col-md-6.text-left {
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .catalogue-h2 {
+      margin-bottom: 20px;
+    }
+  
+    /* .catalogue-button {
+      width: 40%;
+      margin-right: 50%;
+      margin-left: auto;
+    } */
+  }
+
+
+  @media only screen and (min-width: 786px) and (max-width: 1314px) {
+   .catalogue-h2{
+    text-align: center;
+    justify-content: center;
+   }
+   .catalogue-p{
+    text-align: center;
+    justify-content: center;
+    margin-right: 0px;
+    margin-bottom: 0px;
+   }
+
+   .catalogue-button{
+    background-color: transparent;
+    border-color: black;
+    border-radius: 0; 
+    color: black; 
+    font-weight: bolder; 
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+   }
+
+   .second-img{
+    width: 50%;
+   }
+  }
+
+  @media only screen and (min-width: 350px) and (max-width: 768px) {
+    .catalogue-h2{
+     text-align: center;
+     justify-content: center;
+    }
+    .catalogue-p{
+     text-align: center;
+     justify-content: center;
+     margin-right: 0px;
+     margin-bottom: 0px;
+    }
+ 
+    .catalogue-button{
+     background-color: transparent;
+     border-color: black;
+     border-radius: 0; 
+     color: black; 
+     font-weight: bolder; 
+     width: 40%;
+     justify-content: center;
+     text-align: center;
+     display: block;
+     margin: 0 auto;
+     margin-top: 20px;
+    }
+ 
+    .second-img{
+     width: 90%;
+     height: 40%;
+    }
+   }
+
+
+  

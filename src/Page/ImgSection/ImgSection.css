@@ -305,9 +305,30 @@ padding: 50px;
     /* height: 1100px; */
     padding: 30px;
 }
+.keeping-video{
+  position: sticky;  
+  margin-bottom: 60px; 
+  justify-content: center; 
+  padding: 30px;
+}
+  }
+
+  .keeping-video{
+    position: sticky;  
+    margin-bottom: 60px; 
+    justify-content: center; 
+    padding: 30px;
+    height: 92%;
   }
 
 
+  .keeping-video{
+    position: sticky;  
+    margin-bottom: 60px; 
+    justify-content: center; 
+    padding: 30px;
+    height: 95%;
+  }
 
 .imgText {
   color: black;

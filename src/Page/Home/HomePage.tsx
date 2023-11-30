@@ -10,6 +10,7 @@ import Pictures from '../FloorPlan/Pictures';
 
 
 
+
 const HomePage = () => {
   useEffect(() => {
     languagePreferencesSystem.reloadAllLanguageResources()
@@ -17,7 +18,9 @@ const HomePage = () => {
   return (
     <>
     <Header/>
+    {/* <Hero/> */}
     <section className='home' >
+  
     {/* <div className='text-container'> */}
       {/* <div className='home-text' style={{ textAlign: "center", paddingTop:"-25px", position:"relative", }}>
         <p className='home-p'>Intuitive Interface</p>

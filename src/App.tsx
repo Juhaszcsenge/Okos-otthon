@@ -7,6 +7,7 @@ import Catalogues1 from './Page/Catalouges/Catalogues1';
 import AboutUs from './Page/AboutUs/AboutUs';
 import Contact from './Page/Contact/Contact';
 import Navbar from './Component/Navbar';
+
 // import Contact1 from './Page/Contact/Contact1';
 
 

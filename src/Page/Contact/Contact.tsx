@@ -9,18 +9,19 @@ const Contact = () => {
   return (
     <section>
       <div>
-      <section className='header'>
-        <div className='gradient' style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <img className='first-img' src='il_1588xN 2.png' alt="" style={{width: "100%", height: "100%"}}/>
-            <div style={{ position: 'absolute', top: '30%', left: '0', transform: 'translate(30%, -50%)', textAlign: 'center',  width: '20%', padding: '30px' }}>
+      <section className='header' style={{backgroundImage: "url('/il_1588xN 2.png')"}}>
+        <div className='gradient' >
+            {/* <img className='first-img' src='il_1588xN 2.png' alt="" /> */}
+            <div style={{ position: 'absolute', top: '30%', left: '0', transform: 'translate(30%, -50%)', textAlign: 'center', width: '20%', padding: '30px' }}>
             </div>
-            <div className='gradient-text' style={{position: "relative", width: "100%", height: "315px", flexShrink: "0", padding:"30px",  background: "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0E0E0E 66.15%)"}}>
-            <h2 className='header-h2'>Contact</h2>
+            <div className='gradient-text' >
+            <h2 className='header-h2' data-languagePartIdentifier="m_contact">Contact</h2>
+            {/* <p className='first-header'  data-languagePartIdentifier="redefine_modern_living">Redefine modern living with our intelligent Home Ecosystem</p> */}
             </div>
         </div>
       </section>
     </div>
-      <div className='parent'>
+      <div className='parent' style={{marginTop: "200px"}}>
         <Row>
           {/* <div className='child' style={{ display: "inline-block"}}> */}
             <Col lg='6' md='6'  className="d-flex flex-column align-items-end">
@@ -50,7 +51,7 @@ const Contact = () => {
                   <p className='form mx-auto d-inline' style={{ whiteSpace: "nowrap",textAlign: "center", fontSize: "14px" }}>Mon - Fri - 08:00 - 16:00</p>
                 </div>
                 <div className='form mx-auto' style={{height: "30px", paddingRight: "190px"}} >
-                <img src='./Time_light (1).png' alt='' className='d-inline' style={{ paddingRight:"10px"}} />
+                <img src='./Time_light (1).png' alt='' className='d-inline' style={{ paddingRight:"10px", width: "32px", height: "24px"}} />
                   <p  className='form mx-auto d-inline' style={{ whiteSpace: "nowrap", textAlign: "center", marginTop: "20px", fontSize: "14px" }}>Sat 08:00 - 12:00</p>
                 </div>
                 <div className='form mx-auto' style={{height: "30px", paddingRight: "220px"}} >
@@ -60,7 +61,7 @@ const Contact = () => {
                 </div>
             </Col>
             <Col lg='6' md='6' className="flex-column">
-              <h2 className='classic' style={{marginRight: "560px"}}>Send message</h2>
+              <h2 className='classic'  style={{marginRight: "560px"}}>Send message</h2>
               <div>
               <form className='form' style={{width: "500px"}} >
               <label className='label' style={{ marginRight: "370px"}}>Name</label>
@@ -80,12 +81,11 @@ const Contact = () => {
                   <input type="text" className='message-box' required placeholder="Type your query here...." name="message" />
                 </div>
                 <div className='input-box' style={{marginBottom: "40px"}}>
-                <input  type="submit" value="Send Message" className="btn"  style={{ backgroundColor: 'transparent', borderColor: 'white', borderRadius: "0", color: "white", fontWeight: 'bolder', width: "30%", marginRight: "280px" }} />
+                <input  type="submit" value="Send Message" className="contact-button"  style={{ backgroundColor: 'transparent', borderColor: 'white', borderRadius: "0", color: "white", fontWeight: 'bolder', width: "30%", marginRight: "280px" }} />
                 </div>
               </form>
               </div>
             </Col>
-          
         </Row>
         <GoogleMaps />
       </div>

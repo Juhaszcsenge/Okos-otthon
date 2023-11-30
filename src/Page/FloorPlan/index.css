@@ -4,7 +4,9 @@
     --leftBedRoom: 60%;
     --kitchen: 60%;
     --livingRoom: 60%;
-    --bathRoom: 60%;
+    --leftBathRoom: 60%;
+    --rightBathRoom: 60%;
+    /* --bathRoom: 60%; */
     --leftTerrace: 60%;
     --topTerrace: 60%;
     --leftHalf: 100%;
@@ -19,8 +21,22 @@ body {
     transition: all 0.2s;
 }
 
+
+.mobile-left{
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 200px;
+    background-image: url("./image\ 17.png");
+    /* height: 900px; */
+    width: 400px;
+}
+
+
 .container-pictures {
-    width: 40%;
+    width: 90%;
     display: flex;
     justify-content: center;
     /* margin: auto; */
@@ -62,7 +78,7 @@ body {
     /* width: 380px; */
 }
 
-.mobile-container {
+/* .mobile-container {
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -72,7 +88,7 @@ body {
     margin-left: 70%;
     width: 380px;
     margin-top: -690px;
-}
+} */
 
 
 /*gyakorlatilag egy bootstrap grid felosztást csináltam bootstrap nélkül, így mivel %-os értékekben vannak a terület felhasználások, ezért amennyiben csökken vagy nő a fő container mérete, ezek lekövetik, így
@@ -113,8 +129,10 @@ Természetesen minél több kockára osztod a képet annál pontosabban tudsz te
 }
 
 .leftBathRoom{
-    background-color: black;
     opacity: var(--leftBathRoom);
+}
+.rightBathRoom{
+    opacity: var(--rightBathRoom);
 }
 
 .rightBedRoom {
@@ -133,9 +151,9 @@ Természetesen minél több kockára osztod a képet annál pontosabban tudsz te
     opacity: var(--kitchen);
 }
 
-.bathRoom {
+/* .bathRoom {
     opacity: var(--bathRoom);
-}
+} */
 
 .leftTerrace {
     opacity: var(--leftTerrace);
@@ -231,3 +249,24 @@ button:hover {
         padding-top: 5px;
     }
 }
+
+@media only screen and (min-width: 100px) and (max-width: 1325px) {
+    .mobile-left{
+      display: none;
+      background-image: none;
+    }
+    .mobile-left::before {
+        content: ""; 
+        display: block; 
+        padding-top: 150%;
+    }
+    .buttons-container{
+        display: none;
+      }
+    .mobile-container{
+        display: none;
+    }
+      .mainWrapper{
+        display: none;
+    }
+  }
