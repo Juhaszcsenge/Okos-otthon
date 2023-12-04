@@ -6,17 +6,16 @@ const Footer = () => {
   return (
     <section>
     <div className="footer-container" style={{ background: "var(--dark-background, #181818)", color: "white", marginTop: "50px" }}>
-      <div className="footer-column">
+      <div className="footer-column-no">
         <ul className="no-list-style">
         <img src='./behive_cover 2.png' alt='' />
         </ul>
       </div>
       <div className="footer-column">
         <ul className="no-list-style">
-       
         </ul>
       </div>
-      <div className="footer-column">
+      <div className="footer-column-list">
         <ul className="no-list-style">
           <li style={{padding: "10px"}}>Projets</li>
           <li style={{padding: "10px"}}>Catalogue</li>
@@ -35,9 +34,10 @@ const Footer = () => {
           <p>(239) 555-0108</p>
         </div>
         <div>
-          <img src='ant-design_twitter-outlined.png' id='footer-img' alt='' />
+         
           <img src='ant-design_facebook-filled.png' id='footer-img' alt='' />
           <img src='ant-design_linkedin-filled.png' id='footer-img' alt='' />
+          <img src='insta.png' id='footer-img' alt='' />
         </div>
       </div>
 

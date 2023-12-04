@@ -4,18 +4,30 @@
     padding: 50px;
   }
   
-  .footer-column {
+  .footer-column-no {
     margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
+    margin-left: 15%;
+   
+  }
+
+  .footer-column-list {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    margin-left: 15%
   }
   
   .no-list-style {
     list-style-type: none; 
     padding-left: 0px;
     margin: 20px;
+    margin-left: 15%;
 }
 
   
@@ -28,6 +40,7 @@
     flex-direction: column;
     gap: 20px; 
     padding: 30px;
+    margin-left: 10%;
   }
   
   .info-item {

@@ -7,7 +7,6 @@ import './index.css'
 
 
 
-
 export default function Pictures() {
   const [selectedRoom] = useState(null);
 
@@ -18,7 +17,20 @@ export default function Pictures() {
   // const handleLightSwitch = (roomId) => {
   //   setSelectedRoom((prevRoom) => (prevRoom === roomId ? null : roomId));
   // };
-
+  let [leftBedRoomOn_off, setleftBedRoomOn_off] = useState(false)
+  let [rightBedRoomOn_off, setrightBedRoomOn_off] = useState(false)
+  let [livingRoomOn_off, setlivingRoomOn_off] = useState(false)
+  let [kitchenRoomOn_off, setkitchenRoomOn_off] = useState(false)
+  let [teraceRoomOn_off, setteraceRoomOn_off] = useState(false)
+  let [guestRoomOn_off, setguestRoomOn_off] = useState(false)
+  let [bathRoomOn_off, setbathRoomOn_off] = useState(false)
+  let [leftBedRoomButtonImg, setleftBedRoomButtonImg] = useState("/image 11 (1).png")
+  let [rightBedRoomButtonImg, setrightBedRoomButtonImg] = useState("/image 11 (1).png")
+  let [livingRoomButtonImg, setlivingRoomButtonImg] = useState("/image 3 (1).png")
+  let [kitchenRoomButtonImg, setkitchenRoomButtonImg] = useState("/image 1 (1).png")
+  let [teraceRoomButtonImg, setteraceRoomButtonImg] = useState("/image 15.png")
+  let [guestRoomButtonImg, setguestRoomButtonImg] = useState("/image 13.png")
+  let [bathRoomButtonImg, setbathRoomButtonImg] = useState("/image 8 (1).png")
  
 
   const StyledButton = ({ onClick, isSelected, img }) => (
@@ -43,67 +55,160 @@ export default function Pictures() {
 
   const root = document.querySelector(':root');
 
-  function leftBedRoomButtonOn() {
-    root.style.setProperty('--leftBedRoom', `${0}%`);
+  function leftBedRoomToggle() {
+    if (leftBedRoomOn_off === false) {
+      root.style.setProperty('--leftBedRoom', `${0}%`);
+      setleftBedRoomOn_off(true)
+      setleftBedRoomButtonImg("/image 12.png")
+
+    } else {
+      root.style.setProperty('--leftBedRoom', `${50}%`);
+      setleftBedRoomOn_off(false)
+      setleftBedRoomButtonImg("/image 11 (1).png")
+     
+    }
   }
 
-  function leftBedRoomButtonOff() {
-    root.style.setProperty('--leftBedRoom', `${50}%`);
-  }
+  
+  function rightBedRoomToggle() {
+    if (rightBedRoomOn_off === false) {
+      root.style.setProperty('--rightBedRoom', `${0}%`);
+      setrightBedRoomOn_off(true)
+      setrightBedRoomButtonImg("/image 12.png")
 
-  function rightBedRoomButtonOff() {
-    root.style.setProperty('--rightBedRoom', `${50}%`);
+    } else {
+      root.style.setProperty('--rightBedRoom', `${50}%`);
+      setrightBedRoomOn_off(false)
+      setrightBedRoomButtonImg("/image 11 (1).png")
+     
+    }
   }
+  function livingRoomToggle() {
+    if (livingRoomOn_off === false) {
+      root.style.setProperty('--livingRoom',`${0}%`);
+      setlivingRoomOn_off(true)
+      setlivingRoomButtonImg("/image 4.png")
 
-  function rightBedRoomButtonOn() {
-    root.style.setProperty('--rightBedRoom', `${0}%`);
+    } else {
+      root.style.setProperty('--livingRoom',`${50}%`);
+      setlivingRoomOn_off(false)
+      setlivingRoomButtonImg("/image 3 (1).png")
+    
+    }
   }
-
-  function kitchenButtonOff() {
-    root.style.setProperty('--kitchen', `${50}%`);
-  }
-
-  function kitchenButtonOn() {
+  function kitchenRoomToggle() {
+    if (kitchenRoomOn_off === false) {
     root.style.setProperty('--kitchen', `${0}%`);
+      setkitchenRoomOn_off(true)
+      setkitchenRoomButtonImg("/image 2.png")
+
+    } else {
+      root.style.setProperty('--kitchen', `${50}%`);
+      setkitchenRoomOn_off(false)
+      setkitchenRoomButtonImg("/image 1 (1).png")
+    
+    }
+  }
+  function teraceRoomToggle() {
+    if (teraceRoomOn_off === false) {
+      root.style.setProperty('--leftTerrace',`${0}%`);
+      setteraceRoomOn_off(true)
+      setteraceRoomButtonImg("/image 16.png")
+
+    } else {
+      root.style.setProperty('--leftTerrace',`${50}%`);
+      setteraceRoomOn_off(false)
+      setteraceRoomButtonImg("/image 15.png")
+    
+    }
+  }
+  function guestRoomToggle() {
+    if (guestRoomOn_off === false) {
+      root.style.setProperty('--topTerrace', `${0}%`);
+      setguestRoomOn_off(true)
+      setguestRoomButtonImg("/image 14.png")
+    } else {
+      root.style.setProperty('--topTerrace', `${50}%`);
+      setguestRoomOn_off(false)
+      setguestRoomButtonImg("/image 13.png")
+    
+    }
+  }
+  function bathRoomToggle() {
+    if (bathRoomOn_off === false) {
+      root.style.setProperty('--bathRoom',`${0}%`)
+      root.style.setProperty('--rightHalf', `${0}%`);
+      setbathRoomOn_off(true)
+      setbathRoomButtonImg("/image 7.png")
+    } else {
+      root.style.setProperty('--bathRoom',`${50}%`)
+      root.style.setProperty('--rightHalf', `${50}%`);
+      setbathRoomOn_off(false)
+      setbathRoomButtonImg("/image 8 (1).png")
+    }
   }
 
-  function leftTerraceButtonOn(){
-    root.style.setProperty('--leftTerrace',`${0}%`);
-  }
-  function leftTerraceButtonOff(){
-    root.style.setProperty('--leftTerrace',`${50}%`);
-  }
-  function livingRoomButtonOn(){
-    root.style.setProperty('--livingRoom',`${0}%`);
-  }
-  function livingRoomButtonOff(){
-    root.style.setProperty('--livingRoom',`${50}%`);
-  }
- function topTerraceButtonOn(){
-  root.style.setProperty('--topTerrace', `${0}%`);
- } 
- function topTerraceButtonOff(){
-  root.style.setProperty('--topTerrace', `${50}%`);
- }
+  // function livingRoomButtonOn(){
+  //   root.style.setProperty('--livingRoom',`${0}%`);
+  // }
+  // function livingRoomButtonOff(){
+  //   root.style.setProperty('--livingRoom',`${50}%`);
+  // }
+
+
+  // function rightBedRoomButtonOff() {
+  //   root.style.setProperty('--rightBedRoom', `${50}%`);
+  // }
+
+  // function rightBedRoomButtonOn() {
+  //   root.style.setProperty('--rightBedRoom', `${0}%`);
+  // }
+
+//   function kitchenButtonOff() {
+//     root.style.setProperty('--kitchen', `${50}%`);
+//   }
+
+//   function kitchenButtonOn() {
+//     root.style.setProperty('--kitchen', `${0}%`);
+//   }
+
+//   function leftTerraceButtonOn(){
+//     root.style.setProperty('--leftTerrace',`${0}%`);
+//   }
+//   function leftTerraceButtonOff(){
+//     root.style.setProperty('--leftTerrace',`${50}%`);
+//   }
+//   function livingRoomButtonOn(){
+//     root.style.setProperty('--livingRoom',`${0}%`);
+//   }
+//   function livingRoomButtonOff(){
+//     root.style.setProperty('--livingRoom',`${50}%`);
+//   }
+//  function topTerraceButtonOn(){
+//   root.style.setProperty('--topTerrace', `${0}%`);
+//  } 
+//  function topTerraceButtonOff(){
+//   root.style.setProperty('--topTerrace', `${50}%`);
+//  }
 //  function leftTerraceButtonOn(){
 //   root.style.setProperty('--leftTerrace', `${0}%`);
 //  } 
 //  function leftTerraceButtonOff(){
 //   root.style.setProperty('--leftTerrace', `${50}%`);
 //  }
-function leftBathRoomButtonOn(){
-  // root.style.setProperty('--leftbathRoom', `${0}%`);
-  root.style.setProperty('--bathRoom',`${0}%`)
-  root.style.setProperty('--rightHalf', `${0}%`);
-}
-function bathRoomButtonOff(){
-  root.style.setProperty('--rightHalf', `${50}%`);
-  root.style.setProperty('--bathRoom',`${50}%`)
-}
+// function leftBathRoomButtonOn(){
+//   // root.style.setProperty('--leftbathRoom', `${0}%`);
+//   root.style.setProperty('--bathRoom',`${0}%`)
+//   root.style.setProperty('--rightHalf', `${0}%`);
+// }
+// function bathRoomButtonOff(){
+//   root.style.setProperty('--rightHalf', `${50}%`);
+//   root.style.setProperty('--bathRoom',`${50}%`)
+// }
  
   return ( 
     <Row style={{marginTop: "300px"}}>
-    <Col md={6} className='d-flex justify-content-center'>
+    <Col md={6} className='d-flex '>
     <div className="mainWrapper">
       <div className="container-pictures">
         <div className="houseImage">
@@ -418,19 +523,22 @@ function bathRoomButtonOff(){
       </div>
       </div>
       </Col>
-      <Col md={6} className="mobile-left">
+      <Col md={6} className='d-flex justify-content-center'>
+        <div className="mobile-left"> 
         <div className="buttons-container" style={{backgroundColor: 'transparent'} }>
           <div className="mobile-container" style={{ backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat : 'no-repeat' }}>
             <div>
         <StyledButton
-          onClick={ leftBedRoomButtonOn}
+          id = "leftBedRoomButton"
+          onClick={leftBedRoomToggle}
           isSelected={selectedRoom === 'leftBedRoomOn'}
-          img="/image 12.png"
           title="On"
+          img = {leftBedRoomButtonImg}
           name="Left Bedroom"
+          
         />
-          <StyledButton onClick={rightBedRoomButtonOn}  isSelected={selectedRoom === 'rightBedRoomButtonOn'}
-                img="/image 12.png"
+          <StyledButton onClick={rightBedRoomToggle}  isSelected={selectedRoom === 'rightBedRoomButtonOn'}
+                img={rightBedRoomButtonImg}
                 title="On"
                 name="Left Bedroom"/>
         {/* <StyledButton
@@ -443,13 +551,14 @@ function bathRoomButtonOff(){
             </div>
             <div>
             <StyledButton 
-             onClick={kitchenButtonOn} 
+             onClick={kitchenRoomToggle} 
             isSelected={selectedRoom === 'kitchenButtonOn'}
-                img="/image 2.png"
+                img= {kitchenRoomButtonImg}
                 title="On"
                 name="Left Bedroom"/>
-                    <StyledButton onClick={livingRoomButtonOn}  isSelected={selectedRoom === 'livingRoomButtonOn'}
-                img="/image 4.png"
+
+              <StyledButton onClick={livingRoomToggle}  isSelected={selectedRoom === 'livingRoomButtonOn'}
+                img={livingRoomButtonImg}
                 title="On"
                 name="Left Bedroom"/>
             {/* <StyledButton onClick={rightBedRoomButtonOff}  isSelected={selectedRoom === 'rightBedRoomButtonOff'}
@@ -458,12 +567,12 @@ function bathRoomButtonOff(){
                 name="Left Bedroom" /> */}
             </div>
             <div>
-            <StyledButton onClick={leftBathRoomButtonOn}  isSelected={selectedRoom === 'bathRoomButtonOn'}
-                img="/image 7.png"
+            <StyledButton onClick={bathRoomToggle}  isSelected={selectedRoom === 'bathRoomButtonOn'}
+                img={bathRoomButtonImg}
                 title="On"
                 name="Left Bedroom"/>
-                        <StyledButton onClick={leftTerraceButtonOn}  isSelected={selectedRoom === 'leftTerraceButtonOn'}
-                img="/image 7.png"
+            <StyledButton onClick={teraceRoomToggle}  isSelected={selectedRoom === 'leftTerraceButtonOn'}
+                img= {teraceRoomButtonImg}
                 title="On"
                 name="Left Bedroom"/>
             {/* <StyledButton 
@@ -474,14 +583,11 @@ function bathRoomButtonOff(){
                 name="Left Bedroom" /> */}
             </div>
             <div>
-            <StyledButton onClick={topTerraceButtonOn}  isSelected={selectedRoom === 'topTerraceButtonOn'}
-                img="/image 14.png"
+            <StyledButton onClick={guestRoomToggle}  isSelected={selectedRoom === 'topTerraceButtonOn'}
+                img= {guestRoomButtonImg}
                 title="On"
                 name="Left Bedroom"/>
-                         <StyledButton onClick={leftTerraceButtonOn}  isSelected={selectedRoom === 'leftTerraceButtonOn'}
-                img="/image 16.png"
-                title="On"
-                name="Left Bedroom"/>
+          
             {/* <StyledButton onClick={livingRoomButtonOff}  isSelected={selectedRoom === 'livingRoomButtonOff'}
                 img="/image 3 (1).png"
                 title="Off"
@@ -520,6 +626,7 @@ function bathRoomButtonOff(){
               <button type="button" id="allButtonOn">Be</button>
               <button type="button" id="allButtonOff">Ki</button>
             </div> */}
+            </div>
             </div>
             </div>
             </Col>

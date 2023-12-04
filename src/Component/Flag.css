@@ -1,0 +1,106 @@
+.lang-menu {
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 25px;
+    position: relative;
+    transition-delay: 3s;
+    top: -15px;
+}
+.lang-menu .selected-lang {
+    display: flex;   
+    justify-content: space-between;
+    line-height: 2;
+    cursor: pointer;
+    transition-delay: 3s;
+}
+.lang-menu .selected-lang {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    /* background-image: url(./united-kingdom.png); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition-delay: 10s;
+}
+
+.lang-menu ul {
+    margin: 0;
+    padding: 0;
+    display: none;
+    background-color: #fff;
+    border: 1px solid black;
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    width: 125px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    transition-delay: 3s;
+}
+
+
+.lang-menu ul li {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lang-menu ul li a {
+    text-decoration: none;
+    width: 125px;
+    padding: 5px 10px;
+    display: block;
+}
+
+.lang-menu ul li {
+    background-color: #f2f2f2;
+}
+
+.lang-menu ul li a {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.en:before {
+    background-image: url("/public/united-kingdom.png");
+}
+
+.hr:before {
+    background-image: url("/public/croatia.png");
+}
+.sr:before {
+    background-image: url("/public/serbia.png");
+}
+
+.hu:before {
+    background-image: url("/public/hungary.png");
+}
+
+.lang-menu li:focus ul {
+    display: block;
+}
+
+.lang-menu:hover ul,
+.lang-menu li:focus ul{
+    display: block;
+    transition-delay: 3s;
+}
+
+
+.lang-menu:not(:hover) ul {
+    display: none;
+  }
+
+/* .lang-menu:hover ul {
+    display: block;
+  
+} */

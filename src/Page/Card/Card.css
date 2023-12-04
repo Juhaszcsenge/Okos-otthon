@@ -92,6 +92,8 @@ background: var(--dark-background, #181818);
     .card-h2{
       margin-bottom: 20px;
     }
+
+    
   }
   
   @media (max-width: 480px) {

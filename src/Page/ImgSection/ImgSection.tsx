@@ -188,7 +188,6 @@ const ImgSection = () => {
             {/* <div className='last-section'> */}
             {/* </div> */}
             {/* </div> */}
-            <button style={{border: "1px solid var(--light-text, #FFF)", padding: "20px", margin:"40px", boxShadow: "0px 4px 31px 0px rgba(0, 0, 0, 0.15)", background:"black", color:"white"}}>Save Energy</button>
           </div>
         </div>
     </section>

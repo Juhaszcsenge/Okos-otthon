@@ -11,10 +11,104 @@
     margin-top: 200px;
 }
 
-.classic{
-    margin-right: 560px;
+
+.h2{
+    margin-right: 200px;
+    font-size: 20px;
+    color: white;
 }
 
+.h2-f{
+    margin-right: 220px;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+p{
+    
+    text-align: center; 
+    margin-top: 20px; 
+    font-size: 14px;
+    color: white;
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1000px)
+{
+.d-flex{
+    position: relative;
+    right: 20%;
+    margin-right: 200px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+.send-form{
+    position: relative;
+    left: 20%;
+    margin-right: 200px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 800px)
+{
+.d-flex{
+    position: relative;
+    right: 10%;
+    margin-right: 200px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    left: 0%;
+}
+
+.send-form{
+    position: relative;
+    left: 15%;
+    margin-right: 200px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+}
+
+.classic-g{
+    position: relative;
+    right: 20%;
+    color: white;
+    font-family:  Lexend Deca,   sans-serif;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 150%;
+      overflow: hidden;
+     letter-spacing: 0.42px;
+    
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+
+.classic{
+    margin-right: 560px;
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+
+.form{
+    width: 500px;
+}
 
 .message-box{
     width: 500px;
@@ -32,11 +126,44 @@
       overflow: hidden;
      letter-spacing: 0.42px;
      margin-right: 320px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    
+    }
+
+
+
+.label-n{
+    color: #CCC6C6;
+    font-family:  Lexend Deca,   sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 150%;
+      overflow: hidden;
+     letter-spacing: 0.42px;
+     margin-right: 350px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
 }
 
-.form{
-    width: 500px;
+.label-p{
+    color: #CCC6C6;
+    font-family:  Lexend Deca,   sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 150%;
+      overflow: hidden;
+     letter-spacing: 0.42px;
+     margin-right: 300px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
 }
+
+/* .form{
+    width: 500px;
+} */
 
 .child {
     display: inline-block;
@@ -73,14 +200,16 @@
 
 .input-box {
 /* width: 90%; */
-padding: 20px;
+/* padding: 20px; */
 flex-direction: column;
 align-items: flex-start;   
 }
 
 input {
-    width: 90%;
-    padding: 10px; 
+    width: 80%;
+    padding: 20px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-radius: 5px;
     border: 1px solid #FFF;
     background: #D9D9D9;
@@ -125,12 +254,19 @@ ul {
 .message-box {
     width: 90%;
     height: 86px;
-    padding: 20px;
+    padding-bottom: 20px;
+    /* padding-top: 20px; */
     flex-direction: column;
     align-items: flex-start;
 }
 
-
+.form-c{
+    position: relative;
+    right: 20.5%;
+    margin-right: 300px;
+    /* padding-top: 15px; */
+    padding-bottom: 15px; 
+}
 
 h3 {
     color: white;
@@ -205,7 +341,7 @@ h3 {
     }
 
     .message-box {
-        width: 97%;
+        width: 93%;
         height: 86px;
         padding-left: 30px;
         flex-direction: column;
@@ -280,7 +416,38 @@ h3 {
     margin-top: -30px;
 }
 
-@media only screen and (min-width: 780px) and (max-width: 1313px)
+@media only screen and (min-width: 1067px) and (max-width: 1313px)
+{
+    .gradient > div + div {
+        width: 100%;
+        padding: 20px;
+        top: 500px;
+    }
+    
+    .form{
+        width: 500px;
+        /* margin-left: 200px; */
+    }
+
+    /* .send-form{
+        margin-left: 300px;
+    } */
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1067px)
+{
+    .gradient > div + div {
+        width: 100%;
+        padding: 20px;
+        top: 650px;
+    }
+    
+}
+
+
+
+@media only screen and (min-width: 1220px) and (max-width: 1780px)
 {
     .gradient > div + div {
         width: 100%;
@@ -288,17 +455,379 @@ h3 {
         top: -150px;
     }
     
-    .form{
-        width: 500px;
-        margin-left: 200px;
-    }
 
-    .send-form{
-        margin-left: 300px;
+
+    
+
+    .classic{
+        margin-right: 0px ;
+        width: 100%;
+        justify-content: center;
     }
 }
 
 
+
+@media only screen and (min-width: 1300px) and (max-width: 1800px)
+{
+    .gradient > div + div {
+        width: 100%;
+        padding: 20px;
+        top: 450px;
+    }
+    
+    /* .flex-column{
+        padding-right: 30px
+    } */
+
+    .send-form{
+       /* margin-right: 410px; */
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       /* height: 100vh; */
+    }
+
+    
+
+  
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1300px)
+{
+    .gradient > div + div {
+        width: 100%;
+        padding: 20px;
+        top: 450px;
+    }
+    
+    /* .flex-column{
+        padding-right: 30px
+    } */
+
+    .send-form{
+        position: relative;
+        left: 10%;
+       margin-right: 200px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       /* height: 100vh; */
+    }
+
+
+    .classic-f{
+        position: relative;
+        right: 23%;
+        margin-right: 200px;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+    }
+    
+
+    .classic-g {
+        position: relative;
+        right: 40%;
+        color: white;
+        font-family: Lexend Deca, sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%;
+        overflow: hidden;
+        letter-spacing: 0.42px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+  
+}
+
+
+@media only screen and (min-width: 1350px) and (max-width: 1610px)
+{
+    .gradient > div + div {
+        width: 100%;
+        padding: 20px;
+        top: 450px;
+    }
+    
+    /* .flex-column{
+        padding-right: 30px
+    } */
+
+    .send-form{
+        margin-left: 150px;
+       width: 
+       60%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       /* height: 100vh; */
+    }
+
+    .form{
+        width: 100%;
+    }
+
+
+  
+}
+
+
+
+@media only screen and (min-width: 400px) and (max-width: 500px)
+{
+    .gradient > div + div {
+        width: 100%;
+        padding: 20px;
+        top: 450px;
+    }
+    
+    .flex-column{
+        padding-right: 30px;
+        top: 50%;
+        right: 50px;
+        position: relative;
+        margin-right: auto;
+            width: 100%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+    }
+
+    .message-box {
+        width: 85%;
+        height: 86px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        /* padding-top: 20px; */
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .classic {
+        position: relative;
+        right: 50px;
+        color: white;
+        font-family: Lexend Deca, sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%;
+        overflow: hidden;
+        letter-spacing: 0.42px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .send-form{
+    /* margin-left: 50px; */
+    /* margin-left: 70px; */
+    top: 50%;
+    left: 15%;
+    position: relative;
+    margin-right: auto;
+        width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       /* height: 100vh; */
+    }
+
+    .d-flex {
+        position: relative;
+        left: 10%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        /* margin-left: 25%; */
+        margin-right: auto;
+            width: 90%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+    }
+
+    p{
+        white-space: nowrap;  
+        text-align: center; 
+        margin-top: 20px; 
+        font-size: 14px;
+        margin-top: -40px;
+    }
+
+    .classic{
+        position: relative;
+        /* right: 30%; */
+       margin-right: 0px;
+       padding: 10px;
+       font-family: Roboto, sans-serif;
+       font-size: 24px;
+       font-style: normal;
+       font-weight: 400;
+    }
+
+    .classic-f{
+        position: relative;
+        /* right: 30%; */
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-left: 0;
+        margin-right: auto;
+        width: 90%;
+        margin-right: 0px;
+        padding: 10px;
+        font-family: Roboto, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        color: white;
+     }
+
+    .input-box{
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-left: 0;
+        margin-right: auto;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+          
+    }
+
+
+
+    .contact-button{
+    background-color: transparent;
+    border-color: black;
+    border-radius: 0;
+    color: black;
+    font-weight: bolder;
+    width: 40%;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    margin: 20px auto; /* Margin: 20px a felső és alsó részen, auto a vízszintes középre igazításhoz */
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    }
+
+    .input-box-btn{
+        /* margin-right: 100px; */
+        width: 600px;
+        margin-top: 50px;
+        
+    }
+
+    .form{
+        width: 100%;
+    }
+
+    .label{
+        margin-left: 35px;
+        margin-right: auto;
+            width: 90%;
+           display: flex;
+           /* justify-content: center; */
+           align-items: center;
+
+    }
+
+
+  
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .classic-f {
+        position: relative;
+        /* right: 30%; */
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-left: 0;
+        margin-right: auto;
+        width: 90%;
+        margin-right: 0px;
+        padding: 10px;
+        font-family: Roboto, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        color: white;
+    }
+
+    .d-flex {
+        position: relative;
+        /* left: 20%; */
+        padding-bottom: 20px;
+        padding-top: 20px;
+        /* margin-left: 25%; */
+        margin-right: auto;
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .label-n {
+        color: #CCC6C6;
+        font-family: Lexend Deca, sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%;
+        overflow: hidden;
+        letter-spacing: 0.42px;
+        margin-right: 250px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .label-p {
+        color: #CCC6C6;
+        font-family: Lexend Deca, sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%;
+        overflow: hidden;
+        letter-spacing: 0.42px;
+        margin-right: 200px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+
+    .form {
+        position: relative;
+        top: -50%;
+        margin: auto;
+        /* right: 20%; */
+        /* transform: translate(-50%, -50%); */
+    }
+
+    .d-inline{
+        display: none;
+    }
+}
+
+
+.contact-button{
+     background-color: transparent;
+      border-color: white;
+      border-radius: 0; 
+      color: white; 
+      font-weight: bolder; 
+      width: 30%; 
+      margin-right: 250px;
+      margin-top: 40px;
+}
 
 
 
@@ -322,8 +851,19 @@ h3 {
   }
 
   .form{
-    margin-right: 100px;
+    position: relative;
+    /* top: 50%; */
+    margin: auto;
+    /* right: 20%; */
+    /* transform: translate(-50%, -50%); */
   }
+
+  .d-inline {
+    position: relative;
+    /* margin-top: -50px; */
+}
+
+ 
   
 
 
@@ -335,6 +875,28 @@ h3 {
       padding: 50px;
       top: 130px;
       height: 315px;
+      margin-bottom: 30px;
+  }
+  }
+
+
+  @media only screen and (max-width: 535px){
+    .gradient > div + div {
+      width: 100%;
+      padding: 50px;
+      top: 200px;
+      height: 315px;
+      margin-bottom: 30px;
+  }
+  }
+
+
+  @media only screen and (max-width: 400px){
+    .gradient > div + div {
+      width: 100%;
+      padding: 50px;
+      top: 250px;
+      height: 330px;
       margin-bottom: 30px;
   }
   }

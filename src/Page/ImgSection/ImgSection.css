@@ -413,6 +413,7 @@ padding: 50px;
           white-space: normal;
       }
 
+     
 
       @media (max-width: 480px) { /* Új médialekérdezés a még kisebb képernyők számára */
         .imgText {
@@ -705,6 +706,17 @@ padding: 50px;
     font-family: 'Roboto', sans-serif;
     color: black;
   }
+
+  .advancedContainer h1 {
+    text-align: center;
+    padding-left: 30px;
+    font-size: 32px;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    color: white;
+}
   }
 
 

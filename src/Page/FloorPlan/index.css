@@ -6,7 +6,7 @@
     --livingRoom: 60%;
     --leftBathRoom: 60%;
     --rightBathRoom: 60%;
-    /* --bathRoom: 60%; */
+    --bathRoom: 60%;
     --leftTerrace: 60%;
     --topTerrace: 60%;
     --leftHalf: 100%;
@@ -23,15 +23,16 @@ body {
 
 
 .mobile-left{
-    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
-    margin-left: 200px;
-    background-image: url("./image\ 17.png");
+    padding: 60px;
+    background-image: url("./phone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;        
     /* height: 900px; */
-    width: 400px;
+    width: fit-content;
 }
 
 
@@ -43,8 +44,8 @@ body {
     overflow: hidden;
     /* border-radius: 20px; */
     /* border: solid 2px rgb(164, 164, 164); */
-    margin-bottom: 20px;
-    margin-left: 20%;
+    /* margin-bottom: 20px;
+    margin-left: 20%; */
     z-index: 0;
 }
 
@@ -128,12 +129,12 @@ Természetesen minél több kockára osztod a képet annál pontosabban tudsz te
 
 }
 
-.leftBathRoom{
+/* .leftBathRoom{
     opacity: var(--leftBathRoom);
 }
 .rightBathRoom{
     opacity: var(--rightBathRoom);
-}
+} */
 
 .rightBedRoom {
     opacity: var(--rightBedRoom);
@@ -151,9 +152,9 @@ Természetesen minél több kockára osztod a képet annál pontosabban tudsz te
     opacity: var(--kitchen);
 }
 
-/* .bathRoom {
+.bathRoom {
     opacity: var(--bathRoom);
-} */
+}
 
 .leftTerrace {
     opacity: var(--leftTerrace);
@@ -202,6 +203,7 @@ button:hover {
     display: flex;
     flex-direction: column;
 }
+
 
 /*mobil nézetben 90%-ra tettem a képernyőn betöltött szélességet a képnek, viszont landscape mobil nézetnek kellhet egy másik query további optimalizáláshoz magasság/szélesség értékekkel játszva */
 

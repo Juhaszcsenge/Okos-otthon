@@ -14,6 +14,7 @@
      color: black; 
      font-weight: bolder; 
      width: 20%;
+     
 }
 
 @media (max-width: 1319px) {
@@ -72,6 +73,11 @@
     display: block;
     margin: 0 auto;
     margin-top: 20px;
+    font-family: Roboto,  sans-serif;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 150%;
    }
 
    .second-img{
@@ -85,10 +91,19 @@
      justify-content: center;
     }
     .catalogue-p{
-     text-align: center;
+     text-align: left;
      justify-content: center;
      margin-right: 0px;
      margin-bottom: 0px;
+     font-family: Roboto,  sans-serif;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 150%;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: pre-wrap; 
+     padding: 20px;
     }
  
     .catalogue-button{
@@ -103,6 +118,11 @@
      display: block;
      margin: 0 auto;
      margin-top: 20px;
+     font-family: Roboto,  sans-serif;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 400;
+     
     }
  
     .second-img{
