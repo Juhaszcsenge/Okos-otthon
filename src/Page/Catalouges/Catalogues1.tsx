@@ -12,7 +12,7 @@ const Catalogues1 = () => {
       };
 
       const pdf1 = () => {
-        window.open('/SmartHome_Brochure.pdf'); 
+        window.open('/SmartHome_Presentation (1).pdf'); 
       };
 
       const pdf2 = () => {
