@@ -652,7 +652,7 @@ h3 {
     }
 
     p{
-        white-space: nowrap;  
+        
         text-align: center; 
         margin-top: 20px; 
         font-size: 14px;
@@ -764,7 +764,7 @@ h3 {
 
     .d-flex {
         position: relative;
-        /* left: 20%; */
+        left: 20%;
         padding-bottom: 20px;
         padding-top: 20px;
         /* margin-left: 25%; */
@@ -773,6 +773,16 @@ h3 {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .contact-button {
+        background-color: transparent;
+        border-radius: 0;
+        color: white;
+        font-weight: bolder;
+        width: 60%;
+        margin-right: 250px;
+        margin-top: 40px;
     }
 
     .label-n {
@@ -812,13 +822,13 @@ h3 {
         /* transform: translate(-50%, -50%); */
     }
 
-    .d-inline{
+    .classic-f, .classic-g{
         display: none;
     }
 }
 
 
-.contact-button{
+/* .contact-button{
      background-color: transparent;
       border-color: white;
       border-radius: 0; 
@@ -827,7 +837,7 @@ h3 {
       width: 30%; 
       margin-right: 250px;
       margin-top: 40px;
-}
+} */
 
 
 
@@ -874,7 +884,7 @@ h3 {
       width: 100%;
       padding: 50px;
       top: 130px;
-      height: 315px;
+      height: 330px;
       margin-bottom: 30px;
   }
   }

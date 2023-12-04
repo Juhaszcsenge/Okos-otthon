@@ -57,9 +57,7 @@ background: var(--dark-background, #181818);
 
 @media (max-width: 768px) {
 
-  .section {
-    flex-direction: column; /* Módosítás: A section flex irányát váltja oszlop-ra 768px alatt */
-}
+  
 
 .card {
     flex: 0 0 calc(100% - 20px); /* Módosítás: Kártyák 768px alatt egymás alatt */
@@ -71,6 +69,7 @@ background: var(--dark-background, #181818);
     flex-wrap: wrap;
     margin: 10px;
     /* display: flex; */
+    border: none;
   }
   
   .icon {
