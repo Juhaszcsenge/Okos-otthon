@@ -55,7 +55,7 @@
 
 .gradient-text{
   position: relative;  
-  height: 315px; 
+  height: 360px; 
   flex-shrink: 0; 
   padding: 30px; 
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0E0E0E 66.15%); 
@@ -66,7 +66,7 @@
 
 @media screen and (min-width: 1980px) and (max-width: 3000px) {
   .gradient-text {
-    height: 315px; 
+    height: 360px; 
     width: 100%;
     top: 900px; 
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0E0E0E 66.15%);
@@ -78,20 +78,18 @@
 
 
 @media screen and (min-width: 1200px) and (max-width: 1980px) {
-  .gradient-text {
-    height: 315px; 
-    width: 100%;
-    top: 1300px; 
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0E0E0E 66.15%);
-    flex-shrink: 0; 
-    padding: 30px; 
-    position: relative; 
-  }
+    .gradient-text {
+      width: 100%;
+      padding: 50px;
+      top: 800px;
+      height: 360px;
+      margin-bottom: 30px
+      }
 }
 
 @media screen and (min-width: 1028px) and (max-width: 1290px) {
   .gradient-text {
-    height: 315px; 
+    height: 360px; 
     width: 100%;
     top: 1250px; 
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0E0E0E 66.15%);

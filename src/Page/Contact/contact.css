@@ -11,6 +11,15 @@
     margin-top: 200px;
 }
 
+.classic{
+    margin-right: 560px;
+}
+
+
+.message-box{
+    width: 500px;
+    margin-right: 500px;
+}
 
 .label{
     color: #CCC6C6;
@@ -176,6 +185,14 @@ h3 {
         font-size: 24px;
         margin-bottom: 15px;
     }
+
+    /* .form{
+        margin-left: 250px;
+    } */
+
+    .classic{
+        margin-right: 60px;
+    }
 }
 
 
@@ -216,6 +233,8 @@ h3 {
         font-size: 24px;
         margin-bottom: 15px;
     }
+
+    
 }
 
 @media screen and (max-width: 500px) {
@@ -251,7 +270,7 @@ h3 {
     margin-top: -30px;
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px)
+@media only screen and (min-width: 780px) and (max-width: 1024px)
 {
     .gradient > div + div {
         width: 100%;
@@ -260,14 +279,21 @@ h3 {
     }
     
     .form{
-        width: 250px;
+        width: 500px;
+        margin-left: 200px;
     }
+
+    /* .send-form{
+        margin-left: 300px;
+    } */
 }
 
 
 
 
-@media only screen and (min-width: 769px) and (max-width: 1024px){
+
+
+@media only screen and (min-width: 500px) and (max-width: 780px){
     .gradient > div + div {
       width: 100%;
       padding: 20px;
@@ -284,6 +310,17 @@ h3 {
       height: 130px;
       margin-bottom: 30px;
   }
+
+  .form{
+    margin-right: 100px;
+  }
+
+  .message-box{
+    width: 300px;
+    margin-right: 150px;
+  }
+
+
   }
   
   @media only screen and (max-width: 768px){

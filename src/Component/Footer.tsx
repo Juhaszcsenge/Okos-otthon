@@ -1,35 +1,28 @@
 import React from 'react';
 import './Footer.css';
+import Catalogue from '../Page/Catalouges/Catalogue';
 
 const Footer = () => {
   return (
     <section>
     <div className="footer-container" style={{ background: "var(--dark-background, #181818)", color: "white", marginTop: "50px" }}>
       <div className="footer-column">
-        <h3>Fingertipe</h3>
         <ul className="no-list-style">
-          <li>Home</li>
-          <li>Examples</li>
-          <li>Pricing</li>
-          <li>Updates</li>
+        <img src='./behive_cover 2.png' alt='' />
         </ul>
       </div>
       <div className="footer-column">
-        <h3>Resource</h3>
         <ul className="no-list-style">
-          <li>Home</li>
-          <li>Examples</li>
-          <li>Pricing</li>
-          <li>Updates</li>
+       
         </ul>
       </div>
       <div className="footer-column">
-        <h3>About</h3>
         <ul className="no-list-style">
-          <li>Home</li>
-          <li>Examples</li>
-          <li>Pricing</li>
-          <li>Updates</li>
+          <li style={{padding: "10px"}}>Projets</li>
+          <li style={{padding: "10px"}}>Catalogue</li>
+          <li style={{padding: "10px"}}>About Us</li>
+          <li style={{padding: "10px"}}>Contact</li>
+          <li style={{padding: "10px"}}>Privacy Policy</li>
         </ul>
       </div>
       <div className='contact-info'>

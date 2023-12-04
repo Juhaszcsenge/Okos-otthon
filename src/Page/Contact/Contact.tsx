@@ -61,9 +61,9 @@ const Contact = () => {
                 </div>
             </Col>
             <Col lg='6' md='6' className="flex-column">
-              <h2 className='classic'  style={{marginRight: "560px"}}>Send message</h2>
-              <div>
-              <form className='form' style={{width: "500px"}} >
+              <h2 className='classic'>Send message</h2>
+              <div className='send-form'>
+              <form className='form'  >
               <label className='label' style={{ marginRight: "370px"}}>Name</label>
                 <div className="input-box " >       
                   <input type="text" required placeholder="Your Full Name" name="name" />
@@ -77,7 +77,7 @@ const Contact = () => {
                   <input type="email" required placeholder="example@examle.com" name="email" />
                 </div>
                 <label  className='label' style={{marginRight:"350px"}}>Message</label>
-                <div className="message-box " style={{width: "500px", marginRight: "500px"}}>
+                <div className="message-box " >
                   <input type="text" className='message-box' required placeholder="Type your query here...." name="message" />
                 </div>
                 <div className='input-box' style={{marginBottom: "40px"}}>

@@ -9,33 +9,17 @@ import './index.css'
 
 
 export default function Pictures() {
-
-
-  // const rooms = [
-  //   { id: 'kitchen', img:'/image 1 (1).png',  name: 'Kitchen Light', title: 'Off' },
-  //   { id: 'kitchen', img:'/image 2.png',   name: 'Kitchen Light', title: 'On' },
-  //   { id: 'living-room', img:'/image 3 (1).png',   name: 'Living Room', title: 'Off' },
-  //   { id: 'living-room', img:'image 4.png',   name: 'Living Room', title: 'On' },
-  //   { id: 'bedroom', img:'/image 5 (1).png',   name: 'Dinning Room', title: 'Off' },
-  //   { id: 'bedroom', img:'/image 6.png',   name: 'Dinning Room', title: 'On' },
-  //   { id: 'bathroom1', img:'/image 8 (1).png',   name: 'Bathroom 1', title: 'Off' },
-  //   { id: 'bathroom1', img:'image 7.png',   name: 'Bathroom 1', title: 'On' },
-  //   { id: 'bathroom2', img:'/image 10 (1).png',   name: 'Bathroom 2', title: 'Off' },
-  //   { id: 'bathroom2', img:'/image 9.png',   name: 'Bathroom 2', title: 'On' },
-  //   { id: 'dinning-room', img:'/image 11 (1).png',   name: 'Bedroom', title: 'Off' },
-  //   { id: 'dinning-room', img:'/image 12.png',   name: 'Bedroom', title: 'On' },
-  //   { id: 'guest-room', img:'/image 13.png',   name: 'Guest Room', title: 'Off' },
-  //   { id: 'guest-room', img:'/image 14.png',   name: 'Guest Room', title: 'On' },
-  //   { id: 'terrace', img:'/image 15.png',   name: 'Terrace', title: 'Off' },
-  //   { id: 'terrace', img:'/image 16.png',   name: 'Terrace', title: 'On' },
-  // ];
-
-
   const [selectedRoom] = useState(null);
+
+  // const handleButtonClick = (room) => {
+  //   setSelectedRoom(room);
+  // };
 
   // const handleLightSwitch = (roomId) => {
   //   setSelectedRoom((prevRoom) => (prevRoom === roomId ? null : roomId));
   // };
+
+ 
 
   const StyledButton = ({ onClick, isSelected, img }) => (
     <button
@@ -56,7 +40,6 @@ export default function Pictures() {
       <img src={img} alt='' style={{ width: "150px", height: "60px" }} />
     </button>
   );
-
 
   const root = document.querySelector(':root');
 
@@ -439,14 +422,20 @@ function bathRoomButtonOff(){
         <div className="buttons-container" style={{backgroundColor: 'transparent'} }>
           <div className="mobile-container" style={{ backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat : 'no-repeat' }}>
             <div>
-            <StyledButton onClick={leftBedRoomButtonOn}  isSelected={selectedRoom === 'leftBedRoomOn'}
-                img="/image 12.png"
-                title="On"
-                name="Left Bedroom"/>
-            <StyledButton onClick={leftBedRoomButtonOff}  
-                img="/image 11 (1).png"
-                title="Off"
-                name="Left Bedroom" />
+        <StyledButton
+          onClick={leftBedRoomButtonOn}
+          isSelected={selectedRoom === 'leftBedRoomOn'}
+          img="/image 12.png"
+          title="On"
+          name="Left Bedroom"
+        />
+        <StyledButton
+          onClick={leftBedRoomButtonOff}
+          isSelected={selectedRoom === 'leftBedRoomOn'}
+          img="/image 11 (1).png"
+          title="Off"
+          name="Left Bedroom"
+        />
             </div>
             <div>
             <StyledButton onClick={rightBedRoomButtonOn}  isSelected={selectedRoom === 'rightBedRoomButtonOn'}
@@ -459,11 +448,15 @@ function bathRoomButtonOff(){
                 name="Left Bedroom" />
             </div>
             <div>
-            <StyledButton onClick={kitchenButtonOn}  isSelected={selectedRoom === 'kitchenButtonOn'}
+            <StyledButton 
+             onClick={kitchenButtonOn} 
+            isSelected={selectedRoom === 'kitchenButtonOn'}
                 img="/image 2.png"
                 title="On"
                 name="Left Bedroom"/>
-            <StyledButton onClick={kitchenButtonOff}  isSelected={selectedRoom === 'kitchenButtonOff'}
+            <StyledButton 
+             onClick={kitchenButtonOff} 
+            isSelected={selectedRoom === 'kitchenButtonOff'}
                 img="/image 1 (1).png"
                 title="Off"
                 name="Left Bedroom" />

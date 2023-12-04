@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import '../../src'
 
 
+
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleNav = () => setNav(!nav)
@@ -27,14 +28,27 @@ const Navbar = () => {
       <Link to='/aboutUs' ><li data-languagePartIdentifier="m_aboutus" style={{marginTop: "15px"}} >About Us</li></Link>
       <Link to='/contact'><li data-languagePartIdentifier="m_contact" style={{marginRight: "200px", marginTop: "15px"}}>Contact</li></Link> 
    
-       {/*@ts-ignore*/}
-       <button switchlanguage='en' style={{background: "black", color: "white", border: "black", whiteSpace: "1", letterSpacing:"1.5px", cursor: "pointer"}}>EN/</button> <br></br>
+     
+
+    
+       {/* @ts-ignore */}
+       <button switchlanguage='en' style={{background: "black", color: "white", border: "black", whiteSpace: "1", letterSpacing:"1.5px", cursor: "pointer"}}>
+        {''}
+       <img src='united-kingdom.png' alt=''  style={{width: "20px", height:"20px"}}/> <br></br>
+        </button> <br></br>
       {/*@ts-ignore*/}
-      <button switchlanguage='hr' style={{background: "black", color: "white", border: "black", letterSpacing:"1.5px", cursor: "pointer"}}>HR/</button>
+      <button switchlanguage='hr' style={{background: "black", color: "white", border: "black", letterSpacing:"1.5px", cursor: "pointer"}}>
+      <img src='poland.png' alt=''  style={{width: "20px", height:"20px"}}/>
+      </button>
        {/*@ts-ignore*/}
-       <button switchlanguage='hu' style={{background: "black", color: "white", border: "black", whiteSpace: "1", letterSpacing:"1.5px", cursor: "pointer"}}>HU/</button> <br></br>
+       <button switchlanguage='hu' style={{background: "black", color: "white", border: "black", whiteSpace: "1", letterSpacing:"1.5px", cursor: "pointer"}}>
+       <img src='hungary.png' alt='' style={{width: "20px", height:"20px"}} />
+        </button> <br></br>
       {/*@ts-ignore*/}
-      <button switchlanguage='sr' style={{background: "black", color: "white", border: "black", letterSpacing:"1.5px", cursor: "pointer"}}>SR</button>
+      <button switchlanguage='sr' style={{background: "black", color: "white", border: "black", letterSpacing:"1.5px", cursor: "pointer"}}>
+
+      <img src='serbia.png' alt='' style={{width: "20px", height:"20px"}} />
+      </button>
       </ul>
      
       <div className="hamburger" onClick={handleNav}>
@@ -53,13 +67,21 @@ const Navbar = () => {
       <Link to='/contact'><li >Contact</li></Link>
 
        {/*@ts-ignore*/}
-       <button switchlanguage='en' style={{background: "black", color: "white", border: "black", whiteSpace: "1", letterSpacing:"1.5px", cursor: "pointer"}}>EN/</button> 
+       <button switchlanguage='en' style={{background: "black", color: "white", border: "black", whiteSpace: "1", letterSpacing:"1.5px", cursor: "pointer"}}>
+        <img src='united-kingdom.png' alt='' style={{width: "20px", height:"20px"}} />
+        </button> 
       {/*@ts-ignore*/}
-      <button switchlanguage='hr' style={{background: "black", color: "white", border: "black", letterSpacing:"1.5px", cursor: "pointer"}}>HR/</button>
+      <button switchlanguage='hr' style={{background: "black", color: "white", border: "black", letterSpacing:"1.5px", cursor: "pointer"}}>
+      <img src='poland.png' alt='' style={{width: "20px", height:"20px"}} />
+      </button>
        {/*@ts-ignore*/}
-       <button switchlanguage='hu' style={{background: "black", color: "white", border: "black", whiteSpace: "1", letterSpacing:"1.5px", cursor: "pointer"}}>HU/</button> <br></br>
+       <button switchlanguage='hu' style={{background: "black", color: "white", border: "black", whiteSpace: "1", letterSpacing:"1.5px", cursor: "pointer"}}>
+       <img src='hungary.png' alt='' style={{width: "20px", height:"20px"}} />
+        </button> <br></br>
       {/*@ts-ignore*/}
-      <button switchlanguage='sr' style={{background: "black", color: "white", border: "black", letterSpacing:"1.5px", cursor: "pointer"}}>SR</button>
+      <button switchlanguage='sr' style={{background: "black", color: "white", border: "black", letterSpacing:"1.5px", cursor: "pointer"}}>
+      <img src='serbia.png' alt='' style={{width: "20px", height:"20px"}}/>
+      </button>
       
         </ul>
       </div>

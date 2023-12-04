@@ -2,6 +2,7 @@ import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../Component/Footer';
+import './contact.css';
 
 const Contact1 = () => {
   return (
@@ -50,7 +51,7 @@ const Contact1 = () => {
         </Col>       
         <Col style={{backgroundSize: 'cover', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '20px', backgroundColor: "rgba(217, 217, 217, 0.67)", backgroundRepeat: "no-repeat"}} md={6} className="text-left" >
         <h2 className='classic'>Send message</h2>
-              <div style={{ paddingRight: "200px", paddingBottom: "15px", paddingTop: "50px" }}></div>
+              <div className='send-form' style={{ paddingRight: "200px", paddingBottom: "15px", paddingTop: "50px" }}></div>
               <form className='form' >
                 <div className="input-box">                
                   <input type="text" required placeholder="Your Full Name" name="name" />
