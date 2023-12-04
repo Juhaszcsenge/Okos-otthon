@@ -423,29 +423,23 @@ function bathRoomButtonOff(){
           <div className="mobile-container" style={{ backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat : 'no-repeat' }}>
             <div>
         <StyledButton
-          onClick={leftBedRoomButtonOn}
+          onClick={ leftBedRoomButtonOn}
           isSelected={selectedRoom === 'leftBedRoomOn'}
           img="/image 12.png"
           title="On"
           name="Left Bedroom"
         />
-        <StyledButton
+          <StyledButton onClick={rightBedRoomButtonOn}  isSelected={selectedRoom === 'rightBedRoomButtonOn'}
+                img="/image 12.png"
+                title="On"
+                name="Left Bedroom"/>
+        {/* <StyledButton
           onClick={leftBedRoomButtonOff}
           isSelected={selectedRoom === 'leftBedRoomOn'}
           img="/image 11 (1).png"
           title="Off"
           name="Left Bedroom"
-        />
-            </div>
-            <div>
-            <StyledButton onClick={rightBedRoomButtonOn}  isSelected={selectedRoom === 'rightBedRoomButtonOn'}
-                img="/image 12.png"
-                title="On"
-                name="Left Bedroom"/>
-            <StyledButton onClick={rightBedRoomButtonOff}  isSelected={selectedRoom === 'rightBedRoomButtonOff'}
-                img="/image 11 (1).png"
-                title="Off"
-                name="Left Bedroom" />
+        /> */}
             </div>
             <div>
             <StyledButton 
@@ -454,63 +448,73 @@ function bathRoomButtonOff(){
                 img="/image 2.png"
                 title="On"
                 name="Left Bedroom"/>
-            <StyledButton 
-             onClick={kitchenButtonOff} 
-            isSelected={selectedRoom === 'kitchenButtonOff'}
-                img="/image 1 (1).png"
-                title="Off"
-                name="Left Bedroom" />
-            </div>
-            <div>
-            <StyledButton onClick={livingRoomButtonOn}  isSelected={selectedRoom === 'livingRoomButtonOn'}
+                    <StyledButton onClick={livingRoomButtonOn}  isSelected={selectedRoom === 'livingRoomButtonOn'}
                 img="/image 4.png"
                 title="On"
                 name="Left Bedroom"/>
-            <StyledButton onClick={livingRoomButtonOff}  isSelected={selectedRoom === 'livingRoomButtonOff'}
-                img="/image 3 (1).png"
+            {/* <StyledButton onClick={rightBedRoomButtonOff}  isSelected={selectedRoom === 'rightBedRoomButtonOff'}
+                img="/image 11 (1).png"
                 title="Off"
-                name="Left Bedroom" />
+                name="Left Bedroom" /> */}
             </div>
             <div>
             <StyledButton onClick={leftBathRoomButtonOn}  isSelected={selectedRoom === 'bathRoomButtonOn'}
                 img="/image 7.png"
                 title="On"
                 name="Left Bedroom"/>
-            <StyledButton onClick={bathRoomButtonOff}  isSelected={selectedRoom === 'bathRoomButtonOff'}
-                img="/image 8 (1).png"
-                title="Off"
-                name="Left Bedroom" />
-            </div>
-          
-            <div>
-            <StyledButton onClick={leftTerraceButtonOn}  isSelected={selectedRoom === 'leftTerraceButtonOn'}
+                        <StyledButton onClick={leftTerraceButtonOn}  isSelected={selectedRoom === 'leftTerraceButtonOn'}
                 img="/image 7.png"
                 title="On"
                 name="Left Bedroom"/>
-            <StyledButton onClick={leftTerraceButtonOff}  isSelected={selectedRoom === 'leftTerraceButtonOff'}
-                img="/image 8 (1).png"
+            {/* <StyledButton 
+             onClick={kitchenButtonOff} 
+            isSelected={selectedRoom === 'kitchenButtonOff'}
+                img="/image 1 (1).png"
                 title="Off"
-                name="Left Bedroom" />
+                name="Left Bedroom" /> */}
             </div>
             <div>
             <StyledButton onClick={topTerraceButtonOn}  isSelected={selectedRoom === 'topTerraceButtonOn'}
                 img="/image 14.png"
                 title="On"
                 name="Left Bedroom"/>
-            <StyledButton onClick={topTerraceButtonOff}  isSelected={selectedRoom === 'topTerraceButtonOff'}
-                img="/image 13.png"
-                title="Off"
-                name="Left Bedroom" />
-            </div>
-            <div>
-            <StyledButton onClick={leftTerraceButtonOn}  isSelected={selectedRoom === 'leftTerraceButtonOn'}
+                         <StyledButton onClick={leftTerraceButtonOn}  isSelected={selectedRoom === 'leftTerraceButtonOn'}
                 img="/image 16.png"
                 title="On"
                 name="Left Bedroom"/>
-            <StyledButton onClick={leftTerraceButtonOff}  isSelected={selectedRoom === 'leftTerraceButtonOff'}
+            {/* <StyledButton onClick={livingRoomButtonOff}  isSelected={selectedRoom === 'livingRoomButtonOff'}
+                img="/image 3 (1).png"
+                title="Off"
+                name="Left Bedroom" /> */}
+            </div>
+            <div>
+     
+            {/* <StyledButton onClick={bathRoomButtonOff}  isSelected={selectedRoom === 'bathRoomButtonOff'}
+                img="/image 8 (1).png"
+                title="Off"
+                name="Left Bedroom" /> */}
+            </div>
+          
+            <div>
+    
+            {/* <StyledButton onClick={leftTerraceButtonOff}  isSelected={selectedRoom === 'leftTerraceButtonOff'}
+                img="/image 8 (1).png"
+                title="Off"
+                name="Left Bedroom" /> */}
+            </div>
+            <div>
+  
+            {/* <StyledButton onClick={topTerraceButtonOff}  isSelected={selectedRoom === 'topTerraceButtonOff'}
+                img="/image 13.png"
+                title="Off"
+                name="Left Bedroom" /> */}
+            </div>
+            <div>
+   
+            {/* <StyledButton onClick={leftTerraceButtonOff}  isSelected={selectedRoom === 'leftTerraceButtonOff'}
                 img="/image 15.png"
                 title="Off"
-                name="Left Bedroom" />
+                name="Left Bedroom" /> */}
             </div>
             {/* <div>
               <button type="button" id="allButtonOn">Be</button>

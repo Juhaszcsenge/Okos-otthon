@@ -22,7 +22,7 @@ const Contact = () => {
       </section>
     </div>
       <div className='parent' style={{marginTop: "200px"}}>
-        <Row>
+        <Row style={{width: "100%"}}>
           {/* <div className='child' style={{ display: "inline-block"}}> */}
             <Col lg='6' md='6'  className="d-flex flex-column align-items-end">
                 <h2 className='classic ml-auto' style={{marginRight: "100px"}}>Get in touch with us</h2>
