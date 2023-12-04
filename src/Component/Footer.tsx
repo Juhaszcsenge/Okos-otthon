@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import Catalogue from '../Page/Catalouges/Catalogue';
+
 
 const Footer = () => {
   return (
