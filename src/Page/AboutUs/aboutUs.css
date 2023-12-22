@@ -74,7 +74,7 @@
   flex-shrink: 0;
   padding: 30px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0E0E0E 66.15%);
-  top: 300px;
+  top: 280px;
   width: 100%;
 }
 
@@ -254,7 +254,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 0.2px;
-  color: white;
+  color: black;
   /* margin: 20px; */
   padding-bottom: 2px;
 }
